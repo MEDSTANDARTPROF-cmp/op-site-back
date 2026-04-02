@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'themebootstrap',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a86dd2c4b7ff554354a828813894625b',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f7a97fd9fafa43d83521ff3b52b90194',
+  'native_key' => 'themebootstrap_use_jquery',
+  'object' => '{"key":"themebootstrap_use_jquery","value":false,"xtype":"combo-boolean","namespace":"themebootstrap","area":"","editedon":"2024-12-09 18:19:30"}',
+);

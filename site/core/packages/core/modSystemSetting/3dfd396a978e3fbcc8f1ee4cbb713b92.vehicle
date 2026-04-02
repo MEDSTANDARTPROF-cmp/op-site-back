@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0e0725de4b53d2925dd4979cb401e9c0',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '3dfd396a978e3fbcc8f1ee4cbb713b92',
+  'native_key' => 'error_log_filepath',
+  'object' => '{"key":"error_log_filepath","value":"","xtype":"textfield","namespace":"core","area":"system","editedon":null}',
+);

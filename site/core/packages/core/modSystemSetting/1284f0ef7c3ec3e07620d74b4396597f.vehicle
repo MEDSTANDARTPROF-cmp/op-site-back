@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e786baf002ad5885d64845f315f068fd',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '1284f0ef7c3ec3e07620d74b4396597f',
+  'native_key' => 'static_elements_html_extension',
+  'object' => '{"key":"static_elements_html_extension","value":".tpl","xtype":"textfield","namespace":"core","area":"static_elements","editedon":null}',
+);

@@ -1,0 +1,23 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => 'msimportexport-2.0.26-pl/xPDOFileVehicle/86cba5d08365dd6697611289744aeaab/',
+    'target' => 'return MODX_CORE_PATH . \'components/\';',
+    'name' => 'msimportexport',
+  ),
+  'vehicle_class' => 'xPDOFileVehicle',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"msimportexport-2.0.26-pl\\/xPDOFileVehicle\\/86cba5d08365dd6697611289744aeaab.resolve.encryption.resolver","name":"resolve.encryption"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => '33495c3fc705b74d022479eb66151ac1',
+  'package' => '',
+  'signature' => '86cba5d08365dd6697611289744aeaab',
+  'native_key' => '33495c3fc705b74d022479eb66151ac1',
+);

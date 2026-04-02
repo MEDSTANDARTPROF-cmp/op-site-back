@@ -1,0 +1,173 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Plugins' => 
+    array (
+      'c21fc050bc43c03f2ceab3fbc9348d26' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"ieMsProductRemains","description":"","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * @var modX $modx\\n * @var IeMsProductRemains $iemsproductremains\\n * @var ieMsProductRemainsTools $tools\\n * @var MsIeService $service\\n * @var MsIeWorker $worker\\n * @var array $scriptProperties\\n * @var string $mode\\n * @var bool $checking\\n *\\/\\n\\n$iemsproductremains = $modx->getService(\'iemsproductremains\', \'IeMsProductRemains\');\\nif (!$iemsproductremains) return;\\n\\n$tools = $iemsproductremains->getTools();\\nif (!$tools->hasAddition(\'msproductremains\')) return;\\n\\nswitch ($modx->event->name) {\\n    case \'msieOnLoadServices\':\\n        $modx->event->output($tools->getServices($mode));\\n        break;\\n    case \'msieOnGetServiceFields\':\\n        \\/*if ($service instanceof MsIeResourceExportService) {\\n            $fields = $tools->getCustomFields();\\n            $modx->event->output($fields);\\n        }*\\/\\n        break;\\n}\\nreturn;","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * @var modX $modx\\n * @var IeMsProductRemains $iemsproductremains\\n * @var ieMsProductRemainsTools $tools\\n * @var MsIeService $service\\n * @var MsIeWorker $worker\\n * @var array $scriptProperties\\n * @var string $mode\\n * @var bool $checking\\n *\\/\\n\\n$iemsproductremains = $modx->getService(\'iemsproductremains\', \'IeMsProductRemains\');\\nif (!$iemsproductremains) return;\\n\\n$tools = $iemsproductremains->getTools();\\nif (!$tools->hasAddition(\'msproductremains\')) return;\\n\\nswitch ($modx->event->name) {\\n    case \'msieOnLoadServices\':\\n        $modx->event->output($tools->getServices($mode));\\n        break;\\n    case \'msieOnGetServiceFields\':\\n        \\/*if ($service instanceof MsIeResourceExportService) {\\n            $fields = $tools->getCustomFields();\\n            $modx->event->output($fields);\\n        }*\\/\\n        break;\\n}\\nreturn;"}',
+        'guid' => '5d6917fc2ad44409ca8030446001ac3b',
+        'native_key' => NULL,
+        'signature' => 'e80109ab43c0e9a0bf1177f904a76db5',
+        'related_objects' => 
+        array (
+          'PluginEvents' => 
+          array (
+            '8b415a66285953da68a94f4061dc1650' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnGetServiceFields","priority":0,"propertyset":0}',
+              'guid' => 'f968d7d3d48cd87b145482641381b334',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnGetServiceFields',
+              ),
+              'signature' => '8d2d231fd7894599149580ff1f1575c0',
+            ),
+            '32e7f5c50b64e69693f1a335b019532a' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnImport","priority":0,"propertyset":0}',
+              'guid' => '992d9eae4eaba0a14e796cdf5ec3ae2e',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnImport',
+              ),
+              'signature' => 'f93b0583e597d36ea27b5ba0f21dc474',
+            ),
+            '4d53a3032ae6df06156adc01679e1c57' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnImportStart","priority":0,"propertyset":0}',
+              'guid' => 'eb379f495bb63da56a9451de2b91902d',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnImportStart',
+              ),
+              'signature' => 'c1ea14ed85a17745903140bdf4db1eda',
+            ),
+            'c5c55c93d8bce50c7ca639fcdb456391' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnLoadServices","priority":0,"propertyset":0}',
+              'guid' => 'be1ab6f090ca3e152239165540b11f6d',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnLoadServices',
+              ),
+              'signature' => '0405f279569ef2a68d6f330ca772c84c',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'iemsproductremains',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"iemsproductremains-1.0.2-beta\\/modCategory\\/07acc053269aa0a4034e658c6afab640\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"iemsproductremains"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"iemsproductremains-1.0.2-beta\\/modCategory\\/07acc053269aa0a4034e658c6afab640\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"iemsproductremains"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iemsproductremains-1.0.2-beta\\/modCategory\\/07acc053269aa0a4034e658c6afab640.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iemsproductremains-1.0.2-beta\\/modCategory\\/07acc053269aa0a4034e658c6afab640.resolve.settings.resolver","type":"php","name":"resolve.settings"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iemsproductremains-1.0.2-beta\\/modCategory\\/07acc053269aa0a4034e658c6afab640.package.resolver.resolver","type":"php","name":"package.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => '13207ae515997a3b87ef06bf90bad044',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '07acc053269aa0a4034e658c6afab640',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"ieMsProductRemains","rank":0}',
+);

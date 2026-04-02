@@ -1,0 +1,211 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Plugins' => 
+    array (
+      'f3780a32874a9e5f21f0fbdb011a38f5' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"ieGallery","description":"","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * @var modX $modx\\n * @var IeGallery $iegallery\\n * @var IeGalleryTools $tools\\n * @var MsIeService $service\\n * @var MsIeWorker $worker\\n * @var array $scriptProperties\\n * @var string $mode\\n * @var bool $checking\\n *\\/\\n\\n$iegallery = $modx->getService(\'iegallery\', \'IeGallery\');\\nif (!$iegallery) return;\\n\\n$tools = $iegallery->getTools();\\n\\nswitch ($modx->event->name) {\\n    case \'msieOnLoadServices\':\\n        $modx->event->output($tools->getServices($mode));\\n        break;\\n    case \'msieOnGetServiceFields\':\\n        if (\\n            $service instanceof MsIeResourceExportService ||\\n            $service instanceof MsIeResourceImportService ||\\n            $service instanceof IeMs2CategoryImportService\\n        ) {\\n            $fields = $tools->getGalleryCustomFields(\'\', \'Photo gallery\');\\n            $modx->event->output($fields);\\n        }\\n        break;\\n    case \'msieOnExportStart\':\\n        if (\\n            $worker instanceof MsIeResourceExportWorker &&\\n            $galleryType = $worker->getSetting(\'gallery_type\')\\n        ) {\\n            if ($worker->hasField(\'gallery\')) {\\n                $worker->addPrepareFieldMethod(\'gallery\', $tools, \'prepareFieldGallery\');\\n            }\\n            if ($worker->hasField(\'attach_thumb\')) {\\n                $worker->addPrepareFieldMethod(\'attach_thumb\', $tools, \'prepareFieldAttachThumb\');\\n                $attachSettings = $worker->getSetting(\'gallery_attach_settings\', \'{\\"thumb\\":\\"small\\",\\"width\\":150}\');\\n                $attachSettings = $worker->tools->fromJSON($attachSettings, array());\\n                $worker->setSetting(\'attach_settings\', $attachSettings);\\n            }\\n        }\\n        break;\\n    case \'msieOnExportBeforeArchive\':\\n        if (\\n            $worker instanceof MsIeResourceExportWorker &&\\n            $worker->hasField(\'gallery\') &&\\n            $galleryType = $worker->getSetting(\'gallery_type\')\\n        ) {\\n            $serviceName = $tools->getServiceNameByGallery(Msie::MODE_EXPORT, $galleryType);\\n            if ($galleryService = $tools->getService(Msie::MODE_EXPORT, $serviceName)) {\\n                if ($galleryWorker = $galleryService->getWorker()) {\\n                    $galleryWorker->copyWorkerScope($worker);\\n                    $galleryWorker->initialize();\\n                    if ($galleryWorker->isAddImagesToArchive()) {\\n                        $files[] = $galleryWorker->getCopyImagePath();\\n                        $modx->event->returnedValues[\'files\'] = $files;\\n                    }\\n                }\\n            }\\n        }\\n        break;\\n\\n    case \'msieOnImportStart\':\\n        if (\\n            $worker instanceof MsIeResourceImportWorker &&\\n            $worker->hasField(\'gallery\') &&\\n            $galleryType = $worker->getSetting(\'gallery_type\')\\n        ) {\\n            $galleryWorker = $worker->getSubWorker(\'iegallery\');\\n            if (!$galleryWorker) {\\n                $serviceName = $tools->getServiceNameByGallery(Msie::MODE_IMPORT, $galleryType);\\n                if ($galleryService = $tools->getService(Msie::MODE_IMPORT, $serviceName)) {\\n                    if ($galleryWorker = $galleryService->getWorker()) {\\n                        $worker->addSubWorker($galleryWorker, \'iegallery\');\\n                        $galleryWorker->setWorkingDirectory($worker->getWorkingDirectory());\\n                        $galleryWorker->initialize();\\n                    }\\n                }\\n            }\\n            if ($galleryWorker) {\\n                $worker->addPrepareFieldMethod(\'gallery\', $galleryWorker, \'prepareFieldGallery\');\\n            }\\n        }\\n        break;\\n    case \'msieOnImport\':\\n        if (\\n            $worker instanceof MsIeResourceImportWorker &&\\n            $worker->hasSubWorker(\'iegallery\')\\n        ) {\\n            if (empty($data[\'gallery\'])) return;\\n            $galleryWorker = $worker->getSubWorker(\'iegallery\');\\n            $data = array(\\n                \'id\' => $object[\'id\'],\\n                \'gallery\' => $data[\'gallery\'],\\n            );\\n            $galleryWorker->work($data);\\n        }\\n        break;\\n\\n}\\nreturn;","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * @var modX $modx\\n * @var IeGallery $iegallery\\n * @var IeGalleryTools $tools\\n * @var MsIeService $service\\n * @var MsIeWorker $worker\\n * @var array $scriptProperties\\n * @var string $mode\\n * @var bool $checking\\n *\\/\\n\\n$iegallery = $modx->getService(\'iegallery\', \'IeGallery\');\\nif (!$iegallery) return;\\n\\n$tools = $iegallery->getTools();\\n\\nswitch ($modx->event->name) {\\n    case \'msieOnLoadServices\':\\n        $modx->event->output($tools->getServices($mode));\\n        break;\\n    case \'msieOnGetServiceFields\':\\n        if (\\n            $service instanceof MsIeResourceExportService ||\\n            $service instanceof MsIeResourceImportService ||\\n            $service instanceof IeMs2CategoryImportService\\n        ) {\\n            $fields = $tools->getGalleryCustomFields(\'\', \'Photo gallery\');\\n            $modx->event->output($fields);\\n        }\\n        break;\\n    case \'msieOnExportStart\':\\n        if (\\n            $worker instanceof MsIeResourceExportWorker &&\\n            $galleryType = $worker->getSetting(\'gallery_type\')\\n        ) {\\n            if ($worker->hasField(\'gallery\')) {\\n                $worker->addPrepareFieldMethod(\'gallery\', $tools, \'prepareFieldGallery\');\\n            }\\n            if ($worker->hasField(\'attach_thumb\')) {\\n                $worker->addPrepareFieldMethod(\'attach_thumb\', $tools, \'prepareFieldAttachThumb\');\\n                $attachSettings = $worker->getSetting(\'gallery_attach_settings\', \'{\\"thumb\\":\\"small\\",\\"width\\":150}\');\\n                $attachSettings = $worker->tools->fromJSON($attachSettings, array());\\n                $worker->setSetting(\'attach_settings\', $attachSettings);\\n            }\\n        }\\n        break;\\n    case \'msieOnExportBeforeArchive\':\\n        if (\\n            $worker instanceof MsIeResourceExportWorker &&\\n            $worker->hasField(\'gallery\') &&\\n            $galleryType = $worker->getSetting(\'gallery_type\')\\n        ) {\\n            $serviceName = $tools->getServiceNameByGallery(Msie::MODE_EXPORT, $galleryType);\\n            if ($galleryService = $tools->getService(Msie::MODE_EXPORT, $serviceName)) {\\n                if ($galleryWorker = $galleryService->getWorker()) {\\n                    $galleryWorker->copyWorkerScope($worker);\\n                    $galleryWorker->initialize();\\n                    if ($galleryWorker->isAddImagesToArchive()) {\\n                        $files[] = $galleryWorker->getCopyImagePath();\\n                        $modx->event->returnedValues[\'files\'] = $files;\\n                    }\\n                }\\n            }\\n        }\\n        break;\\n\\n    case \'msieOnImportStart\':\\n        if (\\n            $worker instanceof MsIeResourceImportWorker &&\\n            $worker->hasField(\'gallery\') &&\\n            $galleryType = $worker->getSetting(\'gallery_type\')\\n        ) {\\n            $galleryWorker = $worker->getSubWorker(\'iegallery\');\\n            if (!$galleryWorker) {\\n                $serviceName = $tools->getServiceNameByGallery(Msie::MODE_IMPORT, $galleryType);\\n                if ($galleryService = $tools->getService(Msie::MODE_IMPORT, $serviceName)) {\\n                    if ($galleryWorker = $galleryService->getWorker()) {\\n                        $worker->addSubWorker($galleryWorker, \'iegallery\');\\n                        $galleryWorker->setWorkingDirectory($worker->getWorkingDirectory());\\n                        $galleryWorker->initialize();\\n                    }\\n                }\\n            }\\n            if ($galleryWorker) {\\n                $worker->addPrepareFieldMethod(\'gallery\', $galleryWorker, \'prepareFieldGallery\');\\n            }\\n        }\\n        break;\\n    case \'msieOnImport\':\\n        if (\\n            $worker instanceof MsIeResourceImportWorker &&\\n            $worker->hasSubWorker(\'iegallery\')\\n        ) {\\n            if (empty($data[\'gallery\'])) return;\\n            $galleryWorker = $worker->getSubWorker(\'iegallery\');\\n            $data = array(\\n                \'id\' => $object[\'id\'],\\n                \'gallery\' => $data[\'gallery\'],\\n            );\\n            $galleryWorker->work($data);\\n        }\\n        break;\\n\\n}\\nreturn;"}',
+        'guid' => '4ad99786c0db99df5771ba3c6f60fb05',
+        'native_key' => NULL,
+        'signature' => 'b46ae63487434269f97d37429345bfc0',
+        'related_objects' => 
+        array (
+          'PluginEvents' => 
+          array (
+            'a573f86512c8b149f1311c1939ce72bb' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnExportBeforeArchive","priority":0,"propertyset":0}',
+              'guid' => '33fe7783f98c7e629d8769d07a09f583',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnExportBeforeArchive',
+              ),
+              'signature' => 'b72892208bac2079765e24693e3e55d3',
+            ),
+            '773eb62e0f9135d9e7e281c78b7ebbe5' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnExportStart","priority":0,"propertyset":0}',
+              'guid' => '2f640a2c49351262a55059d30f2e872b',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnExportStart',
+              ),
+              'signature' => 'cd9ea9728b50e2f518c4575e74cd5ef5',
+            ),
+            'ba686417c6c98ab8129a0c8c334d0faa' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnGetServiceFields","priority":0,"propertyset":0}',
+              'guid' => 'eeb41460002bb01ba3c6ecc2374e8d03',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnGetServiceFields',
+              ),
+              'signature' => '9ca6438aa74fc947e1ce17204c1a229d',
+            ),
+            '4e2030bbe83b8d6035febb1f2a1904c5' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnImport","priority":0,"propertyset":0}',
+              'guid' => 'e0bfd5b64ce605e60e23afa79031a328',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnImport',
+              ),
+              'signature' => 'b5aca15e9d4474b583cdf966052dfc5a',
+            ),
+            '48a497d2046f6fc2e548f686ad2b791d' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnImportStart","priority":0,"propertyset":0}',
+              'guid' => '0e345526dd1e642345cf5e483d7ff3e9',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnImportStart',
+              ),
+              'signature' => '9bd768a7e1575ff880dca660bb0c6a11',
+            ),
+            '21d28869c9ccb0dec8d725b22c7a38a8' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnLoadServices","priority":0,"propertyset":0}',
+              'guid' => 'ca9d9745e581911adc9ced60d2a951aa',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnLoadServices',
+              ),
+              'signature' => 'f6ce06a6d031782849414e23d03712e6',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'iegallery',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"iegallery-1.0.10-pl\\/modCategory\\/cf3cfa15fa82a76e79f22eab1a1b0c30\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"iegallery"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"iegallery-1.0.10-pl\\/modCategory\\/cf3cfa15fa82a76e79f22eab1a1b0c30\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"iegallery"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iegallery-1.0.10-pl\\/modCategory\\/cf3cfa15fa82a76e79f22eab1a1b0c30.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iegallery-1.0.10-pl\\/modCategory\\/cf3cfa15fa82a76e79f22eab1a1b0c30.resolve.settings.resolver","type":"php","name":"resolve.settings"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iegallery-1.0.10-pl\\/modCategory\\/cf3cfa15fa82a76e79f22eab1a1b0c30.package.resolver.resolver","type":"php","name":"package.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => 'f8368ddd13bbcdfc70135aebebe8d103',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'cf3cfa15fa82a76e79f22eab1a1b0c30',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"ieGallery","rank":0}',
+);

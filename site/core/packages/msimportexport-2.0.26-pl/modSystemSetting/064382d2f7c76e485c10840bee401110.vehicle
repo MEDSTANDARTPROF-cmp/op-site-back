@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimportexport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '831faaf65dcc0965ffcaabc749d23eec',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '064382d2f7c76e485c10840bee401110',
+  'native_key' => 'msimportexport_task_manager_handler_class',
+  'object' => '{"key":"msimportexport_task_manager_handler_class","value":"MsIeTaskManager","xtype":"textfield","namespace":"msimportexport","area":"msimportexport_system","editedon":"2020-03-21 15:34:31"}',
+);

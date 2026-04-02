@@ -1,0 +1,84 @@
+<?php
+/**
+ * Cron Russian Lexicon Entries for ImportExport
+ *
+ * @package msimportexport
+ * @subpackage lexicon
+ */
+$_lang['msimportexport_cron_tab'] = 'Планировщик задач';
+$_lang['msimportexport_cron_header_preset'] = 'Пресет';
+$_lang['msimportexport_cron_header_preset_mode'] = 'Тип';
+$_lang['msimportexport_cron_header_schedule'] = 'Расписание';
+$_lang['msimportexport_cron_header_description'] = 'Описание';
+$_lang['msimportexport_cron_header_date_last_run'] = 'Последнее выполнение';
+$_lang['msimportexport_cron_header_active'] = 'Активна';
+$_lang['msimportexport_cron_header_actions'] = 'Действия';
+$_lang['msimportexport_cron_label_preset'] = 'Пресет';
+$_lang['msimportexport_cron_label_preset_help'] = '';
+$_lang['msimportexport_cron_label_schedule'] = 'Расписание';
+$_lang['msimportexport_cron_label_schedule_help'] = '';
+$_lang['msimportexport_cron_label_description'] = 'Описание';
+$_lang['msimportexport_cron_label_description_help'] = '';
+$_lang['msimportexport_cron_label_active'] = 'Активна';
+$_lang['msimportexport_cron_label_active_help'] = '';
+$_lang['msimportexport_cron_helper_min'] = 'Минуты';
+$_lang['msimportexport_cron_helper_hour'] = 'Часы';
+$_lang['msimportexport_cron_helper_day'] = 'День';
+$_lang['msimportexport_cron_helper_month'] = 'Месяц';
+$_lang['msimportexport_cron_helper_wday'] = 'День недели';
+$_lang['msimportexport_cron_every_minute'] = 'каждую минуту';
+$_lang['msimportexport_cron_every_2_minute'] = 'каждые 2 минуты';
+$_lang['msimportexport_cron_every_5_minute'] = 'каждые 5';
+$_lang['msimportexport_cron_every_10_minute'] = 'каждые 10';
+$_lang['msimportexport_cron_every_15_minute'] = 'каждые 15';
+$_lang['msimportexport_cron_every_30_minute'] = 'каждые 30';
+$_lang['msimportexport_cron_every_hour'] = 'каждый час';
+$_lang['msimportexport_cron_every_2_hour'] = 'каждые два часа';
+$_lang['msimportexport_cron_every_6_hour'] = 'каждые 6';
+$_lang['msimportexport_cron_every_12_hour'] = 'каждые 12';
+$_lang['msimportexport_cron_every_day'] = 'каждый день';
+$_lang['msimportexport_cron_every_odd_day'] = 'каждый нечётный день';
+$_lang['msimportexport_cron_every_even_day'] = 'каждый чётный день';
+$_lang['msimportexport_cron_every_3_day'] = 'каждый 3';
+$_lang['msimportexport_cron_every_5_day'] = 'каждый 5';
+$_lang['msimportexport_cron_every_10_day'] = 'каждый 10';
+$_lang['msimportexport_cron_every_15_day'] = 'каждый 15';
+$_lang['msimportexport_cron_every_wday'] = ' каждый день недели';
+$_lang['msimportexport_cron_weekdays_wday'] = 'рабочие дни';
+$_lang['msimportexport_cron_weekend_wday'] = 'выходные';
+$_lang['msimportexport_cron_monday_wday'] = 'понедельник';
+$_lang['msimportexport_cron_tuesday_wday'] = 'вторник';
+$_lang['msimportexport_cron_wednesday_wday'] = 'среда';
+$_lang['msimportexport_cron_thursday_wday'] = 'четверг';
+$_lang['msimportexport_cron_friday_wday'] = 'пятница';
+$_lang['msimportexport_cron_saturday_wday'] = 'суббота';
+$_lang['msimportexport_cron_sunday_wday'] = 'воскресенье';
+$_lang['msimportexport_cron_every_month'] = 'каждый месяц';
+$_lang['msimportexport_cron_every_odd_month'] = 'каждый нечётный месяц';
+$_lang['msimportexport_cron_every_even_month'] = 'каждый чётный месяц';
+$_lang['msimportexport_cron_every_3_month'] = 'каждый 3';
+$_lang['msimportexport_cron_every_6_month'] = 'каждый 6';
+$_lang['msimportexport_cron_jan_month'] = 'Янв';
+$_lang['msimportexport_cron_feb_month'] = 'Фев';
+$_lang['msimportexport_cron_mar_month'] = 'Мар';
+$_lang['msimportexport_cron_apr_month'] = 'Апр';
+$_lang['msimportexport_cron_may_month'] = 'Май';
+$_lang['msimportexport_cron_jun_month'] = 'Июн';
+$_lang['msimportexport_cron_jul_month'] = 'Июл';
+$_lang['msimportexport_cron_aug_month'] = 'Авг';
+$_lang['msimportexport_cron_sep_month'] = 'Сен';
+$_lang['msimportexport_cron_oct_month'] = 'Окт';
+$_lang['msimportexport_cron_nov_month'] = 'Ноя';
+$_lang['msimportexport_cron_dec_month'] = 'Дек';
+$_lang['msimportexport_cron_helper_title'] = 'Генератор расписания';
+$_lang['msimportexport_cron_helper_btn_generate'] = 'Сгенерировать';
+$_lang['msimportexport_cron_valid_format_data'] = 'Не верный формат значения';
+$_lang['msimportexport_cron_menu_update'] = 'Редактировать';
+$_lang['msimportexport_cron_menu_remove'] = 'Удалить';
+$_lang['msimportexport_cron_menu_multiple_remove'] = 'Удалить';
+$_lang['msimportexport_cron_btn_create'] = 'Добавить расписание';
+$_lang['msimportexport_cron_title_window_create'] = 'Создание нового расписания';
+$_lang['msimportexport_cron_title_window_update'] = 'Редактирование расписания';
+$_lang['msimportexport_cron_title_win_remove'] = 'Подтверждение удаления расписания';
+$_lang['msimportexport_cron_confirm_remove'] = 'Вы уверены, что хотите удалить выбранное расписание?';
+$_lang['msimportexport_cron_confirm_multiple_remove'] = 'Вы уверены, что хотите удалить выбранные расписания?';

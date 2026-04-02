@@ -1,0 +1,116 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Plugins' => 
+    array (
+      'bc5ea9648be958eb6173680f2d873878' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"ieYandexMarket","description":"","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * @var modX $modx\\n * @var IeYandexMarket $ieyandexmarket\\n * @var ieYandexMarketTools $tools\\n * @var MsIeService $service\\n * @var MsIeWorker $worker\\n * @var array $scriptProperties\\n * @var string $mode\\n * @var bool $checking\\n *\\/\\n\\n$ieyandexmarket = $modx->getService(\'ieyandexmarket\', \'IeYandexMarket\');\\nif (!$ieyandexmarket) return;\\n\\n$tools = $ieyandexmarket->getTools();\\n\\/\\/if (!$tools->hasAddition(\'Addition\')) return;\\n\\nswitch ($modx->event->name) {\\n    case \'msieOnLoadServices\':\\n        $modx->event->output($tools->getServices($mode));\\n        break;\\n}\\nreturn;","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * @var modX $modx\\n * @var IeYandexMarket $ieyandexmarket\\n * @var ieYandexMarketTools $tools\\n * @var MsIeService $service\\n * @var MsIeWorker $worker\\n * @var array $scriptProperties\\n * @var string $mode\\n * @var bool $checking\\n *\\/\\n\\n$ieyandexmarket = $modx->getService(\'ieyandexmarket\', \'IeYandexMarket\');\\nif (!$ieyandexmarket) return;\\n\\n$tools = $ieyandexmarket->getTools();\\n\\/\\/if (!$tools->hasAddition(\'Addition\')) return;\\n\\nswitch ($modx->event->name) {\\n    case \'msieOnLoadServices\':\\n        $modx->event->output($tools->getServices($mode));\\n        break;\\n}\\nreturn;"}',
+        'guid' => '5c1e781323051db28e9913a5f7874f51',
+        'native_key' => NULL,
+        'signature' => 'a637a18ba8dda27edf5c3160d462b94e',
+        'related_objects' => 
+        array (
+          'PluginEvents' => 
+          array (
+            '4fe8760b5cbc83559babea7d79b88e27' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnLoadServices","priority":0,"propertyset":0}',
+              'guid' => '06325d324966f43cd10380931895b79b',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnLoadServices',
+              ),
+              'signature' => '89d7af621e6492bdd37890cc4d32cf87',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'ieyandexmarket',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"ieyandexmarket-1.0.2-beta\\/modCategory\\/1f312f04b9ff371417c53fcd1740fd9a\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"ieyandexmarket"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"ieyandexmarket-1.0.2-beta\\/modCategory\\/1f312f04b9ff371417c53fcd1740fd9a\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"ieyandexmarket"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"ieyandexmarket-1.0.2-beta\\/modCategory\\/1f312f04b9ff371417c53fcd1740fd9a.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"ieyandexmarket-1.0.2-beta\\/modCategory\\/1f312f04b9ff371417c53fcd1740fd9a.resolve.settings.resolver","type":"php","name":"resolve.settings"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"ieyandexmarket-1.0.2-beta\\/modCategory\\/1f312f04b9ff371417c53fcd1740fd9a.package.resolver.resolver","type":"php","name":"package.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => '684bf33e4c1df4793cf241acd761d0e9',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '1f312f04b9ff371417c53fcd1740fd9a',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"ieYandexMarket","rank":0}',
+);

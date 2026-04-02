@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c84f6544ee5fc67ff545d96631a896bd',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '57135d105447c9fc1b9ee65d920c7629',
+  'native_key' => 'base_help_url',
+  'object' => '{"key":"base_help_url","value":"\\/\\/docs.modx.com\\/help\\/","xtype":"textfield","namespace":"core","area":"manager","editedon":null}',
+);

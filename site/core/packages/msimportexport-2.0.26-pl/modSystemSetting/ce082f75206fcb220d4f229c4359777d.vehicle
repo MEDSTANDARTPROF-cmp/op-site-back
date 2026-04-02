@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimportexport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3962610a1d68b1925e1b14c4ce1c53e1',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'ce082f75206fcb220d4f229c4359777d',
+  'native_key' => 'msimportexport_import_default_settings',
+  'object' => '{"key":"msimportexport_import_default_settings","value":"{\\"debug\\":0,\\"start_from_line\\":\\"\\",\\"file\\":\\"\\",\\"remove_source_file\\":0,\\"first_delimiter\\":\\"|\\",\\"second_delimiter\\":\\"%\\",\\"iteration_report\\":2,\\"task_refresh_freq\\":15,\\"auto_restart_limit\\":3,\\"csv_delimiter\\":\\";\\",\\"csv_enclosure\\":\\"\\\\\\"\\",\\"csv_escape\\":\\"\\\\\\\\\\\\\\\\\\",\\"convert_encoding\\":\\"\\",\\"source_encode\\":\\"cp1251\\",\\"notice\\":0,\\"notice_method\\":\\"email\\",\\"notice_email\\":\\"\\",\\"notice_status\\":[],\\"notice_template_subject\\":\\"Task ID:{$id} status: {$status_text}\\",\\"notice_template_message\\":\\"{switch $status}\\\\n    {case \'initiated\'}\\\\n        Mode:{$mode}; preset ID:{$preset_id} ({$preset_name}) \\\\n    {case \'completed\'}\\\\n        Mode:{$mode}; preset ID:{$preset_id} ({$preset_name})\\\\n        <ul>\\\\n        Stats:\\\\n        {foreach $stats as $key =>$val}\\\\n            <li>{$key}: {$val}<\\/li>\\\\n        {\\/foreach}\\\\n        <\\/ul>\\\\n        Total time: {$total_time}\\\\n    {case \'failed\'}\\\\n        Mode:{$mode}; preset ID:{$preset_id} ({$preset_name})\\\\n        Stats: {$stats|print}\\\\n    {case default}\\\\n        Mode:{$mode}; preset ID:{$preset_id} ({$preset_name})\\\\n{\\/switch}\\",\\"script_memory_limit\\":\\"\\",\\"checking_field\\":\\"pagetitle\\",\\"check_existence\\":1,\\"disable_map_generation\\":1,\\"parent_default\\":0,\\"skip_empty_parent\\":0,\\"skip_action\\":\\"\\",\\"check_unique_alias\\":0,\\"create_unique_alias\\":0,\\"template_unique_alias\\":\\"\\",\\"use_alias_in_search\\":0,\\"ctx\\":\\"\\",\\"completion_action\\":\\"\\",\\"text_format_method\\":\\"nl2br\\",\\"text_format_fields\\":\\"\\",\\"template_resource_default\\":1,\\"published_resource_default\\":1,\\"hidemenu_resource_default\\":0,\\"searchable_resource_default\\":1}","xtype":"textarea","namespace":"msimportexport","area":"msimportexport_import","editedon":"2020-08-21 21:37:45"}',
+);

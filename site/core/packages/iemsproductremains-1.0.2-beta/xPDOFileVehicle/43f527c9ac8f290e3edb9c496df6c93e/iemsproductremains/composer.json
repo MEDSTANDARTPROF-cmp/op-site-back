@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "classmap": [
+      "handlers/tools/",
+      "handlers/services/",
+      "handlers/workers/",
+      "handlers/readers/",
+      "handlers/writers/"
+    ]
+  }
+}

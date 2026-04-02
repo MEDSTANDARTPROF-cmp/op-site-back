@@ -1,0 +1,13 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => false,
+  'unique_key' => 'class',
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'cec2c1f12a63cf947473d3fdf7e067f8',
+  'package' => 'modx',
+  'class' => 'modClassMap',
+  'signature' => '2d20a98df18614359b1cd28d7f5bc555',
+  'native_key' => NULL,
+  'object' => '{"id":null,"class":"modTemplate","parent_class":"modElement","name_field":"templatename","path":"","lexicon":"core:resource"}',
+);

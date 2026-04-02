@@ -1,0 +1,25 @@
+<?php
+/**
+ * @var array $options
+ * @var xPDOTransport $transport
+ */
+
+define('PKG_NAME_LOWER', strtolower($transport->name));
+
+if ($object->xpdo) {
+    $modx =& $object->xpdo;
+    $modelPath = $modx->getOption(PKG_NAME_LOWER . ".core_path", null, $modx->getOption('core_path') . "components/" . PKG_NAME_LOWER . "/") . 'model/';
+    $modx->addPackage(PKG_NAME_LOWER, $modelPath);
+    $manager = $modx->getManager();
+    switch ($options[xPDOTransport::PACKAGE_ACTION]) {
+        case xPDOTransport::ACTION_INSTALL:
+            // $manager->createObjectContainer('myTableClassName');
+            break;
+        case xPDOTransport::ACTION_UPGRADE:
+            break;
+        case xPDOTransport::ACTION_UNINSTALL:
+            //$manager->removeObjectContainer('myTableClassName');
+            break;
+    }
+}
+return true;

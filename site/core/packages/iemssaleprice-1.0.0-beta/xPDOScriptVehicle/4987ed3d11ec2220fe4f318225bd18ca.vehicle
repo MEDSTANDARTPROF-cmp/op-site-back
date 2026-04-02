@@ -1,0 +1,16 @@
+<?php return array (
+  'class' => 'xPDOScriptVehicle',
+  'object' => 
+  array (
+    'source' => 'iemssaleprice-1.0.0-beta/xPDOScriptVehicle/4987ed3d11ec2220fe4f318225bd18ca.resolve.encryption.script',
+  ),
+  'vehicle_class' => 'xPDOScriptVehicle',
+  'namespace' => 'iemssaleprice',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => 'cd8b8853fd23095418ecd9843c89b2ce',
+  'package' => '',
+  'signature' => '4987ed3d11ec2220fe4f318225bd18ca',
+  'native_key' => 'cd8b8853fd23095418ecd9843c89b2ce',
+);

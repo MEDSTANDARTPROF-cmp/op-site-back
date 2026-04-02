@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'minishop2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b6a27a282acfd1988a358cc3c87dcbb8',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '978ffa13cbd73f0e2ce8e1f9472c9d35',
+  'native_key' => 'ms2_frontend_notify_js_settings',
+  'object' => '{"key":"ms2_frontend_notify_js_settings","value":"[[+jsUrl]]web\\/vanilajs\\/message_settings.json","xtype":"textfield","namespace":"minishop2","area":"ms2_frontend","editedon":"2024-08-06 09:57:04"}',
+);

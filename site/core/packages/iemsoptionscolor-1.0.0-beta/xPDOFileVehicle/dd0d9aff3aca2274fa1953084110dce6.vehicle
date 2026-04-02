@@ -1,0 +1,23 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => 'iemsoptionscolor-1.0.0-beta/xPDOFileVehicle/dd0d9aff3aca2274fa1953084110dce6/',
+    'target' => 'return MODX_CORE_PATH . \'components/\';',
+    'name' => 'iemsoptionscolor',
+  ),
+  'vehicle_class' => 'xPDOFileVehicle',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"iemsoptionscolor-1.0.0-beta\\/xPDOFileVehicle\\/dd0d9aff3aca2274fa1953084110dce6.resolve.encryption.resolver","name":"resolve.encryption"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => 'a85e66c368993218448165939af7066e',
+  'package' => '',
+  'signature' => 'dd0d9aff3aca2274fa1953084110dce6',
+  'native_key' => 'a85e66c368993218448165939af7066e',
+);

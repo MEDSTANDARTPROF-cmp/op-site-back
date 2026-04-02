@@ -1,0 +1,56 @@
+#!/bin/bash
+# ============================================================
+# Общие переменные для всех скриптов
+# Скопировать в config.sh и заполнить реальными данными
+# ============================================================
+
+# SSH
+SSH_HOST="severmarin.beget.tech"
+SSH_USER="YOUR_SSH_USER"
+SSH_PASS="YOUR_SSH_PASS"
+PLINK="/c/Program Files/PuTTY/plink"
+PSCP="/c/Program Files/PuTTY/pscp"
+
+# Пути на сервере
+PROD_PATH="~/obrprofi.ru/public_html"
+DEV_PATH="~/dev.obrprofi.ru/public_html"
+
+# БД ПРОД
+PROD_DB_NAME="YOUR_PROD_DB"
+PROD_DB_USER="YOUR_PROD_DB_USER"
+PROD_DB_PASS="YOUR_PROD_DB_PASS"
+
+# БД DEV
+DEV_DB_NAME="YOUR_DEV_DB"
+DEV_DB_USER="YOUR_DEV_DB_USER"
+DEV_DB_PASS="YOUR_DEV_DB_PASS"
+
+# Локальные пути
+PROJECT_DIR="d:/Project/ObrProfi"
+SITE_DIR="$PROJECT_DIR/site"
+BACKUP_DIR="$PROJECT_DIR/backup"
+DOCKER_DIR="$PROJECT_DIR/docker"
+
+# Docker БД
+LOCAL_DB_NAME="obrprofi"
+LOCAL_DB_USER="obrprofi"
+LOCAL_DB_PASS="obrprofi"
+LOCAL_DB_CONTAINER="obrprofi-db"
+
+# Функция для SSH команд
+run_ssh() {
+    "$PLINK" -pw "$SSH_PASS" -batch "$SSH_USER@$SSH_HOST" "$1" 2>&1
+}
+
+# Функция для SCP загрузки на сервер
+upload_file() {
+    "$PSCP" -pw "$SSH_PASS" -batch "$1" "$SSH_USER@$SSH_HOST:$2" 2>&1
+}
+
+# Функция для SCP скачивания с сервера
+download_file() {
+    "$PSCP" -pw "$SSH_PASS" -batch "$SSH_USER@$SSH_HOST:$1" "$2" 2>&1
+}
+
+# Временная метка для бэкапов
+TIMESTAMP=$(date +%Y%m%d_%H%M%S)

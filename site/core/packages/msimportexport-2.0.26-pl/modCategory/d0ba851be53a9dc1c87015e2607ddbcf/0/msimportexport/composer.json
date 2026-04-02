@@ -1,0 +1,20 @@
+{
+  "require": {
+    "mtdowling/cron-expression": "^1.2",
+    "salsify/json-streaming-parser": "^8.2",
+    "phpoffice/phpspreadsheet": "^1.23",
+    "openspout/openspout": "^3.7"
+  },
+  "autoload": {
+    "classmap": [
+      "handlers/tools/",
+      "handlers/services/",
+      "handlers/workers/",
+      "handlers/watchers/",
+      "handlers/readers/",
+      "handlers/writers/",
+      "handlers/storages/",
+      "handlers/managers/"
+    ]
+  }
+}

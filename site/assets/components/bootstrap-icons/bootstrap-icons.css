@@ -1,0 +1,82 @@
+.bi {
+    background-image: url("../bootstrap-icons/2-circle.svg");
+    height: 16px;
+    width: 16px;
+    background-size: cover;
+    min-width: 16px;
+    display: inline-block;
+}
+
+.bi-binoculars {
+    background-image: url("../bootstrap-icons/binoculars.svg");
+
+}
+.bi-geo-alt-fill {
+    background-image: url("../bootstrap-icons/geo-alt-fill.svg");
+
+}
+.bi-telephone-forward-fill {
+    background-image: url("../bootstrap-icons/telephone-forward-fill.svg");
+
+}
+.bi-arrow-right-square-fill {
+    background-image: url("../bootstrap-icons/arrow-right-square-fill.svg");
+
+}
+.bi-8 {
+    background-image: url("/assets/icon/8.png");
+}
+.bi-9 {
+    background-image: url("/assets/icon/9.png");
+}
+.bi-10 {
+    background-image: url("/assets/icon/10.png");
+}
+.bi-11 {
+    background-image: url("/assets/icon/11.png");
+}
+.bi-12 {
+    background-image: url("/assets/icon/12.png");
+}
+.bi-13 {
+    background-image: url("/assets/icon/13.png");
+}
+.bi-14 {
+    background-image: url("/assets/icon/14.png");
+}
+.bi-15 {
+    background-image: url("/assets/icon/15.png");
+}
+.bi-16 {
+    background-image: url("/assets/icon/16.png");
+}
+.bi-17 {
+    background-image: url("/assets/icon/17.png");
+}
+.bi-18 {
+    background-image: url("/assets/icon/18.png");
+}
+.bi-19 {
+    background-image: url("/assets/icon/19.png");
+}
+.bi-20 {
+    background-image: url("/assets/icon/20.png");
+}
+.bi-21 {
+    background-image: url("/assets/icon/21.png");
+}
+.bi-22 {
+    background-image: url("/assets/icon/22.png");
+}
+.bi-23 {
+    background-image: url("/assets/icon/23.png");
+}
+.bi-24 {
+    background-image: url("/assets/icon/24.png");
+}
+.bi-25 {
+    background-image: url("/assets/icon/25.png");
+}
+.bi-26 {
+    background-image: url("/assets/icon/26.png");
+}

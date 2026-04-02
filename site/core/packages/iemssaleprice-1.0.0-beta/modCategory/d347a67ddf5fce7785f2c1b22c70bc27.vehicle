@@ -1,0 +1,154 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Plugins' => 
+    array (
+      '902b67d257827d005e6c7d6bd47f3252' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"ieMsSalePrice","description":"","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * @var modX $modx\\n * @var IeMsSalePrice $iemssaleprice\\n * @var ieMsSalePriceTools $tools\\n * @var MsIeService $service\\n * @var MsIeWorker $worker\\n * @var array $config\\n * @var array $scriptProperties\\n * @var string $mode\\n * @var bool $checking\\n *\\/\\n\\n$iemssaleprice = $modx->getService(\'iemssaleprice\', \'IeMsSalePrice\');\\nif (!$iemssaleprice) return;\\n\\n$tools = $iemssaleprice->getTools();\\nif (!$tools->hasAddition(\'mssaleprice\')) return;\\n\\nswitch ($modx->event->name) {\\n    case \'msieOnLoadServices\':\\n        $modx->event->output($tools->getServices($mode));\\n        break;\\n    case \'msieOnGetServiceFields\':\\n        if ($service instanceof IeMs2ProductExportService) {\\n            $fields = $tools->getSalePriceCustomFields(\'mssp_\', \'msSalePrice\');\\n            $modx->event->output($fields);\\n        }\\n        break;\\n    case \'msieOnExportStart\':\\n        if (\\n            $worker instanceof IeMs2ProductExportWorker &&\\n            $tools->hasSalePriceFields($worker->getFields())\\n        ) {\\n            $ids = $worker->getResourceIds();\\n            $index = $worker->unsetField(\'mssp_prices\');\\n            if ($counts = $tools->getCountSalePrice($ids)) {\\n                $fields = array();\\n                foreach ($counts as $count) {\\n                    $key = \\"mssp_price_{$count}\\";\\n                    $fields[] = $key;\\n                    $worker->addFieldLexicon($key, $modx->lexicon(\'msie_alias_price\', array(\'count\' => $count)));\\n                    $worker->addPrepareFieldMethod(\\"mssp_price_{$count}\\", $tools, \'prepareFieldPrices\');\\n                }\\n                $worker->insertField($fields, $index);\\n            }\\n        }\\n        break;\\n}\\nreturn;","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * @var modX $modx\\n * @var IeMsSalePrice $iemssaleprice\\n * @var ieMsSalePriceTools $tools\\n * @var MsIeService $service\\n * @var MsIeWorker $worker\\n * @var array $config\\n * @var array $scriptProperties\\n * @var string $mode\\n * @var bool $checking\\n *\\/\\n\\n$iemssaleprice = $modx->getService(\'iemssaleprice\', \'IeMsSalePrice\');\\nif (!$iemssaleprice) return;\\n\\n$tools = $iemssaleprice->getTools();\\nif (!$tools->hasAddition(\'mssaleprice\')) return;\\n\\nswitch ($modx->event->name) {\\n    case \'msieOnLoadServices\':\\n        $modx->event->output($tools->getServices($mode));\\n        break;\\n    case \'msieOnGetServiceFields\':\\n        if ($service instanceof IeMs2ProductExportService) {\\n            $fields = $tools->getSalePriceCustomFields(\'mssp_\', \'msSalePrice\');\\n            $modx->event->output($fields);\\n        }\\n        break;\\n    case \'msieOnExportStart\':\\n        if (\\n            $worker instanceof IeMs2ProductExportWorker &&\\n            $tools->hasSalePriceFields($worker->getFields())\\n        ) {\\n            $ids = $worker->getResourceIds();\\n            $index = $worker->unsetField(\'mssp_prices\');\\n            if ($counts = $tools->getCountSalePrice($ids)) {\\n                $fields = array();\\n                foreach ($counts as $count) {\\n                    $key = \\"mssp_price_{$count}\\";\\n                    $fields[] = $key;\\n                    $worker->addFieldLexicon($key, $modx->lexicon(\'msie_alias_price\', array(\'count\' => $count)));\\n                    $worker->addPrepareFieldMethod(\\"mssp_price_{$count}\\", $tools, \'prepareFieldPrices\');\\n                }\\n                $worker->insertField($fields, $index);\\n            }\\n        }\\n        break;\\n}\\nreturn;"}',
+        'guid' => '36435003bcb4bdfaca85c68a509ed28c',
+        'native_key' => NULL,
+        'signature' => '1c49145c57eadbd0f82a30ce4de08f56',
+        'related_objects' => 
+        array (
+          'PluginEvents' => 
+          array (
+            '1c486d4c9d18207e0cc259e9e5546502' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnExportStart","priority":0,"propertyset":0}',
+              'guid' => '14382495c0d37b393cd52500d3ebe0ee',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnExportStart',
+              ),
+              'signature' => '0667b958febb64d0d9cc01cdcd2d229b',
+            ),
+            'acd20b0dbaa5b787c0389b581073cfc2' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnGetServiceFields","priority":0,"propertyset":0}',
+              'guid' => '80587c2c9846c40c263945ba553609d1',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnGetServiceFields',
+              ),
+              'signature' => 'cd6ca2ab91a9693eeaced05e47288a67',
+            ),
+            '8e6eafb60bb6da453335930a50442d4c' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnLoadServices","priority":0,"propertyset":0}',
+              'guid' => '50672a9175e20c21e5c6861ee161c7b5',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnLoadServices',
+              ),
+              'signature' => '7237489afc28159ee726118bcb64b5ca',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'iemssaleprice',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"iemssaleprice-1.0.0-beta\\/modCategory\\/d347a67ddf5fce7785f2c1b22c70bc27\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"iemssaleprice"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"iemssaleprice-1.0.0-beta\\/modCategory\\/d347a67ddf5fce7785f2c1b22c70bc27\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"iemssaleprice"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iemssaleprice-1.0.0-beta\\/modCategory\\/d347a67ddf5fce7785f2c1b22c70bc27.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iemssaleprice-1.0.0-beta\\/modCategory\\/d347a67ddf5fce7785f2c1b22c70bc27.resolve.settings.resolver","type":"php","name":"resolve.settings"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iemssaleprice-1.0.0-beta\\/modCategory\\/d347a67ddf5fce7785f2c1b22c70bc27.package.resolver.resolver","type":"php","name":"package.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => '654c90b8713f374d7442fab25b7b4e40',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'd347a67ddf5fce7785f2c1b22c70bc27',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"ieMsSalePrice","rank":0}',
+);

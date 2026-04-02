@@ -1,0 +1,23 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => 'ieyandexmarket-1.0.2-beta/xPDOFileVehicle/cd25216d61559ab300eb5ee50ee89542/',
+    'target' => 'return MODX_CORE_PATH . \'components/\';',
+    'name' => 'ieyandexmarket',
+  ),
+  'vehicle_class' => 'xPDOFileVehicle',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"ieyandexmarket-1.0.2-beta\\/xPDOFileVehicle\\/cd25216d61559ab300eb5ee50ee89542.resolve.encryption.resolver","name":"resolve.encryption"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => 'cfd006a9f318013c1446cb2ca282db4d',
+  'package' => '',
+  'signature' => 'cd25216d61559ab300eb5ee50ee89542',
+  'native_key' => 'cfd006a9f318013c1446cb2ca282db4d',
+);

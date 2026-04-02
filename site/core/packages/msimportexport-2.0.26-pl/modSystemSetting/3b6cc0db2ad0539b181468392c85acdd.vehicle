@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimportexport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '90f617c43189108244475dfb08431e41',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '3b6cc0db2ad0539b181468392c85acdd',
+  'native_key' => 'msimportexport_writers',
+  'object' => '{"key":"msimportexport_writers","value":"{\\"csv\\":\\"MsIeCSVWriter\\",\\"tsv\\":\\"MsIeTSVWriter\\",\\"xlsx\\":\\"MsIeXLSXWriter\\",\\"xlsx2\\":\\"MsIeXLSX2Writer\\",\\"ods\\":\\"MsIeODSWriter\\",\\"json\\":\\"MsIeJSONWriter\\",\\"xml\\":\\"MsIeXMLWriter\\"}","xtype":"textfield","namespace":"msimportexport","area":"msimportexport_system","editedon":"2024-06-09 18:28:07"}',
+);

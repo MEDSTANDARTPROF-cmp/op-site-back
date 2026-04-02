@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'quickview',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f5b180beb61a21a910d4e5e3d48890c8',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'd0f941960b4a10e4643b01cd7d1a886d',
+  'native_key' => 'quickview_front_js',
+  'object' => '{"key":"quickview_front_js","value":"[[+assetsUrl]]js\\/default.min.js","xtype":"textfield","namespace":"quickview","area":"quickview_main","editedon":null}',
+);

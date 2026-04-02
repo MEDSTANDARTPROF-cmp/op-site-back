@@ -1,0 +1,16 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'ieyandexmarket',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => '5d6b53040b646e3cb2f1af34501f87eb',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '7bf42601e92eecf1090cfc64d107d397',
+  'native_key' => 'ieyandexmarket_xml_writer_class',
+  'object' => '{"key":"ieyandexmarket_xml_writer_class","value":"IeYandexMarketXMLWriter","xtype":"textfield","namespace":"ieyandexmarket","area":"ieyandexmarket_main","editedon":null}',
+);

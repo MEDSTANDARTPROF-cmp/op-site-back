@@ -1,0 +1,116 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Plugins' => 
+    array (
+      '554f782f71d50ae049c72c4495f171a3' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"ieMs2","description":"","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * @var modX $modx\\n * @var IeMs2 $iems2\\n * @var MsIeService $service\\n * @var array $scriptProperties\\n * @var string $serviceName\\n * @var bool $checking\\n *\\/\\n\\n$iems2 = $modx->getService(\'iems2\', \'IeMs2\');\\nif (!$iems2) return;\\n\\n$tools = $iems2->getTools();\\nif (!$tools->hasAddition(\'minishop2\')) return;\\n\\nswitch ($modx->event->name) {\\n    case \'msieOnLoadServices\':\\n        $modx->event->output($iems2->getTools()->getServices($mode));\\n        break;\\n}\\nreturn;","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * @var modX $modx\\n * @var IeMs2 $iems2\\n * @var MsIeService $service\\n * @var array $scriptProperties\\n * @var string $serviceName\\n * @var bool $checking\\n *\\/\\n\\n$iems2 = $modx->getService(\'iems2\', \'IeMs2\');\\nif (!$iems2) return;\\n\\n$tools = $iems2->getTools();\\nif (!$tools->hasAddition(\'minishop2\')) return;\\n\\nswitch ($modx->event->name) {\\n    case \'msieOnLoadServices\':\\n        $modx->event->output($iems2->getTools()->getServices($mode));\\n        break;\\n}\\nreturn;"}',
+        'guid' => '5f54dbd3378c6dc00c8c2848aaa87b57',
+        'native_key' => NULL,
+        'signature' => 'b3fd64252b2b4e569ec850e955074c4f',
+        'related_objects' => 
+        array (
+          'PluginEvents' => 
+          array (
+            '760544148526d69b5e5b27e9ec29251f' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnLoadServices","priority":0,"propertyset":0}',
+              'guid' => '9fee30b3f6069c6ead556a6d39e62422',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnLoadServices',
+              ),
+              'signature' => '3bc3faed231ea4c993c1fb912b45ec5e',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'iems2',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"iems2-1.0.5-pl\\/modCategory\\/153290bc48fd97ed8d3a2a77da7b6b7c\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"iems2"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"iems2-1.0.5-pl\\/modCategory\\/153290bc48fd97ed8d3a2a77da7b6b7c\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"iems2"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iems2-1.0.5-pl\\/modCategory\\/153290bc48fd97ed8d3a2a77da7b6b7c.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iems2-1.0.5-pl\\/modCategory\\/153290bc48fd97ed8d3a2a77da7b6b7c.resolve.settings.resolver","type":"php","name":"resolve.settings"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iems2-1.0.5-pl\\/modCategory\\/153290bc48fd97ed8d3a2a77da7b6b7c.package.resolver.resolver","type":"php","name":"package.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => '6add79931e42753ac5be7d070618bf89',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '153290bc48fd97ed8d3a2a77da7b6b7c',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"ieMs2","rank":0}',
+);

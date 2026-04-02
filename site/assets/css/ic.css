@@ -1,0 +1,133 @@
+.ic {
+    width: 36px;
+    height: 36px;
+    background: url('/assets/images/icon/factory-100.png') no-repeat center center;
+    background-size: contain;
+    display: inline-block;
+}
+.ic-24 {
+    width: 24px;
+    height: 24px;
+}
+.ic-16 {
+    width: 16px;
+    height: 16px;
+}
+.ic-company {
+    background-image: url('/assets/images/icon/company-100.png');
+}
+.ic-outgoing-call {
+    background-image: url('/assets/images/icon/outgoing-call-100.png');
+}
+.ic-factory {
+    background-image: url('/assets/images/icon/factory-100.png');
+}
+.ic-support {
+    background-image: url('/assets/images/icon/support-100.png');
+}
+.ic-col {
+    background-image: url('/assets/images/icon/col.svg');
+}
+.ic-doc {
+    background-image: url('/assets/images/icon/doc-100.png');
+}
+.ic-cart-36x46 {
+    background-image: url('/assets/images/icon/ic-cart-36x46.svg');
+    width: 36px;
+    height: 46px;
+}
+
+.ic-telegram {
+    background-image: url('/assets/images/icon/icons/telegram.svg');
+}
+.ic-whatsapp {
+    background-image: url('/assets/images/icon/icons/whatsapp.svg');
+}
+
+.ic-envelope-fill {
+    background-image: url('/assets/images/icon/icons/envelope-fill.svg');
+}
+.ic-file-earmark-spreadsheet-fill {
+    background-image: url('/assets/images/icon/icons/file-earmark-spreadsheet-fill.svg');
+}
+.ic-telephone-inbound {
+    background-image: url('/assets/images/icon/icons/telephone-inbound-fill.svg');
+}
+
+.ic-chat-left-text {
+    background-image: url('/assets/images/icon/icons/chat-left-text.svg');
+}
+.ic-chat-left-text-fill {
+    background-image: url('/assets/images/icon/icons/chat-left-text-fill.svg');
+}
+.ic-percent {
+    background-image: url('/assets/images/icon/icons/percent.svg');
+}
+.ic-chat-left-text-fill {
+    background-image: url('/assets/images/icon/icons/chat-left-text-fill.svg');
+}
+
+.ic-clipboard-check-fill {
+    background-image: url('/assets/images/icon/icons/clipboard-check-fill.svg');
+}
+.ic-house-fill {
+    background-image: url('/assets/images/icon/icons/house-fill.svg');
+}
+.ic-telephone-inbound-fill {
+    background-image: url('/assets/images/icon/icons/telephone-inbound-fill.svg');
+}
+.ic-headset {
+    background-image: url('/assets/images/icon/icons/headset.svg');
+}
+.ic-file-arrow-up {
+    background-image: url('/assets/images/icon/icons/file-arrow-up.svg');
+}
+
+.ic-grid-fill {
+    background-image: url('/assets/images/icon/icons/grid-fill.svg');
+}
+
+.ic-truck {
+    background-image: url('/assets/images/icon/icons/truck.svg');
+}
+
+.ic-111111111 {
+    background-image: url('/assets/images/icon/icons/111111111111.svg');
+}
+
+.ic-111111111 {
+    background-image: url('/assets/images/icon/icons/111111111111.svg');
+}
+
+.ic-111111111 {
+    background-image: url('/assets/images/icon/icons/111111111111.svg');
+}
+
+.ic-111111111 {
+    background-image: url('/assets/images/icon/icons/111111111111.svg');
+}
+
+
+.in {
+    filter: invert(1);
+}
+.ic-m-nav {
+    background-image: url(/assets/images/icon/nav-b.svg);
+    width: 78px;
+    height: 41px;
+    background-repeat: no-repeat;
+    display: block;
+    min-width: 78px;
+    background-size: contain;
+}
+.ic-m-nav-w {
+    background-image: url(/assets/images/icon/nav-w.svg);
+    filter: brightness(2);
+}
+.icon {
+    width: 64px;
+    height: 64px;
+    background: url('/assets/images/icon/icon-image.png') no-repeat center center;
+    background-size: contain;
+    margin: 0 auto;
+}

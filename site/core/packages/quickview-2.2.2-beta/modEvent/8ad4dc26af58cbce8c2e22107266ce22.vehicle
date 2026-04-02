@@ -1,0 +1,15 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'quickview',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd0f484adb0d5b979f939f4ec0822cd69',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => '8ad4dc26af58cbce8c2e22107266ce22',
+  'native_key' => 'QuickViewOnBeforeProcessContent',
+  'object' => '{"name":"QuickViewOnBeforeProcessContent","service":6,"groupname":"QuickView"}',
+);

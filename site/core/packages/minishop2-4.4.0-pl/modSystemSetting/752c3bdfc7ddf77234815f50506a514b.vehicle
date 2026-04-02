@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'minishop2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '61b980e1536008b0db9253682c86fed1',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '752c3bdfc7ddf77234815f50506a514b',
+  'native_key' => 'ms2_order_format_phone',
+  'object' => '{"key":"ms2_order_format_phone","value":"\\/[^-+()0-9]\\/u","xtype":"textfield","namespace":"minishop2","area":"ms2_order","editedon":"2024-08-06 09:57:04"}',
+);

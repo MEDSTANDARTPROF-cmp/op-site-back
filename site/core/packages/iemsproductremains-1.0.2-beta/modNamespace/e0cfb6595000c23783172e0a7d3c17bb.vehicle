@@ -1,0 +1,16 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'name',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'iemsproductremains',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => 'be99ab0674b4f86d241bc22bde47035d',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => 'e0cfb6595000c23783172e0a7d3c17bb',
+  'native_key' => 'iemsproductremains',
+  'object' => '{"name":"iemsproductremains","path":"{core_path}components\\/iemsproductremains\\/","assets_path":"{assets_path}components\\/iemsproductremains\\/"}',
+);

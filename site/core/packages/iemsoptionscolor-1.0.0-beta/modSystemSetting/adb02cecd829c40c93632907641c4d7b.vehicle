@@ -1,0 +1,16 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'iemsoptionscolor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => '596c082ab49a0989c6ee0387efa53bdf',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'adb02cecd829c40c93632907641c4d7b',
+  'native_key' => 'iemsoptionscolor_exportservice_worker',
+  'object' => '{"key":"iemsoptionscolor_exportservice_worker","value":"ieMsOptionsColorExportWorker","xtype":"textfield","namespace":"iemsoptionscolor","area":"iemsoptionscolor_main","editedon":"2020-08-23 21:50:44"}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimportexport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'cfa4562a591840bd628ff255316b9fb2',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'a20ce7814770962148d91ff6d09ad2e2',
+  'native_key' => 'msimportexport_export_default_settings',
+  'object' => '{"key":"msimportexport_export_default_settings","value":"{\\"debug\\":0,\\"export_format\\":\\"\\",\\"filename\\":\\"\\",\\"export_path\\":\\"\\",\\"file_ttl\\":0,\\"download_lock_ttl\\":\\"\\",\\"archive\\":0,\\"skip_top_lines\\":\\"\\",\\"add_keys\\":0,\\"add_fields\\":0,\\"skip_field_parse\\":\\"\\",\\"first_delimiter\\":\\"|\\",\\"second_delimiter\\":\\"%\\",\\"auto_restart_limit\\":3,\\"limit\\":500,\\"where\\":\\"\\",\\"leftjoin\\":\\"\\",\\"innerjoin\\":\\"\\",\\"select\\":\\"\\",\\"notice\\":\\"\\",\\"notice_method\\":\\"email\\",\\"notice_email\\":\\"\\",\\"notice_status\\":[],\\"notice_template_subject\\":\\"\\",\\"notice_template_message\\":\\"\\",\\"csv_delimiter\\":\\";\\",\\"csv_enclosure\\":\\"\\\\\\"\\",\\"csv_escape\\":\\"\\\\\\\\\\\\\\\\\\",\\"iteration_report\\":3,\\"task_refresh_freq\\":2,\\"script_memory_limit\\":\\"\\",\\"ctx\\":\\"\\",\\"resources\\":\\"\\",\\"published_only\\":1,\\"exclude_deleted\\":1}","xtype":"textarea","namespace":"msimportexport","area":"msimportexport_export","editedon":"2020-11-30 17:14:19"}',
+);

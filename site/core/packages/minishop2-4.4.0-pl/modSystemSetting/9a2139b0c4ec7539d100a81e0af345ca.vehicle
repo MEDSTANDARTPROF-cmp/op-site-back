@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'minishop2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a634ea6c46da73f44c2ee6bc1b4ac6d4',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '9a2139b0c4ec7539d100a81e0af345ca',
+  'native_key' => 'ms2_product_source_default',
+  'object' => '{"key":"ms2_product_source_default","value":0,"xtype":"modx-combo-source","namespace":"minishop2","area":"ms2_product","editedon":"2024-08-06 09:57:04"}',
+);

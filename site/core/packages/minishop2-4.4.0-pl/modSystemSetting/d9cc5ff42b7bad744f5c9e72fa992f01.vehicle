@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'minishop2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '19a5b230f36fa40788c7bc0008ef70fd',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'd9cc5ff42b7bad744f5c9e72fa992f01',
+  'native_key' => 'ms2_cart_js_class_path',
+  'object' => '{"key":"ms2_cart_js_class_path","value":"[[+jsUrl]]web\\/vanilajs\\/modules\\/mscart.class.js","xtype":"textfield","namespace":"minishop2","area":"ms2_frontend","editedon":"2024-08-06 09:57:04"}',
+);

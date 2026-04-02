@@ -1,0 +1,34 @@
+# Пароли и доступы
+.1_пороли
+scripts/config.sh
+
+# Бэкапы и дампы
+backup/
+
+# Архивы
+*.tar.gz
+*.zip
+
+# Кеш MODX
+site/core/cache/*
+!site/core/cache/.gitkeep
+
+# Docker volumes
+docker/db_data/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE (settings включаем, они нужны)
+# .vscode/ — НЕ игнорируем, нужны настройки проекта
+
+# Загруженные файлы пользователей (большие, живут на сервере)
+site/assets/images/products/
+site/assets/uploads/
+
+# Проблемные файлы
+site/assets/images/temp/com2.png
+
+# MODX setup (если есть)
+site/setup/

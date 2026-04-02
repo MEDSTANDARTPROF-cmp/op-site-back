@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimportexport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2ce52fdf375a59ff41c23cc283f3cb52',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '38fc04de6b7acce326d4cd97ea15d487',
+  'native_key' => 'msimportexport_system_settings',
+  'object' => '{"key":"msimportexport_system_settings","value":"{\\"php_interpreter\\":\\"\\/usr\\/bin\\/php\\",\\"watcher_script_path\\":\\"\\/www\\/wwwroot\\/dev.modxstore.net\\/core\\/components\\/msimportexport\\/scripts\\/watcher.php\\",\\"watcher_max_count\\":3,\\"watcher_wait\\":3,\\"watcher_lifetime\\":1800,\\"mysql_wait_timeout\\":28800,\\"watcher_debug\\":0,\\"task_list_refresh_freq\\":30,\\"pid_refresh_freq\\":3,\\"gc_file_maxlifetime\\":259200,\\"gc_task_maxlifetime\\":259200,\\"gc_schedule\\":\\"5 5 * * *\\",\\"tmp_path\\":\\"{+assets_path}tmp\\/\\",\\"upload_path\\":\\"{+assets_path}upload\\/\\",\\"export_path\\":\\"{+assets_path}export\\/\\",\\"search_depth\\":10,\\"daemon_mode\\":0}","xtype":"textarea","namespace":"msimportexport","area":"msimportexport_system","editedon":"2022-09-16 22:11:41"}',
+);

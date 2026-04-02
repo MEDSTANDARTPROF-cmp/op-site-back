@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tinymcerte',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f429948b165b7f533c0a998e88df93d3',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'a3aa4c380da60dcb7ff9c12b33bdc1a2',
+  'native_key' => 'tinymcerte.enable_link_list',
+  'object' => '{"key":"tinymcerte.enable_link_list","value":true,"xtype":"combo-boolean","namespace":"tinymcerte","area":"tinymcerte.default","editedon":null}',
+);

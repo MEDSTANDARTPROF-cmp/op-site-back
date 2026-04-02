@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'minishop2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3af32a4f0c387d478bd581f7b892632f',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '3e0e2028ecea25c07d4406e2b2295548',
+  'native_key' => 'ms2_status_new',
+  'object' => '{"key":"ms2_status_new","value":0,"xtype":"numberfield","namespace":"minishop2","area":"ms2_statuses","editedon":"2024-08-06 09:57:04"}',
+);

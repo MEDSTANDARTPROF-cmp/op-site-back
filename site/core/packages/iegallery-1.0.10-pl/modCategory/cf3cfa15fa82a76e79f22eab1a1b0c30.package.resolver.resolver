@@ -1,0 +1,20 @@
+<?php
+/**
+ * @var array $options
+ * @var xPDOTransport $transport
+ */
+
+if ($object->xpdo) {
+    /** @var modX $modx */
+    $modx =& $object->xpdo;
+    switch ($options[xPDOTransport::PACKAGE_ACTION]) {
+        case xPDOTransport::ACTION_INSTALL:
+        case xPDOTransport::ACTION_UPGRADE:
+            $modx->addExtensionPackage(PKG_NAME_LOWER, '[[++core_path]]components/' . PKG_NAME_LOWER . '/model/');
+            break;
+        case xPDOTransport::ACTION_UNINSTALL:
+            $modx->removeExtensionPackage(PKG_NAME_LOWER);
+            break;
+    }
+}
+return true;

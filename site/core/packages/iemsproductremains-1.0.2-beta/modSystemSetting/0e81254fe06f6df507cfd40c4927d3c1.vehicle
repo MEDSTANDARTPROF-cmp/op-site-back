@@ -1,0 +1,16 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'iemsproductremains',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => '90eee3ba5a3ce467afaa00b3f07d1edf',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '0e81254fe06f6df507cfd40c4927d3c1',
+  'native_key' => 'iemsproductremains_tools_handler_class',
+  'object' => '{"key":"iemsproductremains_tools_handler_class","value":"IeMsProductRemainsTools","xtype":"textfield","namespace":"iemsproductremains","area":"iemsproductremains_main","editedon":null}',
+);

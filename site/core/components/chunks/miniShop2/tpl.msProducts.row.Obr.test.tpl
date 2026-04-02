@@ -1,0 +1,1 @@
+<a href="{$id | url}" class="btn py-3 btn-outline-secondary fw-7 mb-3 text-decoration-none text-start ">{$pagetitle}</a>

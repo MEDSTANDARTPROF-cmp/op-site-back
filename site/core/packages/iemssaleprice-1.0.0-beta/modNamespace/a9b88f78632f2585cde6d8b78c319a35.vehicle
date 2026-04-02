@@ -1,0 +1,16 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'name',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'iemssaleprice',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => '6bcf56b9a9356a18e5766582b1298bbe',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => 'a9b88f78632f2585cde6d8b78c319a35',
+  'native_key' => 'iemssaleprice',
+  'object' => '{"name":"iemssaleprice","path":"{core_path}components\\/iemssaleprice\\/","assets_path":"{assets_path}components\\/iemssaleprice\\/"}',
+);

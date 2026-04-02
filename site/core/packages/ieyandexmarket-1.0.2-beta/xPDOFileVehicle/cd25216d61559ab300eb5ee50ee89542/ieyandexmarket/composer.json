@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "classmap": [
+      "handlers/tools/",
+      "handlers/services/",
+      "handlers/workers/",
+      "handlers/readers/",
+      "handlers/writers/"
+    ]
+  },
+  "require": {
+    "bukashk0zzz/yml-generator": "^1.11"
+  }
+}

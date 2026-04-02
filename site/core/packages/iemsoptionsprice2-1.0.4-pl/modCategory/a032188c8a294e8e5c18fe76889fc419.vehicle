@@ -1,0 +1,173 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Plugins' => 
+    array (
+      'c4bc0f4a5fba08e9376deb5f4d8b0bf4' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"ieMsOptionsPrice2","description":"","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * @var modX $modx\\n * @var IeMsOptionsPrice2 $iemsoptionsprice2\\n * @var ieMsOptionsPrice2Tools $tools\\n * @var MsIeService $service\\n * @var MsIeWorker $worker\\n * @var array $data\\n * @var array $scriptProperties\\n * @var string $mode\\n * @var string $dataType\\n * @var bool $checking\\n *\\/\\n\\n$iemsoptionsprice2 = $modx->getService(\'iemsoptionsprice2\', \'IeMsOptionsPrice2\');\\nif (!$iemsoptionsprice2) return;\\n\\n$tools = $iemsoptionsprice2->getTools();\\nif (!$tools->hasAddition(\'msoptionsprice\')) return;\\n\\nswitch ($modx->event->name) {\\n    case \'msieOnLoadServices\':\\n        $modx->event->output($tools->getServices($mode));\\n        break;\\n    case \'msieOnGetServiceFields\':\\n        if ($service instanceof IeMs2ProductImportService) {\\n            if ($msopService = $tools->getService(Msie::MODE_IMPORT, \'ieMsOptionsPrice2ImportService\')) {\\n                if ($fields = $msopService->getCustomFields()) {\\n                    $modx->event->output($fields);\\n                }\\n            }\\n        }\\n        break;\\n    case \'msieOnImportStart\':\\n        if (\\n            $worker instanceof IeMs2ProductImportWorker &&\\n            $tools->hasOptionsPrice2Fields($worker->getFields())\\n        ) {\\n            if ($msopService = $tools->getService(Msie::MODE_IMPORT, \'ieMsOptionsPrice2ImportService\')) {\\n                if ($msopWorker = $msopService->getWorker()) {\\n                    $worker->addSubWorker($msopWorker, \'iemsoptionsprice2\');\\n                    $msopWorker->initialize();\\n                }\\n            }\\n        }\\n        break;\\n    case \'msieOnImport\':\\n        if (\\n            $worker instanceof IeMs2ProductImportWorker &&\\n            $worker->hasSubWorker(\'iemsoptionsprice2\')\\n        ) {\\n            $msopWorker = $worker->getSubWorker(\'iemsoptionsprice2\');\\n            $data = $msopWorker->filterOptionsPrice2Data($data);\\n            $data[\'rid\'] = $modx->getOption(\'id\', $object, 0);\\n            $data = $msopWorker->afterPrepareData($data);\\n            $msopWorker->work($data);\\n        }\\n        break;\\n}\\nreturn;","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * @var modX $modx\\n * @var IeMsOptionsPrice2 $iemsoptionsprice2\\n * @var ieMsOptionsPrice2Tools $tools\\n * @var MsIeService $service\\n * @var MsIeWorker $worker\\n * @var array $data\\n * @var array $scriptProperties\\n * @var string $mode\\n * @var string $dataType\\n * @var bool $checking\\n *\\/\\n\\n$iemsoptionsprice2 = $modx->getService(\'iemsoptionsprice2\', \'IeMsOptionsPrice2\');\\nif (!$iemsoptionsprice2) return;\\n\\n$tools = $iemsoptionsprice2->getTools();\\nif (!$tools->hasAddition(\'msoptionsprice\')) return;\\n\\nswitch ($modx->event->name) {\\n    case \'msieOnLoadServices\':\\n        $modx->event->output($tools->getServices($mode));\\n        break;\\n    case \'msieOnGetServiceFields\':\\n        if ($service instanceof IeMs2ProductImportService) {\\n            if ($msopService = $tools->getService(Msie::MODE_IMPORT, \'ieMsOptionsPrice2ImportService\')) {\\n                if ($fields = $msopService->getCustomFields()) {\\n                    $modx->event->output($fields);\\n                }\\n            }\\n        }\\n        break;\\n    case \'msieOnImportStart\':\\n        if (\\n            $worker instanceof IeMs2ProductImportWorker &&\\n            $tools->hasOptionsPrice2Fields($worker->getFields())\\n        ) {\\n            if ($msopService = $tools->getService(Msie::MODE_IMPORT, \'ieMsOptionsPrice2ImportService\')) {\\n                if ($msopWorker = $msopService->getWorker()) {\\n                    $worker->addSubWorker($msopWorker, \'iemsoptionsprice2\');\\n                    $msopWorker->initialize();\\n                }\\n            }\\n        }\\n        break;\\n    case \'msieOnImport\':\\n        if (\\n            $worker instanceof IeMs2ProductImportWorker &&\\n            $worker->hasSubWorker(\'iemsoptionsprice2\')\\n        ) {\\n            $msopWorker = $worker->getSubWorker(\'iemsoptionsprice2\');\\n            $data = $msopWorker->filterOptionsPrice2Data($data);\\n            $data[\'rid\'] = $modx->getOption(\'id\', $object, 0);\\n            $data = $msopWorker->afterPrepareData($data);\\n            $msopWorker->work($data);\\n        }\\n        break;\\n}\\nreturn;"}',
+        'guid' => 'af0259f327a9669f2991e1d71cbe27fd',
+        'native_key' => NULL,
+        'signature' => '1b3665a4341f347c9c6683c238ae81f7',
+        'related_objects' => 
+        array (
+          'PluginEvents' => 
+          array (
+            '44958e3295e54ea4628c4e7278ce13b7' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnGetServiceFields","priority":0,"propertyset":0}',
+              'guid' => '2dfc9314566490c2a2c7b3bec256e698',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnGetServiceFields',
+              ),
+              'signature' => '388ee883d675469c743067be0e028063',
+            ),
+            '766145bdead8d6163a4670544c5df5e9' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnImport","priority":0,"propertyset":0}',
+              'guid' => '6dd689b68ca3f23b72e5d97ebd017659',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnImport',
+              ),
+              'signature' => '9ddf785785deb41c40b7fdbe21414e2d',
+            ),
+            'eac7dfd919d06ad17774f74ef8d77d8f' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnImportStart","priority":0,"propertyset":0}',
+              'guid' => 'c8f15598adca44acb69dc35a28a4502d',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnImportStart',
+              ),
+              'signature' => '77815f94633783a17794427367f55a9d',
+            ),
+            'bf2321802d4f5b5cbeab52e30865521e' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnLoadServices","priority":0,"propertyset":0}',
+              'guid' => '70e071d28296d1b01fe0db1f43ab53ba',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnLoadServices',
+              ),
+              'signature' => '99b31f791793210b25542b2a65b4ea8f',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'iemsoptionsprice2',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"iemsoptionsprice2-1.0.4-pl\\/modCategory\\/a032188c8a294e8e5c18fe76889fc419\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"iemsoptionsprice2"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"iemsoptionsprice2-1.0.4-pl\\/modCategory\\/a032188c8a294e8e5c18fe76889fc419\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"iemsoptionsprice2"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iemsoptionsprice2-1.0.4-pl\\/modCategory\\/a032188c8a294e8e5c18fe76889fc419.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iemsoptionsprice2-1.0.4-pl\\/modCategory\\/a032188c8a294e8e5c18fe76889fc419.resolve.settings.resolver","type":"php","name":"resolve.settings"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iemsoptionsprice2-1.0.4-pl\\/modCategory\\/a032188c8a294e8e5c18fe76889fc419.package.resolver.resolver","type":"php","name":"package.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => '76cfc0f641be0eeb02ca6374fa8074fd',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'a032188c8a294e8e5c18fe76889fc419',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"ieMsOptionsPrice2","rank":0}',
+);

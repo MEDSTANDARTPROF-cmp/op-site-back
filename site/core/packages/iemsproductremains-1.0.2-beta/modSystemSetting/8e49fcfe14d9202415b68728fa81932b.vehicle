@@ -1,0 +1,16 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'iemsproductremains',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => '36a057dbbd368da7604219af376ff741',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '8e49fcfe14d9202415b68728fa81932b',
+  'native_key' => 'iemsproductremains_importservice_worker',
+  'object' => '{"key":"iemsproductremains_importservice_worker","value":"ieMsProductRemainsImportWorker","xtype":"textfield","namespace":"iemsproductremains","area":"iemsproductremains_main","editedon":"2020-07-29 22:21:57"}',
+);

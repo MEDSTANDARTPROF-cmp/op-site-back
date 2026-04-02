@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'quickview',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3166a657a6cacba93bf5518572d28563',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '091394a356f7856aff533b18a1ea3625',
+  'native_key' => 'quickview_allowed_chunk',
+  'object' => '{"key":"quickview_allowed_chunk","value":"","xtype":"textarea","namespace":"quickview","area":"quickview_main","editedon":null}',
+);

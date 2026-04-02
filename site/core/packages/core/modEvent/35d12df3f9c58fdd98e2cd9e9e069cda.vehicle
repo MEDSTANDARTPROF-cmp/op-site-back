@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c26f3ab337ff95b279b9b4947cb832e0',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => '35d12df3f9c58fdd98e2cd9e9e069cda',
+  'native_key' => 'OnWebAuthentication',
+  'object' => '{"name":"OnWebAuthentication","service":3,"groupname":"Security"}',
+);

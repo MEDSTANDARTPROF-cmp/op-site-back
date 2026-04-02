@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '825f95ed19241a5b0197a521e1b4eb21',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c5467706c49a1f4e7e4f2ab7d5ddccbb',
+  'native_key' => 'request_param_id',
+  'object' => '{"key":"request_param_id","value":"id","xtype":"textfield","namespace":"core","area":"gateway","editedon":null}',
+);

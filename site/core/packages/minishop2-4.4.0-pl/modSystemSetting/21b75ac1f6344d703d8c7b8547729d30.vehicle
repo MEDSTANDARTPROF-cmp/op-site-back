@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'minishop2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1ed9e46cd6bf05990ba9fa8e3a3caaeb',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '21b75ac1f6344d703d8c7b8547729d30',
+  'native_key' => 'ms2_frontend_message_css',
+  'object' => '{"key":"ms2_frontend_message_css","value":"[[+cssUrl]]web\\/lib\\/jquery.jgrowl.min.css","xtype":"textfield","namespace":"minishop2","area":"ms2_frontend","editedon":"2024-08-06 09:57:04"}',
+);

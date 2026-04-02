@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '338bab905c82438b3bb6f95f0602fb17',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '3e8c07a68b06f41c239bdebca7cbde8b',
+  'native_key' => 'compress_css',
+  'object' => '{"key":"compress_css","value":true,"xtype":"combo-boolean","namespace":"core","area":"manager","editedon":null}',
+);

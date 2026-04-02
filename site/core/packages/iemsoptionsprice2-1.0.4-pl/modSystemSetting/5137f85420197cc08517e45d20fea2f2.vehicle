@@ -1,0 +1,16 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'iemsoptionsprice2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => '4eebeef5d4dac5f5005f8f456eea6f92',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '5137f85420197cc08517e45d20fea2f2',
+  'native_key' => 'iemsoptionsprice2_tools_handler_class',
+  'object' => '{"key":"iemsoptionsprice2_tools_handler_class","value":"IeMsOptionsPrice2Tools","xtype":"textfield","namespace":"iemsoptionsprice2","area":"iemsoptionsprice2_main","editedon":null}',
+);

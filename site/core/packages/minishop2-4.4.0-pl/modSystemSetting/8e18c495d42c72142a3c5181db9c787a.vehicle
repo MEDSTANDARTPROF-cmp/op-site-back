@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'minishop2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f0ea7849207cf076458f8109faea2c1b',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '8e18c495d42c72142a3c5181db9c787a',
+  'native_key' => 'ms2_status_canceled',
+  'object' => '{"key":"ms2_status_canceled","value":0,"xtype":"numberfield","namespace":"minishop2","area":"ms2_statuses","editedon":"2024-08-06 09:57:04"}',
+);

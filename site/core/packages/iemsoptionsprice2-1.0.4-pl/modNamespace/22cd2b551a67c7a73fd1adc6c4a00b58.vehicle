@@ -1,0 +1,16 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'name',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'iemsoptionsprice2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => '0621819de47d9155c86d3b95c45f2591',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => '22cd2b551a67c7a73fd1adc6c4a00b58',
+  'native_key' => 'iemsoptionsprice2',
+  'object' => '{"name":"iemsoptionsprice2","path":"{core_path}components\\/iemsoptionsprice2\\/","assets_path":"{assets_path}components\\/iemsoptionsprice2\\/"}',
+);

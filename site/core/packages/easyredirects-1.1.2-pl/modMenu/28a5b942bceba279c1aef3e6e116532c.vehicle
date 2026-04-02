@@ -1,0 +1,17 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => true,
+  'namespace' => 'easyredirects',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '095d09a62f2da8d9387c4eeee4dd9c69',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '28a5b942bceba279c1aef3e6e116532c',
+  'native_key' => 'easyredirects',
+  'object' => '{"text":"easyredirects","parent":"components","action":"home","description":"easyredirects_menu_desc","icon":"","menuindex":0,"params":"","handler":"","permissions":"","namespace":"easyredirects"}',
+);

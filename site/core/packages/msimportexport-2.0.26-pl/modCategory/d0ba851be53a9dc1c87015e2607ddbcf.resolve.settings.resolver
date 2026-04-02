@@ -1,0 +1,191 @@
+<?php
+/**
+ * Resolve system settings
+ * @var array $options
+ * @var xPDOTransport $transport
+ */
+
+if (!function_exists('setOption')) {
+    function setOption(modX $modx, $key, $value, $namespace, $clearCache = true)
+    {
+        if (empty(trim($key))) return false;
+
+        if (!$setting = $modx->getObject('modSystemSetting', $key)) {
+            $setting = $modx->newObject('modSystemSetting');
+            $setting->set('key', $key);
+            $setting->set('namespace', $namespace);
+        }
+
+        $val = is_array($value) ? $modx->toJSON($value) : $value;
+        $setting->set('value', $val);
+
+        if ($setting->save()) {
+            $modx->setOption($key, $value);
+            if ($clearCache) {
+                $modx->cacheManager->refresh(array('system_settings' => array()));
+            }
+            return true;
+        }
+        return false;
+    }
+}
+
+if (!function_exists('setDefaultSettings')) {
+    /**
+     * @param modX $modx
+     * @param array $settings
+     * @param string $mode
+     * @return void|bool
+     */
+    function setDefaultSettings(modX $modx, array $settings, $mode = 'import')
+    {
+        $namespace = 'msimportexport';
+        if (empty($settings)) return;
+        $key = "msimportexport_{$mode}_default_settings";
+        $default = $modx->getOption($key, null, '{}', true);
+        if (is_string($default)) {
+            $default = $modx->fromJSON($default);
+        }
+        if (!$default) $default = array();
+        $default = array_merge($settings, $default);
+
+        return setOption($modx, $key, $default, $namespace);
+    }
+}
+
+$importDefaultSettings = array(
+    'debug' => 0,
+    'start_from_line' => '',
+    'file' => '',
+    'remove_source_file' => 0,
+    'first_delimiter' => '|',
+    'second_delimiter' => '%',
+    'iteration_report' => 2,
+    'task_refresh_freq' => 15,
+    'auto_restart_limit' => 1,
+    'xlsx_only_first_sheet' => 0,
+    'xlsx_skip_sheet' => '',
+    'csv_delimiter' => ';',
+    'csv_enclosure' => '"',
+    'csv_escape' => '\\\\',
+    'convert_encoding' => '',
+    'source_encode' => 'cp1251',
+    'notice' => 0,
+    'notice_method' => 'email',
+    'notice_email' => '',
+    'notice_status' => array(),
+    'notice_template_subject' => 'Task ID:{$id} status: {$status_text}',
+    'notice_template_message' => '{switch $status}
+    {case \'initiated\'}
+        Mode:{$mode}; preset ID:{$preset_id} ({$preset_name}) 
+    {case \'completed\'}
+        Mode:{$mode}; preset ID:{$preset_id} ({$preset_name})
+        <ul>
+        Stats:
+        {foreach $stats as $key =>$val}
+            <li>{$key}: {$val}</li>
+        {/foreach}
+        </ul>
+        Total time: {$total_time}
+    {case \'failed\'}
+        Mode:{$mode}; preset ID:{$preset_id} ({$preset_name})
+        Stats: {$stats|print}
+    {case default}
+        Mode:{$mode}; preset ID:{$preset_id} ({$preset_name})
+{/switch}',
+    'script_memory_limit' => '',
+    'checking_field' => 'pagetitle',
+    'check_existence' => 1,
+    'disable_map_generation' => 1,
+    'parent_default' => 0,
+    'parent_delimiter' => '',
+    'skip_empty_parent' => 0,
+    'skip_action' => '',
+    'skip_empty_checking_field' => 1,
+    'check_unique_alias' => 0,
+    'create_unique_alias' => 0,
+    'template_unique_alias' => '',
+    'use_alias_in_search' => 0,
+    'ctx' => '',
+    'completion_action' => '',
+    'text_format_method' => 'nl2br',
+    'text_format_fields' => '',
+    'template_resource_default' => 1,
+    'published_resource_default' => 1,
+    'hidemenu_resource_default' => 0,
+    'searchable_resource_default' => 1,
+    'msearch2_disable_indexing' => 0,
+);
+
+$exportDefaultSettings = array(
+    'debug' => 0,
+    'export_format' => '',
+    'filename' => '',
+    'export_path' => '',
+    'file_ttl' => 0,
+    'download_lock_ttl' => '',
+    'archive' => 0,
+    'skip_top_lines' => '',
+    'add_keys' => 0,
+    'add_fields' => 0,
+    'skip_field_parse' => '',
+    'first_delimiter' => '|',
+    'second_delimiter' => '%',
+    'auto_restart_limit' => 1,
+    'limit' => 500,
+    'where' => '',
+    'leftjoin' => '',
+    'innerjoin' => '',
+    'select' => '',
+    'notice' => '',
+    'notice_method' => 'email',
+    'notice_email' => '',
+    'notice_status' => array(),
+    'notice_template_subject' => 'Task ID:{$id} status: {$status_text}',
+    'notice_template_message' => '{switch $status}
+    {case \'initiated\'}
+        Mode:{$mode}; preset ID:{$preset_id} ({$preset_name}) 
+    {case \'completed\'}
+        Mode:{$mode}; preset ID:{$preset_id} ({$preset_name})
+        <ul>
+        Stats:
+        {foreach $stats as $key =>$val}
+            <li>{$key}: {$val}</li>
+        {/foreach}
+        </ul>
+        Total time: {$total_time}
+    {case \'failed\'}
+        Mode:{$mode}; preset ID:{$preset_id} ({$preset_name})
+        Stats: {$stats|print}
+    {case default}
+        Mode:{$mode}; preset ID:{$preset_id} ({$preset_name})
+{/switch}',
+    'csv_delimiter' => ';',
+    'csv_enclosure' => '"',
+    'csv_escape' => '\\\\',
+    'iteration_report' => 3,
+    'task_refresh_freq' => 2,
+    'script_memory_limit' => '',
+    'ctx' => '',
+    'resources' => '',
+    'published_only' => 1,
+    'exclude_deleted' => 1,
+);
+
+if ($object->xpdo) {
+    switch ($options[xPDOTransport::PACKAGE_ACTION]) {
+        case xPDOTransport::ACTION_INSTALL:
+        case xPDOTransport::ACTION_UPGRADE:
+            /** @var modX $modx */
+            $modx =& $object->xpdo;
+            setDefaultSettings($modx, $importDefaultSettings);
+            setDefaultSettings($modx, $exportDefaultSettings, 'export');
+            break;
+        case xPDOTransport::ACTION_UNINSTALL:
+            break;
+
+    }
+}
+
+
+return true;

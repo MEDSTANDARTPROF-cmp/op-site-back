@@ -1,0 +1,16 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'iemsoptionsprice2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => '50cb75779bbd04dfef8d3d53ec7f7df5',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'b5c5f2b425e0176f4cf5d9e8619fc870',
+  'native_key' => 'iemsoptionsprice2_importservice_worker',
+  'object' => '{"key":"iemsoptionsprice2_importservice_worker","value":"ieMsOptionsPrice2ImportWorker","xtype":"textfield","namespace":"iemsoptionsprice2","area":"iemsoptionsprice2_main","editedon":null}',
+);

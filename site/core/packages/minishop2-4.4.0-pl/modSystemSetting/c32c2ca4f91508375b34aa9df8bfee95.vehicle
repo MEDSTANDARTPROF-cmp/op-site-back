@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'minishop2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c72442449a51589c8ee0f6c120aa5b7f',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c32c2ca4f91508375b34aa9df8bfee95',
+  'native_key' => 'ms2_use_scheduler',
+  'object' => '{"key":"ms2_use_scheduler","value":false,"xtype":"combo-boolean","namespace":"minishop2","area":"ms2_main","editedon":"2024-08-06 09:57:04"}',
+);

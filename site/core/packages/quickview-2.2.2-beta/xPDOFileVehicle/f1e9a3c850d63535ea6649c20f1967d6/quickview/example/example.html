@@ -1,0 +1,805 @@
+<!--<script src="/assets/components/themebootstrap/js/jquery.min.js"></script>
+-->
+
+<!--
+<link rel="stylesheet" href="/assets/components/minishop2/css/web/lib/fotorama.min.css" type="text/css" />
+<script type="text/javascript" src="/assets/components/minishop2/js/web/lib/fotorama.min.js"></script>
+
+-->
+
+[[-!addScript]]
+
+[[!QuickView.initialize?
+&services=`miniShop2,AjaxForm`
+&bootstrapModalJsCss=`0`
+&bootstrapDialogJsCss=`1`
+]]
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rainbow/1.2.0/js/rainbow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rainbow/1.2.0/js/language/generic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rainbow/1.2.0/js/language/html.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rainbow/1.2.0/js/language/css.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rainbow/1.2.0/js/language/javascript.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rainbow/1.2.0/themes/monokai.min.css"/>
+<script>
+	$(document).on('click', 'a.label', function (e) {
+		var name = $(this).attr('name');
+		if (typeof name != 'undefined') {
+			window.location.hash = '#'+name;
+		}
+	});
+</script>
+<style>
+	body {
+		font-size: 13px;
+		line-height: initial;
+	}
+
+	pre {
+		font-size: 12px;
+		-moz-tab-size: 1;
+		-o-tab-size: 1;
+		tab-size: 1;
+	}
+
+	pre *,
+	code * {
+		letter-spacing: initial;
+	}
+
+	pre .close {
+		float: inherit;
+		font-size: inherit;
+		font-weight: inherit;
+		line-height: inherit;
+		text-shadow: none;
+		filter: inherit;
+		opacity: inherit;
+	}
+
+	pre .close:focus,
+	pre .close:hover {
+		text-decoration: inherit;
+		cursor: inherit;
+		filter: inherit;
+		opacity: inherit;
+	}
+
+	.tm-result {
+		padding: 30px;
+		border: 1px solid #ccc;
+		border: 1px solid rgba(0, 0, 0, 0.15);
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+	}
+
+</style>
+<p>
+	<b>QuickView</b> - быстрый просмотр любого элемента в модальном окне.
+	<br>
+</p>
+
+<p>
+	- работа с <b>любыми ресурсами</b>
+	<br>- работа с <b>чанками, сниппетами, шаблонами</b>
+	<br>- вывод в <b>модальное окно</b>, либо в указанный <b>селектор</b>
+	<br>- поддержка шаблонизатора <b>fenom</b>
+</p>
+
+
+<h3 id="ex">Примеры</h3>
+
+
+<div class="row">
+	<div class="col-md-4">
+		<p>
+			<a class="label label-primary" name="ex-1">пример 1</a>
+		</p>
+		<p>
+			<b>Постановка:</b>
+			<br>- требуется по клику вывести в модальное окно чанк <b>test</b>
+			<br>- задействовать ресурс с идентификатором <b>1</b>
+			<br>- добавить кнопку закрыть окно
+		</p>
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-click
+			data-quickview-mode="modal"
+			data-data-action="chunk"
+			data-data-element="test"
+			data-data-id="1"
+			data-dialog-buttons='["close"]'
+			>ссылка&lt;/a></code></pre>
+		<p>
+			<b>Результат:</b>
+		</p>
+		<a class="quickview"
+		   data-click
+		   data-quickview-mode="modal"
+		   data-data-action="chunk"
+		   data-data-element="test"
+		   data-data-id='1'
+		   data-dialog-buttons='["close"]'
+           data-dialog-draggable='true'
+		>ссылка</a>
+
+	</div>
+
+	<div class="col-md-4">
+		<p>
+			<a class="label label-primary" name="ex-2">пример 2</a>
+		</p>
+		<p>
+			<b>Постановка:</b>
+			<br>- требуется по клику вывести в модальное окно сниппет корзины <b>msCart</b>
+			<br>- требуется широкое модальное окно
+		</p>
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-click
+			data-quickview-mode="modal"
+			data-data-action="snippet"
+			data-data-element="!msCart"
+			data-dialog-size="size-wide"
+			data-dialog-title="cart"
+			>корзина&lt;/a></code></pre>
+		<p>
+			<b>Результат:</b>
+		</p>
+		<a class="quickview"
+		   data-click
+		   data-quickview-mode="modal"
+		   data-data-action="snippet"
+		   data-data-element="!msCart"
+		   data-dialog-size="size-wide"
+		   data-dialog-title="cart"
+		>корзина</a>
+
+	</div>
+
+	<div class="col-md-4">
+		<p>
+			<a class="label label-primary" name="ex-3">пример 3</a>
+		</p>
+		<p>
+			<b>Постановка:</b>
+			<br>- требуется по клику вывести в модальное окно чанк <b>msProduct.content</b>
+			<br>- задействовать ресурс с идентификатором <b>7</b>
+		</p>
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-click
+			data-data-element="msProduct.content"
+			data-data-topics='["minishop2:product"]'
+			data-data-id="7"
+			data-dialog-title=""
+			data-dialog-size="size-wide"
+			>продукт&lt;/a></code></pre>
+
+		<p>
+			<b>Результат:</b>
+		</p>
+		<a class="quickview"
+		   data-click
+		   data-data-action="chunk"
+		   data-data-element="msProduct.content"
+		   data-data-topics='["minishop2:product","minishop2:default"]'
+		   data-data-id="7"
+		   data-dialog-title=""
+		   data-dialog-size="size-wide"
+		>продукт</a>
+
+	</div>
+</div>
+<br>
+<br>
+
+<div class="row">
+	<div class="col-md-4">
+		<p>
+			<a class="label label-primary" name="ex-4">пример 4</a>
+		</p>
+		<p>
+			<b>Постановка:</b>
+			<br>- требуется по наведению вывести в селектор чанк <b>test</b>
+			<br>- задействовать ресурс с идентификатором <b>1</b>
+			<br>- добавить кнопку закрыть окно
+		</p>
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-mouseover
+			data-windowload
+			data-quickview-mode="selector"
+			data-data-action="chunk"
+			data-data-element="test"
+			data-data-id="1"
+			data-quickview-output=".quickview-output-1"
+			data-output-buttons='["close"]'
+			>наведите&lt;/a></code></pre>
+		<p>
+			<b>Результат:</b>
+		</p>
+		<a class="quickview"
+		   data-mouseover
+		   data-windowload
+		   data-quickview-mode="selector"
+		   data-data-action="chunk"
+		   data-data-element="test"
+		   data-data-id="1"
+		   data-quickview-output=".quickview-output-1"
+		   data-output-buttons='["close"]'
+		>наведите</a>
+
+	</div>
+
+	<div class="col-md-8">
+		<p>
+			<b>Вывод:</b>
+		</p>
+		<div class="tm-result">
+			<div class="quickview-output-1">
+			</div>
+		</div>
+	</div>
+
+</div>
+<br>
+<br>
+
+
+<div class="row">
+	<div class="col-md-4">
+		<p>
+			<a class="label label-primary" name="ex-5">пример 5</a>
+		</p>
+		<p>
+			<b>Постановка:</b>
+			<br>- требуется список продуктов <b>minishop</b>
+			<br>- по клику вывести модалку с продуктом <b>test</b>
+			<br>- задействовать актуальный ресурс
+			<br>- добавить кнопку соседи
+		</p>
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;div class="quickview-parent"
+			data-quickview-mode="modal"
+			data-data-action="chunk"
+			data-data-element="product.quickview"
+			data-quickview-loop="true"
+			data-quickview-viewhash="true"
+			data-dialog-size="size-wide"
+			data-dialog-buttons='["prev","next"]'>
+
+			&#91;[!pdoPage?
+			&parents=`0`
+			&element=`msProducts`
+			&tpl=`@INLINE
+			&lt;a class='quickview'
+			data-click
+			data-data-id="&#91;[+id]]"
+			data-dialog-title="&#91;[+pagetitle]]"
+			>&#91;[+pagetitle]]&lt;/a>
+			`
+			]&#93;
+
+			&#91;[!+page.nav]&#93;&lt;/div></code></pre>
+	</div>
+
+	<div class="col-md-8">
+		<p>
+			<b>Результат:</b>
+		</p>
+		<div class="quickview-parent"
+			 data-quickview-mode="modal"
+			 data-data-action="chunk"
+			 data-data-element="product.quickview"
+			 data-quickview-loop="true"
+			 data-quickview-viewhash="true"
+			 data-dialog-size="size-wide"
+			 data-dialog-buttons='["prev","next"]'>
+
+			[[!pdoPage?
+			&parents=`0`
+			&element=`msProducts`
+			&tpl=`@INLINE
+			<a class='quickview'
+			   data-click
+			   data-data-id="[[+id]]"
+			   data-dialog-title="[[+pagetitle]]">[[+pagetitle]]</a><br><br>`
+			]]
+
+			[[!+page.nav]]
+		</div>
+	</div>
+
+</div>
+<br>
+<br>
+
+
+
+<div class="row">
+	<div class="col-md-4">
+		<p>
+			<a class="label label-primary" name="ex-6">пример 6</a>
+		</p>
+		<p>
+			<b>Постановка:</b>
+			<br>- вывести в модальном окне чанк <b>msProduct.content</b>
+			<br>- задействовать <b>bootstrap-modal</b>, без <b>bootstrap-dialog</b>
+		</p>
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-click
+			data-toggle="modal"
+			data-target=".bs-modal"
+			data-quickview-mode="selector"
+			data-quickview-output=".bs-quickview-output"
+			data-data-element="msProduct.content"
+			data-data-id="7"
+			>ссылка&lt;/a></code></pre>
+
+		<p>
+			<b>Результат:</b>
+		</p>
+
+		<a class="quickview"
+		   data-click
+		   data-toggle="modal"
+		   data-target=".bs-modal"
+		   data-quickview-mode="selector"
+		   data-quickview-output=".bs-quickview-output"
+		   data-data-element="msProduct.content"
+		   data-data-id="7"
+		>ссылка
+		</a>
+
+		<div class="bs-modal modal fade">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="bs-quickview-output"></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-md-4">
+		<br><br><br>
+		<p>
+			Также необходимо тело модалки, куда по клику в селектор будет подгружен результат
+		</p>
+		<p>
+			<b>Код:</b>
+		</p>
+		<pre><code data-language="html">
+			&lt;div class="bs-modal modal fade">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="bs-quickview-output"></div>
+				</div>
+			</div>
+			&lt;/div>
+		</code></pre>
+
+	</div>
+
+	<div class="col-md-4">
+		<p>
+			<a class="label label-primary" name="ex-7">пример 7</a>
+		</p>
+		<p>
+			<b>Постановка:</b>
+			<br>- вывести в модальном окне шаблон <b>test</b>
+			<br><br>
+		</p>
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-click
+			data-quickview-mode="modal"
+			data-data-action="template"
+			data-data-element="test"
+			data-data-id="7"
+			data-dialog-size="size-wide"
+			>шаблон&lt;/a></code></pre>
+		<p>
+			<b>Результат:</b>
+		</p>
+		<a class="quickview"
+		   data-click
+		   data-quickview-mode="modal"
+		   data-data-action="template"
+		   data-data-element="test"
+		   data-data-id="7"
+		   data-dialog-size="size-wide"
+		>шаблон</a>
+	</div>
+
+</div>
+<br>
+<br>
+
+
+<div class="row">
+	<div class="col-md-4">
+		<p>
+			<a class="label label-primary" name="ex-8">пример 8</a>
+		</p>
+		<p>
+			<b>Постановка:</b>
+			<br>- вывести в модальном окне форму
+			<br>- задействовать <b>AjaxForm</b>
+		</p>
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-click
+			data-quickview-mode="modal"
+			data-data-action="chunk"
+			data-data-element="form.1"
+			data-data-id="1"
+			data-dialog-title='форма'
+			data-dialog-buttons='["close"]'
+			>форма&lt;/a></code></pre>
+		<p>
+			<b>Результат:</b>
+		</p>
+		<a class="quickview"
+		   data-click
+		   data-quickview-mode="modal"
+		   data-data-action="chunk"
+		   data-data-element="form.1"
+		   data-data-id='1'
+		   data-dialog-title='форма'
+		   data-dialog-buttons='["close"]'
+		>форма</a>
+
+	</div>
+
+	<div class="col-md-4">
+		<p>
+			<span class="label label-danger">Примечание!</span>
+		</p>
+		<p>
+			Чанк с формы должен содержать элементы
+			<b>&lt;head>&lt;/head>&lt;body>&lt;/body></b> для подгрузки скриптов сниппета <b>AjaxForm</b>
+		</p>
+		<p>
+			<b>пример:</b>
+		</p>
+		<pre><code data-language="html">&lt;head>&lt;/head>
+			&lt;body>&lt;/body>
+
+			&#91;[!AjaxForm?
+			&snippet=`MySnippet`
+			&formSelector=`ajax_form_&#91;[*id]]`
+			&form=`tpl.AjaxForm.example`
+			]]</code></pre>
+
+	</div>
+
+	<div class="col-md-4">
+		<p>
+			<span class="label label-danger">Примечание!</span>
+		</p>
+		<p>
+			В дефолтном скрипте AjaxForm нужно добавить <b>.off('submit')</b>
+		</p>
+		<br><br>
+		<pre><code data-language="html">$(document).off('submit').on('submit', afConfig['formSelector'], function (e) {
+		...</code></pre>
+
+	</div>
+
+
+</div>
+<br>
+<br>
+
+
+<div class="row">
+
+	<div class="col-md-4">
+		<h3 id="connect">Подключение QuickView</h3>
+		<p>
+			В удобном месте шаблона сайта вам нужно вставить вызов сниппета <b>QuickView.initialize</b>
+		</p>
+
+		<pre><code data-language="html">
+			&#91;[!QuickView.initialize?
+			&bootstrapModalJsCss=`0`
+			&bootstrapDialogJsCss=`1`
+			&services=`miniShop2,msoptionsprice`
+			]]
+		</code></pre>
+
+		<p>
+			<span class="label label-danger">Примечание!</span>
+		</p>
+		<p>
+			- для подгрузки скриптов и стилей <b>bootstrap-modal</b> нужно указать
+		<pre>&bootstrapModalJsCss=`1`</pre>
+
+		- для подгрузки скриптов и стилей <b>bootstrap-dialog</b> нужно указать
+		<pre>&bootstrapDialogJsCss=`1`</pre>
+
+		- для подгрузки скриптов и стилей <b>сторонних пакетов</b> нужно перечислить их
+		<pre>services=`miniShop2,msoptionsprice`</pre>
+		</p>
+
+
+		<p>
+	</div>
+
+	<div class="col-md-4">
+		<h3 id="setting">Настройка QuickView</h3>
+		<p>
+			Основные настройки QuickView находяться <b>Настройки системы</b> -> <b>QuickView</b>
+		</p>
+
+		<p>
+			<b>allowed_chunk</b> - список разрешенных чанков
+			<br><b>allowed_snippet</b> - список разрешенных сниппетов
+			<br><b>allowed_template</b> - список разрешенных шаблонов
+			<br>
+			<br><b>front_css</b> - стили фронтенда
+			<br><b>front_js</b> - скрипты фронтенда
+		</p>
+	</div>
+
+	<div class="col-md-4">
+		<h3 id="base">Основное</h3>
+		<p>
+			Вы можете использовать QuickView где угодно на странице. Для этого нужно подключить сниппет
+			<b>QuickView.initialize</b>, указать нужным элементам необходимые параметры вызова.
+		</p>
+
+		<p>
+			<span class="label label-danger">Примечание!</span>
+		</p>
+
+		<p>
+			<b>data-quickview-mode</b> - режим работы, <b>modal</b> или <b>selector</b>
+
+			<br>
+
+			<br><b>data-data-action</b> - действие, <b>chunk</b>, <b>snippet</b>, <b>template</b>
+			<br><b>data-data-element</b> - название элемента
+			<br><b>data-data-id</b> - идентификатор обрабатываемого ресурса
+
+			<br>
+			<br><b>data-dialog-*</b> - параметры вывода при <b>модальном окне</b>
+
+			<br>
+			<br><b>data-output-*</b> - параметры вывода при <b>селекторе</b>
+
+		</p>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-md-4">
+		<h3 id="action">Режим срабатывания</h3>
+
+		<p>
+			<b>data-click</b>
+			<br>режим срабатывания по клику
+		</p>
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-click
+			...&lt;/a></code></pre>
+
+		<p>
+			<b>data-mouseover</b>
+			<br>режим срабатывания по наведению
+		</p>
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-mouseover
+			...&lt;/a></code></pre>
+
+		<p>
+			<b>data-windowload</b>
+			<br>режим срабатывания по загрузке окна
+		</p>
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-windowload
+			...&lt;/a></code></pre>
+
+	</div>
+
+	<div class="col-md-4">
+		<h3 id="mode">Режим работы</h3>
+
+		<p>
+			<b>data-quickview-mode</b>
+			<br><b>modal</b> - режим работы с модальным окном
+		</p>
+
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-click
+			data-quickview-mode="modal"
+			...&lt;/a></code></pre>
+		<p>
+			<b>data-quickview-mode</b>
+			<br><b>selector</b> - режим работы с селектором
+		</p>
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-click
+			data-quickview-mode="selector"
+			...&lt;/a></code></pre>
+
+	</div>
+
+	<div class="col-md-4">
+		<h3 id="action">Действия</h3>
+
+		<p>
+			<b>data-data-action</b>
+			<br><b>chunk</b> - работа с чанком
+		</p>
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-click
+			data-data-action="chunk"
+			...&lt;/a></code></pre>
+
+		<p>
+			<b>data-data-action</b>
+			<br><b>snippet</b> - работа со сниппетом
+		</p>
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-click
+			data-data-action="snippet"
+			...&lt;/a></code></pre>
+
+		<p>
+			<b>data-data-action</b>
+			<br><b>template</b> - работа с шаблоном
+		</p>
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-click
+			data-data-action="template"
+			...&lt;/a></code></pre>
+
+
+	</div>
+
+</div>
+<br>
+<br>
+
+
+<div class="row">
+	<div class="col-md-4">
+		<h3 id="btn">Кнопки</h3>
+
+		<p>
+			<b>data-*-buttons</b>
+			<br>задать необходмые кнопки. Доступны <b>
+			prev,next,close
+			</b>
+		</p>
+
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-click
+			data-dialog-buttons='["prev","next"]'
+			...&lt;/a></code></pre>
+
+		<p>
+			<b>кастомизация</b>
+			<br>задать необходимые параметры
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-mouseover
+			data-quickview-mode="modal"
+			data-data-element="test"
+			data-data-id="1"
+			data-dialog-buttons='[
+			{"action":"close","label":"закрыть","title":"закрыть"}
+			]'
+			>наведите&lt;/a></code></pre>
+		<p>
+			<b>Результат:</b>
+		</p>
+		<a class="quickview"
+		   data-mouseover
+		   data-quickview-mode="modal"
+		   data-data-element="test"
+		   data-data-id="1"
+		   data-dialog-buttons='[{"action":"close","label":"закрыть","title":"закрыть"}]'
+		>наведите</a>
+
+
+	</div>
+
+	<div class="col-md-4">
+		<h3 id="btn">Hash</h3>
+
+		<p>
+			<b>data-*-buttons</b>
+			<br>задать необходмые кнопки. Доступны <b>
+			prev,next,close
+		</b>
+		</p>
+
+		<p>
+			<b>Вызов:</b>
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-click
+			data-dialog-buttons='["prev","next"]'
+			...&lt;/a></code></pre>
+
+		<p>
+			<b>кастомизация</b>
+			<br>задать необходимые параметры
+		</p>
+		<pre><code data-language="html">&lt;a class="quickview"
+			data-mouseover
+			data-quickview-mode="modal"
+			data-data-element="test"
+			data-data-id="1"
+			data-dialog-buttons='[
+			{"action":"close","label":"закрыть","title":"закрыть"}
+			]'
+			>наведите&lt;/a></code></pre>
+		<p>
+			<b>Результат:</b>
+		</p>
+		<a class="quickview"
+		   data-mouseover
+		   data-quickview-mode="modal"
+		   data-data-element="test"
+		   data-data-id="1"
+		   data-dialog-buttons='[{"action":"close","label":"закрыть","title":"закрыть"}]'
+		>наведите</a>
+
+
+	</div>
+
+
+</div>
+<br>
+<br>

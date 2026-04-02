@@ -1,0 +1,116 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Plugins' => 
+    array (
+      '3d9cee99f07cd99278faac1f2b8d0e32' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"ieMsOptionsColor","description":"","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * @var modX $modx\\n * @var IeMsOptionsColor $iemsoptionscolor\\n * @var ieMsOptionsColorTools $tools\\n * @var MsIeService $service\\n * @var MsIeWorker $worker\\n * @var array $scriptProperties\\n * @var string $mode\\n * @var bool $checking\\n *\\/\\n\\n$iemsoptionscolor = $modx->getService(\'iemsoptionscolor\', \'IeMsOptionsColor\');\\nif (!$iemsoptionscolor) return;\\n\\n$tools = $iemsoptionscolor->getTools();\\n\\/\\/if (!$tools->hasAddition(\'Addition\')) return;\\n\\nswitch ($modx->event->name) {\\n    case \'msieOnLoadServices\':\\n        $modx->event->output($tools->getServices($mode));\\n        break;\\n    case \'msieOnGetServiceFields\':\\n        \\/*if ($service instanceof MsIeResourceExportService) {\\n            $fields = $tools->getCustomFields();\\n            $modx->event->output($fields);\\n        }*\\/\\n        break;\\n}\\nreturn;","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * @var modX $modx\\n * @var IeMsOptionsColor $iemsoptionscolor\\n * @var ieMsOptionsColorTools $tools\\n * @var MsIeService $service\\n * @var MsIeWorker $worker\\n * @var array $scriptProperties\\n * @var string $mode\\n * @var bool $checking\\n *\\/\\n\\n$iemsoptionscolor = $modx->getService(\'iemsoptionscolor\', \'IeMsOptionsColor\');\\nif (!$iemsoptionscolor) return;\\n\\n$tools = $iemsoptionscolor->getTools();\\n\\/\\/if (!$tools->hasAddition(\'Addition\')) return;\\n\\nswitch ($modx->event->name) {\\n    case \'msieOnLoadServices\':\\n        $modx->event->output($tools->getServices($mode));\\n        break;\\n    case \'msieOnGetServiceFields\':\\n        \\/*if ($service instanceof MsIeResourceExportService) {\\n            $fields = $tools->getCustomFields();\\n            $modx->event->output($fields);\\n        }*\\/\\n        break;\\n}\\nreturn;"}',
+        'guid' => '83fc10dad248a83bb7d5d2bbe484e270',
+        'native_key' => NULL,
+        'signature' => '830f09c7f266af0f68c8c618638e4372',
+        'related_objects' => 
+        array (
+          'PluginEvents' => 
+          array (
+            'c903165ea1ec088952fa7f04d38615a7' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"msieOnLoadServices","priority":0,"propertyset":0}',
+              'guid' => '6c7cd9a4c7bcf5ca0b493fbbdaf73ff4',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'msieOnLoadServices',
+              ),
+              'signature' => '0958c008199b9fca649afa73ea816720',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'iemsoptionscolor',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"iemsoptionscolor-1.0.0-beta\\/modCategory\\/e862425c64f7db866a1a1b7310aafe1a\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"iemsoptionscolor"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"iemsoptionscolor-1.0.0-beta\\/modCategory\\/e862425c64f7db866a1a1b7310aafe1a\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"iemsoptionscolor"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iemsoptionscolor-1.0.0-beta\\/modCategory\\/e862425c64f7db866a1a1b7310aafe1a.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iemsoptionscolor-1.0.0-beta\\/modCategory\\/e862425c64f7db866a1a1b7310aafe1a.resolve.settings.resolver","type":"php","name":"resolve.settings"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"iemsoptionscolor-1.0.0-beta\\/modCategory\\/e862425c64f7db866a1a1b7310aafe1a.package.resolver.resolver","type":"php","name":"package.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => '284578963bb74007d179138f09db9e64',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'e862425c64f7db866a1a1b7310aafe1a',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"ieMsOptionsColor","rank":0}',
+);

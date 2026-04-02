@@ -1,0 +1,15 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'msearch2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ead87146b4d853ad37be9659775c0d2a',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => '9f3d9b91d927a882a107b80b586d79d3',
+  'native_key' => 'mse2OnBeforeSearchIndex',
+  'object' => '{"name":"mse2OnBeforeSearchIndex","service":6,"groupname":"mSearch2"}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'minishop2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ca9eaa6d48c23c000aac8df5d97dbcfb',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c8eff9361ecf75716b0b286714aaa6f7',
+  'native_key' => 'ms2_order_address_fields',
+  'object' => '{"key":"ms2_order_address_fields","value":"receiver,phone,email,index,country,region,city,metro,street,building,entrance,floor,room,comment,text_address","xtype":"textarea","namespace":"minishop2","area":"ms2_order","editedon":"2024-08-06 09:57:04"}',
+);

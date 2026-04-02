@@ -1,0 +1,23 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => 'iemssaleprice-1.0.0-beta/xPDOFileVehicle/b5a03a8d96a480bfab2c4274505fddd1/',
+    'target' => 'return MODX_CORE_PATH . \'components/\';',
+    'name' => 'iemssaleprice',
+  ),
+  'vehicle_class' => 'xPDOFileVehicle',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"iemssaleprice-1.0.0-beta\\/xPDOFileVehicle\\/b5a03a8d96a480bfab2c4274505fddd1.resolve.encryption.resolver","name":"resolve.encryption"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => 'fb51e939a2f3e9c6223413495ca709ad',
+  'package' => '',
+  'signature' => 'b5a03a8d96a480bfab2c4274505fddd1',
+  'native_key' => 'fb51e939a2f3e9c6223413495ca709ad',
+);

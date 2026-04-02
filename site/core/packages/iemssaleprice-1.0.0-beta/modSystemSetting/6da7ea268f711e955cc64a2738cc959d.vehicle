@@ -1,0 +1,16 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'iemssaleprice',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => 'f6bea7a2bb4f35f9f718d7982c8f5e4b',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '6da7ea268f711e955cc64a2738cc959d',
+  'native_key' => 'iemssaleprice_tools_handler_class',
+  'object' => '{"key":"iemssaleprice_tools_handler_class","value":"IeMsSalePriceTools","xtype":"textfield","namespace":"iemssaleprice","area":"iemssaleprice_main","editedon":null}',
+);

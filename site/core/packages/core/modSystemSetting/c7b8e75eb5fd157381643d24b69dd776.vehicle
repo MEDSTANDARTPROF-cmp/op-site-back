@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '28a85b7621774c0e6dfa236cebe0c2af',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c7b8e75eb5fd157381643d24b69dd776',
+  'native_key' => 'quick_search_result_max',
+  'object' => '{"key":"quick_search_result_max","value":10,"xtype":"numberfield","namespace":"core","area":"manager","editedon":null}',
+);

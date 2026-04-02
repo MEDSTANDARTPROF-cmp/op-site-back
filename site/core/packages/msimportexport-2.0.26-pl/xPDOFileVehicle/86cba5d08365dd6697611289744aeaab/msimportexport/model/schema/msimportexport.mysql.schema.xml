@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="msimportexport" baseClass="xPDOObject" platform="mysql" defaultEngine="InnoDB" version="1.1">
+	<object class="MsieCron" table="msie_cron" extends="xPDOSimpleObject">
+		<field key="preset_id" dbtype="int" precision="11" phptype="integer" null="false" default="0" index="index" />
+		<field key="schedule" dbtype="text" phptype="string" null="true" />
+		<field key="description" dbtype="text" phptype="string" null="true" />
+		<field key="settings" dbtype="text" phptype="json" null="true" />
+		<field key="date_last_run" dbtype="int" precision="11" phptype="timestamp" null="false" default="0" />
+		<field key="active" dbtype="tinyint" precision="4" phptype="boolean" null="false" default="0" />
+
+		<index alias="preset_id" name="preset_id" primary="false" unique="false" type="BTREE" >
+			<column key="preset_id" length="" collation="A" null="false" />
+		</index>
+		<aggregate alias="Preset" class="MsiePreset" local="preset_id" foreign="id" cardinality="one" owner="foreign" />
+		<composite alias="Task" class="MsieTask" local="id" foreign="cron_id" cardinality="many" owner="local" />
+	</object>
+	<object class="MsiePreset" table="msie_preset" extends="xPDOSimpleObject">
+		<field key="token" dbtype="varchar" precision="32" phptype="string" null="true" index="unique" />
+		<field key="name" dbtype="varchar" precision="255" phptype="string" null="false" />
+		<field key="description" dbtype="text" phptype="string" null="true" />
+		<field key="mode" dbtype="varchar" precision="20" phptype="string" null="false" default="0" index="index" />
+		<field key="service" dbtype="varchar" precision="255" phptype="string" null="false" index="index" />
+		<field key="fields" dbtype="text" phptype="json" null="true" />
+		<field key="settings" dbtype="text" phptype="json" null="true" />
+		<field key="properties" dbtype="text" phptype="json" null="true" />
+
+		<index alias="token" name="token" primary="false" unique="true" type="BTREE" >
+			<column key="token" length="" collation="A" null="true" />
+		</index>
+		<index alias="service" name="service" primary="false" unique="false" type="BTREE" >
+			<column key="service" length="" collation="A" null="false" />
+		</index>
+		<index alias="mode" name="mode" primary="false" unique="false" type="BTREE" >
+			<column key="mode" length="" collation="A" null="false" />
+		</index>
+		<composite alias="Cron" class="MsieCron" local="id" foreign="preset_id" cardinality="many" owner="local" />
+		<composite alias="Task" class="MsieTask" local="id" foreign="preset_id" cardinality="many" owner="local" />
+	</object>
+	<object class="MsieTask" table="msie_task" extends="xPDOSimpleObject">
+		<field key="token" dbtype="varchar" precision="32" phptype="string" null="false" index="unique" />
+		<field key="preset_id" dbtype="int" precision="11" phptype="integer" null="false" index="index" />
+		<field key="cron_id" dbtype="int" precision="11" phptype="integer" null="false" default="0" />
+		<field key="pid" dbtype="int" precision="11" phptype="integer" null="false" default="0" />
+		<field key="restarted" dbtype="int" precision="11" phptype="integer" null="false" default="0" />
+		<field key="status" dbtype="varchar" precision="100" phptype="string" null="false" default="initiated" />
+		<field key="deleted" dbtype="tinyint" precision="1" phptype="integer" null="false" default="0" index="index" />
+		<field key="label" dbtype="varchar" precision="255" phptype="string" null="true" />
+		<field key="settings" dbtype="text" phptype="json" null="true" />
+		<field key="properties" dbtype="text" phptype="json" null="true" />
+		<field key="priority" dbtype="int" precision="11" phptype="json" null="false" default="0" />
+		<field key="start_time" dbtype="decimal" precision="16,6" phptype="float" null="true" default="0.000000" />
+		<field key="finish_time" dbtype="decimal" precision="16,6" phptype="float" null="true" default="0.000000" />
+
+		<index alias="token" name="token" primary="false" unique="true" type="BTREE" >
+			<column key="token" length="" collation="A" null="false" />
+		</index>
+		<index alias="preset_id" name="preset_id" primary="false" unique="false" type="BTREE" >
+			<column key="preset_id" length="" collation="A" null="false" />
+		</index>
+		<index alias="deleted" name="deleted" primary="false" unique="false" type="BTREE" >
+			<column key="deleted" length="" collation="A" null="false" />
+		</index>
+		<aggregate alias="Preset" class="MsiePreset" local="preset_id" foreign="id" cardinality="one" owner="foreign" />
+		<aggregate alias="Cron" class="MsieCron" local="cron_id" foreign="id" cardinality="one" owner="foreign" />
+	</object>
+</model>

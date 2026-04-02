@@ -1,0 +1,17 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'related_objects' => false,
+  'namespace' => 'easyredirects',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e3486cc99c1fb513a66fd64578bca9e1',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '5082a81cab592ae09b8b02c1e0c19311',
+  'native_key' => 'easyredirects_track',
+  'object' => '{"key":"easyredirects_track","value":false,"xtype":"combo-boolean","namespace":"easyredirects","area":"easyredirects_main","editedon":null}',
+);

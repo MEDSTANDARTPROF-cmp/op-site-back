@@ -1,0 +1,24 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 
+  array (
+    0 => 'name',
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"core\\/modDashboardWidget\\/4501d3d606b1799a94995e24a13499d1.resolve.dashboardwidgets.resolver","name":"resolve.dashboardwidgets"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8094bc8006d1f4500d8a6001f4ad1a3c',
+  'package' => 'modx',
+  'class' => 'modDashboardWidget',
+  'signature' => '4501d3d606b1799a94995e24a13499d1',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"w_configcheck","description":"w_configcheck_desc","type":"file","content":"[[++manager_path]]controllers\\/default\\/dashboard\\/widget.configcheck.php","namespace":"core","lexicon":"core:dashboards","size":"full"}',
+);

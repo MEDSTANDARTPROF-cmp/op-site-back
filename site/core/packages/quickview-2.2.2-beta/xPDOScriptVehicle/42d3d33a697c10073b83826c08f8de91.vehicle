@@ -1,0 +1,16 @@
+<?php return array (
+  'class' => 'xPDOScriptVehicle',
+  'object' => 
+  array (
+    'source' => 'quickview-2.2.2-beta/xPDOScriptVehicle/42d3d33a697c10073b83826c08f8de91.resolve.encryption.script',
+  ),
+  'vehicle_class' => 'xPDOScriptVehicle',
+  'namespace' => 'quickview',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => 'a4f4e908f3c9ef307951f5944f3acc33',
+  'package' => '',
+  'signature' => '42d3d33a697c10073b83826c08f8de91',
+  'native_key' => 'a4f4e908f3c9ef307951f5944f3acc33',
+);

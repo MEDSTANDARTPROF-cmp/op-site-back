@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.tpl": "modx"
+    },
+    "emmet.includeLanguages": {
+        "modx": "html"
+    },
+    "editor.suggest.showSnippets": true,
+    "html.autoClosingTags": true
+}

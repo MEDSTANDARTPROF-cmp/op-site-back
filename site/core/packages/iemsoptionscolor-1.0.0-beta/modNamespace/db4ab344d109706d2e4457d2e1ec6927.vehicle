@@ -1,0 +1,16 @@
+<?php return array (
+  'vehicle_class' => 'encryptedVehicle',
+  'unique_key' => 'name',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'iemsoptionscolor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => 'c47aa673e5c70651aa834d28a6e243e4',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => 'db4ab344d109706d2e4457d2e1ec6927',
+  'native_key' => 'iemsoptionscolor',
+  'object' => '{"name":"iemsoptionscolor","path":"{core_path}components\\/iemsoptionscolor\\/","assets_path":"{assets_path}components\\/iemsoptionscolor\\/"}',
+);

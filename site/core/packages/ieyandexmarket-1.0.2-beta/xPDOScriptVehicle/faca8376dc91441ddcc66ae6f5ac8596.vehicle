@@ -1,0 +1,16 @@
+<?php return array (
+  'class' => 'xPDOScriptVehicle',
+  'object' => 
+  array (
+    'source' => 'ieyandexmarket-1.0.2-beta/xPDOScriptVehicle/faca8376dc91441ddcc66ae6f5ac8596.resolve.encryption.script',
+  ),
+  'vehicle_class' => 'xPDOScriptVehicle',
+  'namespace' => 'ieyandexmarket',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => '0d451c2afb930d35e079911036da3332',
+  'package' => '',
+  'signature' => 'faca8376dc91441ddcc66ae6f5ac8596',
+  'native_key' => '0d451c2afb930d35e079911036da3332',
+);

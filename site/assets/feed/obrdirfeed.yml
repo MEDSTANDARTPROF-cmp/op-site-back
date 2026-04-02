@@ -1,0 +1,2894 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<yml_catalog date="2025-05-14T10:59:21+03:00">
+	<shop>
+		<name>ОбрПрофи</name>
+		<company>ОбрПрофи</company>
+		<url>obrprofi.ru</url>
+		<version>1.0</version>
+        <currencies>
+			<currency id="RUR" rate="1"/>
+		</currencies>
+		<categories>
+            <category id="8">Промбез - аттестация</category><category id="47">Промбез - повышение квалификации</category>
+		</categories>
+		<offers>
+            <offer id="180" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>А.1</model>
+        <name>Обучение по области А.1 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности А.1. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/a-1.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-a-1.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>А.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="182" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.2</model>
+        <name>Обучение по области Б.1.2 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.2. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-2.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-2.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="183" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.3</model>
+        <name>Обучение по области Б.1.3 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.3. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-3.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-3.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="184" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.4</model>
+        <name>Обучение по области Б.1.4 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.4. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-4.JPG</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-4.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.4</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="185" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.5</model>
+        <name>Обучение по области Б.1.5 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.5. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-5.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-5.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.5</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="186" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.6</model>
+        <name>Обучение по области Б.1.6 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.6. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-6.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-6.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.6</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="187" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.7</model>
+        <name>Обучение по области Б.1.7 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.7. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-7.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-7.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.7</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="188" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.8</model>
+        <name>Обучение по области Б.1.8 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.8. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-8.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-8.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.8</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="189" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.9</model>
+        <name>Обучение по области Б.1.9 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.9. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-9.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-9.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.9</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="191" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.11</model>
+        <name>Обучение по области Б.1.11 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.11. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-11.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-11.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.11</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="81" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>А.1</model>
+        <name>Аттестация по области А.1 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности по основам А 1. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/attestacia_a1.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-a-1.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область А.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="190" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.10</model>
+        <name>Обучение по области Б.1.10 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.10. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-10.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-10.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.10</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="82" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.1</model>
+        <name>Аттестация по области Б.1.1 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.1.1 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/06.06.2024_c0fd08fc23bff1cadececed41a0eb94c.jpeg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-1.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="181" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.1</model>
+        <name>Обучение по области Б.1.1 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.1. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-16.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-1.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="83" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.2</model>
+        <name>Аттестация по области Б.1.2 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.1.2. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-2.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="196" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.16</model>
+        <name>Обучение по области Б.1.16 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.16. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-16.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-16.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.16</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="84" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.3</model>
+        <name>Аттестация по области Б.1.3 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.1.2 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b-1.3.jpeg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-3.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="195" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.15</model>
+        <name>Обучение по области Б.1.15 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.15. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-15.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-15.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.15</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="85" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.4</model>
+        <name>Аттестация по области Б.1.4 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.1.4 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b-1-4.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-4.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.4</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="194" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.14</model>
+        <name>Обучение по области Б.1.14 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.14. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-14.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-14.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.14</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="86" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.5</model>
+        <name>Аттестация по области Б.1.5 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.1.5. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b-1-5.jpeg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-5.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.5</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="197" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.17</model>
+        <name>Обучение по области Б.1.17 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.17. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-17.jpeg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-17.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.17</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="87" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.6</model>
+        <name>Аттестация по области Б.1.6 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.1.6 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b1.6.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-6.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.6</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="193" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.13</model>
+        <name>Обучение по области Б.1.13 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.13. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-13.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-13.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.13</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="88" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.7</model>
+        <name>Аттестация по области Б.1.7 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.1.7. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b1.7.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-7.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.7</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="198" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.18</model>
+        <name>Обучение по области Б.1.18 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.18. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-18.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-18.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.18</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="89" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.8</model>
+        <name>Аттестация по области Б.1.8 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.1.8 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b1.8.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-8.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.8</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="199" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.19</model>
+        <name>Обучение по области Б.1.19 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.19. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-19.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-19.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.19</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="90" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.9</model>
+        <name>Аттестация по области Б.1.9 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.1.9 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b1.9.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-9.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.9</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="200" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.2.1</model>
+        <name>Обучение по области Б.2.1 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.2.1. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b2-1.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-2-1.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.2.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="91" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.10</model>
+        <name>Аттестация по области Б.1.10 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.1.10. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b1.10.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-10.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.10</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="201" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.2.2</model>
+        <name>Обучение по области Б.2.2 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.2.2. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b2-2.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-2-2.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.2.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="92" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.11</model>
+        <name>Аттестация по области Б.1.11 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.1.11 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b1.11.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-11.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.11</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="202" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.2.3</model>
+        <name>Обучение по области Б.2.3 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.2.3. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b2-3.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-2-3.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.2.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="93" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.12</model>
+        <name>Аттестация по области Б.1.12 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.1.12. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b1.111.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-12.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.12</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="203" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.2.4</model>
+        <name>Обучение по области Б.2.4 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.2.4. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b2-4.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-2-4.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.2.4</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="94" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.13</model>
+        <name>Аттестация по области Б.1.13 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.1.13 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b1.13.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-13.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.13</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="205" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.2.6</model>
+        <name>Обучение по области Б.2.6 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.2.6. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b2-6.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-2-6.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.2.6</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="95" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.14</model>
+        <name>Аттестация по области Б.1.14 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.1.14 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b1.14.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-14.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.14</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="206" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.2.7</model>
+        <name>Обучение по области Б.2.7 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.2.7. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b2-7.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-2-7.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.2.7</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="96" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.15</model>
+        <name>Аттестация по области Б.1.15 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.1.15. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b1.15.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-15.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.15</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="207" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.2.8</model>
+        <name>Обучение по области Б.2.8 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.2.8. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b2-8.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-2-8.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.2.8</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="97" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.16</model>
+        <name>Аттестация по области Б.1.16 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.1.16 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/attestatsiya-b-1-16.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-16.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.16</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="208" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.2.9</model>
+        <name>Обучение по области Б.2.9 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.2.9. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b.2.9.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-2-9.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.2.9</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="98" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.17</model>
+        <name>Аттестация по области Б.1.17 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.1.17. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b1.17.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-17.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.17</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="204" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.2.5</model>
+        <name>Обучение по области Б.2.5 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.2.5. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b2-5.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-2-5.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.2.5</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="99" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.18</model>
+        <name>Аттестация по области Б.1.18 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.1.18 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b1.18.png</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-18.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.18</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="210" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.2.11</model>
+        <name>Обучение по области Б.2.11 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.2.11. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b2-11.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-2-11.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.2.11</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="100" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.1.19</model>
+        <name>Аттестация по области Б.1.19 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.1.19 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b1.19.png</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-1-19.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.1.19</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="101" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.2.1</model>
+        <name>Аттестация по области Б.2.1 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.2.1. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b2.1.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-2-1.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.2.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="211" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.2.12</model>
+        <name>Обучение по области Б.2.12 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.2.12. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b2-12.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-2-12.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.2.12</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="102" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.2.2</model>
+        <name>Аттестация по области Б.2.2 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.2.2 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b2.2.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-2-2.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.2.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="212" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.3.1</model>
+        <name>Обучение по области Б.3.1 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.3.1. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b3-1.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-3-1.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.3.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="103" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.2.3</model>
+        <name>Аттестация по области Б.2.3 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.2.3. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b2.3.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-2-3.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.2.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="213" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.3.2</model>
+        <name>Обучение по области Б.3.2 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.3.2. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b3-2.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-3-2.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.3.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="104" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.2.4</model>
+        <name>Аттестация по области Б.2.4 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.2.4 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b2.4.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-2-4.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.2.4</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="214" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.3.3</model>
+        <name>Обучение по области Б.3.3 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.3.3. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b3-3.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-3-3.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.3.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="105" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.2.5</model>
+        <name>Аттестация по области Б.2.5 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.2.5 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b2.5.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-2-5.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.2.5</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="215" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.3.4</model>
+        <name>Обучение по области Б.3.4 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.3.4. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b3-4.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-3-4.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.3.4</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="106" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.2.6</model>
+        <name>Аттестация по области Б.2.6 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.2.6. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b2.6.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-2-6.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.2.6</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="216" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.3.5</model>
+        <name>Обучение по области Б.3.5 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.3.5. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b3-5.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-3-5.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.3.5</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="107" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.2.7</model>
+        <name>Аттестация по области Б.2.7 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.2.7 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b2.7.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-2-7.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.2.7</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="217" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.3.6</model>
+        <name>Обучение по области Б.3.6 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.3.6. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b3-6.jpeg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-3-6.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.3.6</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="108" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.2.8</model>
+        <name>Аттестация по области Б.2.8 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.2.8. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b2.8.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-2-8.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.2.8</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="218" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.3.7</model>
+        <name>Обучение по области Б.3.7 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.3.7. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b3-7.jpeg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-3-7.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.3.7</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="109" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.2.9</model>
+        <name>Аттестация по области Б.2.9 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.2.9 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-b2.9.png</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-2-9.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.2.9</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="219" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.3.8</model>
+        <name>Обучение по области Б.3.8 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.3.8. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b3-8.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-3-8.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.3.8</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="110" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.2.10</model>
+        <name>Аттестация по области Б.2.10 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.2.10 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b2-10-prombez-attestaciya.png</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-2-10.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.2.10</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="220" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.3.9</model>
+        <name>Обучение по области Б.3.9 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.3.9. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b3-9.png</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-3-9.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.3.9</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="111" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.2.11</model>
+        <name>Аттестация по области Б.2.11 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.2.11. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b2-11-prombez-attestaciya.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-2-11.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.2.11</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="221" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.3.10</model>
+        <name>Обучение по области Б.3.10 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.3.10. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b3-10.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-3-10.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.3.10</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="112" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.2.12</model>
+        <name>Аттестация по области Б.2.12 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.2.12 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/prombez-attestaciya-b2-12.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-2-12.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.2.12</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="113" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.3.1</model>
+        <name>Аттестация по области Б.3.1 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.3.1. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/1-attestaciya.jpeg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-3-1.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.3.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="114" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.3.2</model>
+        <name>Аттестация по области Б.3.2 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.3.2 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/3-2-attestaciya.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-3-2.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.3.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="115" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.3.3</model>
+        <name>Аттестация по области Б.3.3 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.3.3 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/3-3-attestaciya.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-3-3.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.3.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="116" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.3.4</model>
+        <name>Аттестация по области Б.3.4 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.3.4. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/3-4-attestaciya.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-3-4.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.3.4</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="117" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.3.5</model>
+        <name>Аттестация по области Б.3.5 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.3.5 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/3-5-attestaciya.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-3-5.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.3.5</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="118" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.3.6</model>
+        <name>Аттестация по области Б.3.6 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.3.6. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/3-6-attestaciya.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-3-6.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.3.6</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="119" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.3.7</model>
+        <name>Аттестация по области Б.3.7 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.3.7 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/3-7-attestaciya.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-3-7.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.3.7</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="120" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.3.8</model>
+        <name>Аттестация по области Б.3.8 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.3.8 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/3-8-attestaciya.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-3-8.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.3.8</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="121" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.3.9</model>
+        <name>Аттестация по области Б.3.9 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.3.9. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/3-9-attestaciya.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-3-9.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.3.9</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="231" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.6.2</model>
+        <name>Обучение по области Б.6.2 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.6.2. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.6.2.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-6-2.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.6.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="122" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.3.10</model>
+        <name>Аттестация по области Б.3.10 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.3.10 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/3-10-attestaciya.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-3-10.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.3.10</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="232" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.6.3</model>
+        <name>Обучение по области Б.6.3 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.6.3. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.6.3.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-6-3.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.6.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="123" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.4.1</model>
+        <name>Аттестация по области Б.4.1 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.4.1. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/4.1.at.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-4-1.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.4.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="233" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.6.4</model>
+        <name>Обучение по области Б.6.4 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.6.4. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.6.4.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-6-4.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.6.4</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="124" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.4.2</model>
+        <name>Аттестация по области Б.4.2 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.4.2 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/4.2.at.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-4-2.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.4.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="234" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.6.5</model>
+        <name>Обучение по области Б.6.5 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.6.5. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.6.5.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-6-5.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.6.5</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="125" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.4.3</model>
+        <name>Аттестация по области Б.4.3 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.4.3 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/4.3.at.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-4-3.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.4.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="235" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.7.1</model>
+        <name>Обучение по области Б.7.1 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.7.1. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.7.1.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-7-1.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.7.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="126" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.4.4</model>
+        <name>Аттестация по области Б.4.4 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.4.4. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/4.4.at.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-4-4.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.4.4</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="236" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.7.2</model>
+        <name>Обучение по области Б.7.2 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.7.2. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.7.2.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-7-2.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.7.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="127" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.4.5</model>
+        <name>Аттестация по области Б.4.5 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.4.5 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/4.5.at.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-4-5.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.4.5</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="237" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.7.3</model>
+        <name>Обучение по области Б.7.3 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.7.3. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.7.3.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-7-3.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.7.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="128" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.5.1</model>
+        <name>Аттестация по области Б.5.1 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.5.1. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/5-1-at.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-5-1.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.5.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="238" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.7.4</model>
+        <name>Обучение по области Б.7.4 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.7.4. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.7.4.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-7-4.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.7.4</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="129" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.5.2</model>
+        <name>Аттестация по области Б.5.2 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.5.2 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/5-2-at.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-5-2.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.5.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="239" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.7.5</model>
+        <name>Обучение по области Б.7.5 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.7.5. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.7.5.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-7-5.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.7.5</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="130" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.5.3</model>
+        <name>Аттестация по области Б.5.3 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.5.3 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/5-3-at.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-5-3.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.5.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="240" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.7.6</model>
+        <name>Обучение по области Б.7.6 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.7.6. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.7.6.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-7-6.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.7.6</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="131" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.6.1</model>
+        <name>Аттестация по области Б.6.1 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.6.1. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Markshejderskoe-obespechenie-bezopasnogo-vedeniya-gornyh-rabot.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-6-1.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.6.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="241" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.8.1</model>
+        <name>Обучение по области Б.8.1 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.8.1. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.8.1.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-8-1.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.8.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="132" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.6.2</model>
+        <name>Аттестация по области Б.6.2 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.6.2 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.6.2.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-6-2.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.6.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="242" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.8.2</model>
+        <name>Обучение по области Б.8.2 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.8.2. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.8.2.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-8-2.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.8.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="133" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.6.3</model>
+        <name>Аттестация по области Б.6.3 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.6.3. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.6.3.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-6-3.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.6.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="243" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.8.3</model>
+        <name>Обучение по области Б.8.3 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.8.3. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.8.3.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-8-3.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.8.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="134" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.6.4</model>
+        <name>Аттестация по области Б.6.4 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.6.4 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.6.4.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-6-4.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.6.4</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="244" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.8.4</model>
+        <name>Обучение по области Б.8.4 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.8.4. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.8.4.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-8-4.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.8.4</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="135" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.6.5</model>
+        <name>Аттестация по области Б.6.5 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.6.5 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.6.5.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-6-5.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.6.5</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="245" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.8.5</model>
+        <name>Обучение по области Б.8.5 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.8.5. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.8.5.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-8-5.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.8.5</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="136" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.7.1</model>
+        <name>Аттестация по области Б.7.1 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.7.1. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.7.1.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-7-1.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.7.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="246" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.8.6</model>
+        <name>Обучение по области Б.8.6 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.8.6. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.8.6.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-8-6.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.8.6</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="137" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.7.2</model>
+        <name>Аттестация по области Б.7.2 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.7.2 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.7.2.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-7-2.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.7.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="247" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.8.7</model>
+        <name>Обучение по области Б.8.7 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.8.7. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.8.7.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-8-7.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.8.7</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="138" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.7.3</model>
+        <name>Аттестация по области Б.7.3 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.7.3. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.7.3.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-7-3.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.7.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="248" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.9.1</model>
+        <name>Обучение по области Б.9.1 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.9.1. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Obuchenie-po-oblasti-B.9.1.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-9-1.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.9.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="139" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.7.4</model>
+        <name>Аттестация по области Б.7.4 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.7.4 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.7.4.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-7-4.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.7.4</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="140" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.7.5</model>
+        <name>Аттестация по области Б.7.5 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.7.5 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.7.5.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-7-5.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.7.5</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="141" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.7.6</model>
+        <name>Аттестация по области Б.7.6 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.7.6. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.7.6.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-7-6.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.7.6</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="142" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.8.1</model>
+        <name>Аттестация по области Б.8.1 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.8.1 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.8.1.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-8-1.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.8.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="143" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.8.2</model>
+        <name>Аттестация по области Б.8.2 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.8.2. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.8.2.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-8-2.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.8.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="144" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.8.3</model>
+        <name>Аттестация по области Б.8.3 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.8.3 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.8.3.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-8-3.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.8.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="145" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.8.4</model>
+        <name>Аттестация по области Б.8.4 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.8.4 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.8.4.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-8-4.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.8.4</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="146" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.8.5</model>
+        <name>Аттестация по области Б.8.5 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.8.5. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.8.5.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-8-5.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.8.5</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="147" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.8.6</model>
+        <name>Аттестация по области Б.8.6 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.8.6 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.8.6.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-8-6.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.8.6</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="148" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.8.7</model>
+        <name>Аттестация по области Б.8.7 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.8.7. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.8.7.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-8-7.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.8.7</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="149" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.9.1</model>
+        <name>Аттестация по области Б.9.1 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.9.1 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.9.1.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-9-1.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.9.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="150" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.9.2</model>
+        <name>Аттестация по области Б.9.2 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.9.2 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.9.2.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-9-2.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.9.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="151" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.9.3</model>
+        <name>Аттестация по области Б.9.3 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.9.3. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.9.3.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-9-3.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.9.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="152" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.9.4</model>
+        <name>Аттестация по области Б.9.4 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.9.4 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.9.4.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-9-4.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.9.4</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="153" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.9.5</model>
+        <name>Аттестация по области Б.9.5 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.9.5. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.9.5.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-9-5.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.9.5</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="154" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.9.6</model>
+        <name>Аттестация по области Б.9.6 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.9.6 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.9.6.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-9-6.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.9.6</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="155" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.9.7</model>
+        <name>Аттестация по области Б.9.7 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.9.7 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.9.7.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-9-7.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.9.7</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="156" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.9.8</model>
+        <name>Аттестация по области Б.9.8 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.9.8. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.9.8.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-9-8.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.9.8</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="157" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.9.9</model>
+        <name>Аттестация по области Б.9.9 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.9.9 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.9.9.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-9-9.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.9.9</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="158" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.9.10</model>
+        <name>Аттестация по области Б.9.10 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.9.10. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.9.10.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-9-10.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.9.10</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="159" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.10.1</model>
+        <name>Аттестация по области Б.10.1 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.10.1 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.10.1.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-10-1.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.10.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="160" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.10.2</model>
+        <name>Аттестация по области Б.10.2 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.10.2 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.10.2.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-10-2.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.10.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="161" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.11.1</model>
+        <name>Аттестация по области Б.11.1 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.11.1. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.11.1.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-11-1.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.11.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="162" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.11.2</model>
+        <name>Аттестация по области Б.11.2 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.11.2 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.11.2.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-11-2.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.11.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="163" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.11.3</model>
+        <name>Аттестация по области Б.11.3 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.11.3. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.11.3.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-11-3.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.11.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="164" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.12.1</model>
+        <name>Аттестация по области Б.12.1 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.12.1 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.12.1.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-12-1.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.12.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="165" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.12.2</model>
+        <name>Аттестация по области Б.12.2 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Б.12.2 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b.12.2.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-12-2.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.12.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="166" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Б.12.3</model>
+        <name>Аттестация по области Б.12.3 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Б.12.3. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b.12.3.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-b-12-3.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Б.12.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="167" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>В.1</model>
+        <name>Аттестация по области В.1 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности В.1 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.1.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-v-1.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область В.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="168" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>В.2</model>
+        <name>Аттестация по области В.2 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности В.2. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.2.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-v-2.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область В.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="169" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>В.3</model>
+        <name>Аттестация по области В.3 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности В.3 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.3.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-v-3.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область В.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="170" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>В.4</model>
+        <name>Аттестация по области В.4 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности В.4 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.4.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-v-4.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область В.4</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="171" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>В.5</model>
+        <name>Аттестация по области В.5 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности В.5. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.5.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-v-5.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область В.5</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="172" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Г.1</model>
+        <name>Аттестация по области Г.1 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Г.1 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-G.1.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-g-1.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Г.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="173" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Г.2.1</model>
+        <name>Аттестация по области Г.2.1 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Г.2.1. Протокол ЕПТ в сжатые сроки. Допуск к ОПО</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-G.2.1.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-g-2-1.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Г.2.1</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="174" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Г.2.2</model>
+        <name>Аттестация по области Г.2.2 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Г.2.2 через ИС ЕПТ под ключ. Протокол, реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-G.2.2.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-g-2-2.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Г.2.2</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="175" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Г.2.3</model>
+        <name>Аттестация по области Г.2.3 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Г.2.3 в РТН дистанционно. Занесение в реестр</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-G.2.3.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-g-2-3.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Г.2.3</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="176" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Г.2.4</model>
+        <name>Аттестация по области Г.2.4 промышленной безопасности</name>
+        <description>Срочная аттестация по промбезопасности Г.2.4. Официальный протокол Ростехнадзора</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-G.2.4.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-g-2-4.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Г.2.4</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="177" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промышленной безопасности</vendor>
+        <model>Г.2.5</model>
+        <name>Аттестация по области Г.2.5 промышленной безопасности</name>
+        <description>Аттестация по промбезопасности Г.2.5 через ЕПТ - онлайн, от 3 дней. Официально</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-G.2.5.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestaciya-prombez-g-2-5.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Область Г.2.5</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="178" type="vendor.model" available="true">
+        <typePrefix>Аттестация</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>по ТЭУ</model>
+        <name>Аттестация по тепловым энергоустановкам и сетям</name>
+        <description>Аттестация по промбезопасности - тепловые энергоустановки и сети. Протокол РТН</description>
+        <picture>https://obrprofi.ru/assets/offerimg/teplovye-energoustanovki-i-seti.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/attestatsiya-po-teplovym-energoustanovkam-teu.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Тепловые энергоустановки и сети</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="179" type="vendor.model" available="true">
+        <typePrefix>Предаттестационная подготовка</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>в РТН</model>
+        <name>Предаттестационная подготовка по Промбез в Ростехнадзоре</name>
+        <description>Предаттестационная подготовка по промбезопасности в Ростехнадзоре. Все области</description>
+        <picture>https://obrprofi.ru/assets/offerimg/Attestaciya-po-oblasti-B.8.6.jpg</picture>
+        <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/predattestacionnaya-podgotovka-po-promyshlennoj-bezopasnosti.html</url>
+        <price>16900</price>
+        <oldprice>24900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <sales_notes>Протокол РТН, Удостоверение</sales_notes>
+        <collectionId>8</collectionId>
+        <custom_label_0>Предаттестационная подготовка</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="192" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.1.12</model>
+        <name>Обучение по области Б.1.12 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.1.12. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b1-12.jpg</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-1-12.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.1.12</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+<offer id="209" type="vendor.model" available="true">
+        <typePrefix>Повышение квалификации</typePrefix>
+        <vendor>по промбезопасности</vendor>
+        <model>Б.2.10</model>
+        <name>Обучение по области Б.2.10 по промышленной безопасности</name>
+        <description>Повышение квалификации по промбезопасности Б.2.10. Официальное удостоверение</description>
+        <picture>https://obrprofi.ru/assets/offerimg/b2-10.png</picture>
+        <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/prombez-b-2-10.html</url>
+        <price>8900</price>
+        <oldprice>11900</oldprice>
+        <currencyId>RUR</currencyId>
+        <categoryId>47</categoryId>
+        <sales_notes>Удостоверение с занесением в ФИС ФРДО</sales_notes>
+        <collectionId>47</collectionId>
+        <custom_label_0>Б.2.10</custom_label_0>
+        <custom_label_1>руководители и специалисты</custom_label_1>
+        <custom_label_2>нет</custom_label_2>
+    </offer>
+
+        </offers>
+    	<collections>
+    	    <collection id="8">
+                    <url>https://obrprofi.ru/attestaciya/attestatsiya-po-promyshlennoy-bezopasnosti/</url>
+                    <picture>https://obrprofi.ru/assets/images/offer/promim.png</picture>
+                    <name>Аттестация по промышленной безопасности</name> 
+                    <description>Аттестация по промышленной безопасности в Ростехнадзоре. Внесение в реестр.</description>
+                </collection>
+				<collection id="47">
+                    <url>https://obrprofi.ru/povyshenie-kvalifikacii/prombez/</url>
+                    <picture>https://obrprofi.ru/assets/images/offer/freepik__expand__18422.png</picture>
+                    <name>Повышение квалификации по промышленной безопасности</name> 
+                    <description>Повышение квалификации по промышленной безопасности. Удостоверение, реестр.</description>
+                </collection>
+        </collections> 
+	</shop>
+</yml_catalog>

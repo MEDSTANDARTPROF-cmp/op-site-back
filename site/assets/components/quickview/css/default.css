@@ -1,0 +1,32 @@
+.quickview {
+	cursor: pointer;
+}
+
+.quickview-spinner {
+	display: none;
+	width: 32px;
+	height: 32px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -16px;
+	margin-top: -16px;
+	background: url(../img/spinner.gif);
+	z-index: 9999;
+}
+
+.quickview-output a.quickview-close  {
+	display: block;
+	width: 20px;
+	height: 20px;
+	color: #000;
+	font-weight: bold;
+}
+
+.alertify .ajs-modal.quickview-main .ajs-body .ajs-content {
+	padding: 15px 5px;
+}
+.alertify.ajs-in:not(.ajs-hidden) .ajs-dialog,
+.alertify.ajs-out.ajs-hidden .ajs-dialog {
+	animation-duration: 150ms;
+}

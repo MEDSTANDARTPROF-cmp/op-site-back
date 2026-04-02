@@ -1,0 +1,5 @@
+Changelog for ieMsOptionsColor integration into MODx Revolution.
+
+ieMsOptionsColor 1.0.0
+====================================
+- First release

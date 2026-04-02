@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'minishop2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f755dd86e5a69a6b4e4d93b5e590903e',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '07bce3c468d0cba239ca4497c610b59e',
+  'native_key' => 'ms2_notify_js_class_path',
+  'object' => '{"key":"ms2_notify_js_class_path","value":"[[+jsUrl]]web\\/vanilajs\\/modules\\/msizitoast.class.js","xtype":"textfield","namespace":"minishop2","area":"ms2_frontend","editedon":"2024-08-06 09:57:04"}',
+);

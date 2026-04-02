@@ -1,0 +1,92 @@
+<?php
+/**
+ * Resolve system settings
+ * @var array $options
+ * @var xPDOTransport $transport
+ */
+
+if (!function_exists('setOption')) {
+    function setOption(modX $modx, $key, $value, $namespace, $clearCache = true)
+    {
+        if (empty(trim($key))) return false;
+
+        if (!$setting = $modx->getObject('modSystemSetting', $key)) {
+            $setting = $modx->newObject('modSystemSetting');
+            $setting->set('key', $key);
+            $setting->set('namespace', $namespace);
+        }
+
+        $val = is_array($value) ? $modx->toJSON($value) : $value;
+        $setting->set('value', $val);
+
+        if ($setting->save()) {
+            $modx->setOption($key, $value);
+            if ($clearCache) {
+                $modx->cacheManager->refresh(array('system_settings' => array()));
+            }
+            return true;
+        }
+        return false;
+    }
+}
+
+if (!function_exists('setDefaultSettings')) {
+    /**
+     * @param modX $modx
+     * @param array $settings
+     * @param string $mode
+     * @return void|bool
+     */
+    function setDefaultSettings(modX $modx, array $settings, $mode = 'import')
+    {
+        $namespace = 'msimportexport';
+        if (empty($settings)) return;
+        $key = "msimportexport_{$mode}_default_settings";
+        $default = $modx->getOption($key, null, '{}', true);
+        if (is_string($default)) {
+            $default = $modx->fromJSON($default);
+        }
+        if (!$default) $default = array();
+        $default = array_merge($settings, $default);
+
+        return setOption($modx, $key, $default, $namespace);
+    }
+}
+
+$importDefaultSettings = array(
+    'gallery_base_path_images' => '',
+    'gallery_resize_upload_image' => 0,
+    'gallery_remove_images' => 0,
+    'gallery_force_update' => 0,
+    'gallery_type' => '',
+    'gallery_image_delimiter' => ',',
+);
+
+$exportDefaultSettings = array(
+    'gallery_type' => '',
+    'gallery_absolute_url' => 1,
+    'gallery_concatenate_images' => 1,
+    'gallery_image_delimiter' => ',',
+    'gallery_add_images_to_archive' => '',
+    'gallery_copy_image' => 0,
+    'gallery_limit' => 0,
+    'gallery_sortdir' => 'DESC',
+    'gallery_copy_image_path' => '{assets_path}images/export/{task_id}/',
+    'gallery_attach_settings' => '{"thumb":"small","width":150}',
+);
+
+if ($object->xpdo) {
+    switch ($options[xPDOTransport::PACKAGE_ACTION]) {
+        case xPDOTransport::ACTION_INSTALL:
+        case xPDOTransport::ACTION_UPGRADE:
+            /** @var modX $modx */
+            $modx =& $object->xpdo;
+            setDefaultSettings($modx, $importDefaultSettings);
+            setDefaultSettings($modx, $exportDefaultSettings, 'export');
+            break;
+        case xPDOTransport::ACTION_UNINSTALL:
+            break;
+
+    }
+}
+return true;
