@@ -4,6 +4,7 @@ scripts/config.sh
 
 # Бэкапы и дампы
 backup/
+temp_back/
 
 # Архивы
 *.tar.gz
@@ -25,7 +26,11 @@ Thumbs.db
 
 # Загруженные файлы пользователей (большие, живут на сервере)
 site/assets/images/products/
+site/assets/images/rp/
 site/assets/uploads/
+
+# Кеш изображений
+site/assets/cache_image/
 
 # Проблемные файлы
 site/assets/images/temp/com2.png
