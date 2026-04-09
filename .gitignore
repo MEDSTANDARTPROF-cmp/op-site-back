@@ -32,8 +32,16 @@ site/assets/uploads/
 # Кеш изображений
 site/assets/cache_image/
 
+# Блог картинки (живут на сервере)
+site/assets/images/blog/
+
+# msImportExport (временные файлы импорта)
+site/assets/components/msimportexport/export/
+site/assets/components/msimportexport/upload/
+site/core/components/msimportexport/data/
+
 # Проблемные файлы
-site/assets/images/temp/com2.png
+site/assets/images/temp/
 
 # MODX setup (если есть)
 site/setup/
