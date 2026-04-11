@@ -5,11 +5,11 @@
             <div class="d-flex flex-column gap-3">
                 <div class="d-flex align-items-start text-white">
                     <span class="bi bi-check-circle-fill text-success me-2 mt-1 flex-shrink-0"></span>
-                    <span><b>Легитимные документы</b> — удостоверение проходит проверку в ФИС ФРДО</span>
+                    <span><b>Проверка в ФИС ФРДО</b> — данные о выданном документе вносятся в федеральный реестр</span>
                 </div>
                 <div class="d-flex align-items-start text-white">
                     <span class="bi bi-check-circle-fill text-success me-2 mt-1 flex-shrink-0"></span>
-                    <span><b>Актуальные программы</b> — соответствуют Приказу Минпросвещения №534 (ред. от 10.09.2025)</span>
+                    <span><b>Актуальные программы</b> — соответствуют профессиональным стандартам и ФГОС</span>
                 </div>
                 <div class="d-flex align-items-start text-white">
                     <span class="bi bi-check-circle-fill text-success me-2 mt-1 flex-shrink-0"></span>
