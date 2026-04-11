@@ -130,7 +130,7 @@
 
     <!-- ===== 12. PREPOD + LICCOMP + FAQ ===== -->
     <div class="bg-white rounded-4 shadow overflow-hidden mt-5">
-        [[$boxPrepod?]]
+        
         <div class="bg-white px-4 px-sm-5 p-5 p-6">
         [[$boxLicComp?]]
         </div>
