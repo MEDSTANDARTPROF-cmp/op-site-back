@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!hasConsent()) {
     setTimeout(() => {
       banner.classList.remove('d-none');
-    }, 10000);
+    }, 5000);
   }
 
   if (acceptBtn) {
