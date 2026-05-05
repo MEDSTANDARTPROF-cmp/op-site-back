@@ -57,9 +57,16 @@ window.addEventListener('load', function () {
                     [[*offerMarker2]]
                     [[*priceOld:notempty=`[[!$priceHeader?]]`:else=``]]
                     <div class="align-items-baseline d-flex flex-column pb-5" >
-                        <a onclick="ym(75081295,'reachGoal','zayavka')" href="#" class="b24-form-marker bg-white border border-2 border-primary btn btn-ic fw-6 mt-4 pe-3 py-2" data-marker="Консультация  с менеджером - шапка сайта" data-bs-toggle="modal" data-bs-target="#MdGl" style="
-    color: #06ae1f;
-"> <img src="assets/images/temp/ic-mess-32.svg" width="32" height="32" alt="Консультация с менеджером" class="" style="filter: brightness(1.5);"><span>Консультация  с менеджером</span></a>
+                        <a onclick="ym(75081295,'reachGoal','zayavka')" href="#" class="bg-white border border-2 border-primary btn btn-ic fw-6 mt-4 pe-3 py-2"
+                           data-bs-toggle="modal"
+                           data-bs-target="#MdGlNew"
+                           data-form-title="Подобрать курс по направлению «[[*pagetitle]]»"
+                           data-form-subtitle="С расчётом стоимости и сроков. Менеджер свяжется в течение 15 минут."
+                           data-form-source="Категория курсов: [[*pagetitle]]"
+                           style="color: #06ae1f;">
+                          <img src="assets/images/temp/ic-mess-32.svg" width="32" height="32" alt="Консультация с менеджером" class="" style="filter: brightness(1.5);">
+                          <span>Подобрать курс с ценой</span>
+                        </a>
                         <!-- a onclick="ym(75081295,'reachGoal','WA')" href="https://wa.me/79292101126" class="b24-form-marker btn btn-gr btn-ic mt-4 pe-3 py-2 btn-blic" target="_blank" rel="noopener noreferrer"><img src="assets/images/temp/ic-WhatsApp-32.svg" width="32" height="32" alt="Написать на WhatsApp"><span> <span class="flare"></span> Написать на WhatsApp*</span></a -->
                     </div>
                     <br class="pb-5 d-none d-md-blokc">

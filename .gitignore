@@ -1,6 +1,8 @@
 # Пароли и доступы
 .1_пороли
 scripts/config.sh
+site/core/config/b24.config.php
+site/core/cache/logs/b24_leads.log
 
 # Бэкапы и дампы
 backup/
@@ -45,3 +47,14 @@ site/assets/images/temp/
 
 # MODX setup (если есть)
 site/setup/
+
+# Локальные временные файлы
+tmp_*.txt
+tmp_*.html
+.claude/settings.local.json
+
+# Сырые JSON данные диагностических скриптов
+scripts/obrprofi_goals_raw.json
+
+# Локальный preview (не для прода)
+site/blog-preview.html

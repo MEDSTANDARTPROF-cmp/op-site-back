@@ -10,7 +10,7 @@
                 <a class="align-items-center d-flex fw-bold nav-link py-1 justify-content-end" href="[[~3]]"><i class="opacity-75 bi bi-geo-alt-fill me-2"></i><span class="fw-4 pe-2" >Работаем по </span>  России</a>
             </li>
             <li class="nav-item ms-3">
-                <a class="align-items-center d-flex fw-bold nav-link py-1 justify-content-end" href="tel:+78005502462"><i class="opacity-75 bi bi-telephone-forward-fill me-2"></i>8 800 550-24-62</a>
+                <a onclick="ym(75081295,'reachGoal','TL')" class="align-items-center d-flex fw-bold nav-link py-1 justify-content-end" href="tel:+78005502462"><i class="opacity-75 bi bi-telephone-forward-fill me-2"></i>8 800 550-24-62</a>
             </li>
         </ul>
     </div>
@@ -31,11 +31,11 @@
                     <div class="ms-auto d-flex flex-column">
                         <ul class="navbar-nav nav-pills ms-0 ms-lg-auto d-flex">
                             <li class="nav-item d-none d-lg-block">
-                                <a class="align-items-center d-flex fw-bold nav-link py-1" href="tel:+78005502462"><i class="opacity-75 bi bi-geo-alt-fill me-2"></i><span class="fw-5 pe-2" >Работаем по </span>  России </a>
+                                <a onclick="ym(75081295,'reachGoal','TL')" class="align-items-center d-flex fw-bold nav-link py-1" href="tel:+78005502462"><i class="opacity-75 bi bi-geo-alt-fill me-2"></i><span class="fw-5 pe-2" >Работаем по </span>  России </a>
                             </li>
                             
                             <li class="nav-item ms-2 d-none d-lg-block">
-                                <a class="align-items-center d-flex fw-bold nav-link py-1" href="tel:+78005502462"><i class="opacity-75 bi bi-telephone-forward-fill me-2"></i>8 800 550-24-62</a>
+                                <a onclick="ym(75081295,'reachGoal','TL')" class="align-items-center d-flex fw-bold nav-link py-1" href="tel:+78005502462"><i class="opacity-75 bi bi-telephone-forward-fill me-2"></i>8 800 550-24-62</a>
                             </li>
                             <li class="nav-item ms-2 d-none d-lg-block0">
                                 <a class="align-items-center d-flex fw-bold nav-link py-1" href="[[~302]]"><i class="opacity-75 bi bi-arrow-right-square-fill me-2"></i>Вход</a>
@@ -116,7 +116,7 @@
             <span itemprop="name">Написать</span>
         </a>
 
-        <a href="tel:+78005502462"
+        <a onclick="ym(75081295,'reachGoal','TL')" href="tel:+78005502462"
            class="fs-10 opacity-750 align-items-center d-flex flex-column link-light link-underline-opacity-0"
            data-bs-toggle="offcanvas"
            data-bs-target="#offcanvasPhone"

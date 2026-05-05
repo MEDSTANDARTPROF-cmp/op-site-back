@@ -73,7 +73,7 @@
                             </div>
                         </div>
                         <a onclick="ym(75081295,'reachGoal','zayavka')" href="#" class="btn btn-gr-l btn-ic mt-4 py-2 w-100 b24-form-marker" data-bs-toggle="modal" data-marker="Консультация товар" data-bs-target="#MdGl"><img src="assets/images/temp/ic-mess-32.svg" width="32" height="32" alt="Консультация с менеджером"><span>Консультация с менеджером</span></a>
-                        <a href="tel:+78005502462" class="btn btn-outline-secondary btn-ic mt-2 py-2 w-100"><span class="bi bi-telephone-fill me-2"></span><span>8 800 550-24-62</span></a>
+                        <a onclick="ym(75081295,'reachGoal','TL')" href="tel:+78005502462" class="btn btn-outline-secondary btn-ic mt-2 py-2 w-100"><span class="bi bi-telephone-fill me-2"></span><span>8 800 550-24-62</span></a>
                     </div>
                 </div>
 

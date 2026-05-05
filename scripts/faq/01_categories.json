@@ -1,0 +1,327 @@
+[
+    {
+        "id": 61,
+        "alias": "perepodgotovka",
+        "pagetitle": "Курсы профессиональной переподготовки на базе высшего и среднего профессионального образования с дипломом дистанционно",
+        "menutitle": "Переподготовка",
+        "uri": "perepodgotovka\/",
+        "children": [
+            {
+                "id": 64,
+                "alias": "promyishlennaya-bezopasnost",
+                "pagetitle": "Обучение по промышленной безопасности. Переподготовка с выдачей диплома дистанционно",
+                "menutitle": "Промышленная безопасность",
+                "uri": "perepodgotovka\/promyishlennaya-bezopasnost\/"
+            },
+            {
+                "id": 3727,
+                "alias": "perepodgotovka-po-pozharnoj-bezopasnosti",
+                "pagetitle": "Переподготовка по пожарной безопасности",
+                "menutitle": "Пожарная безопасность",
+                "uri": "perepodgotovka\/perepodgotovka-po-pozharnoj-bezopasnosti\/"
+            },
+            {
+                "id": 65,
+                "alias": "ohrana-truda",
+                "pagetitle": "Обучение по охране труда. Переподготовка с выдачей диплом о профессиональной переподготовке",
+                "menutitle": "Охрана труда",
+                "uri": "perepodgotovka\/ohrana-truda\/"
+            }
+        ]
+    },
+    {
+        "id": 4860,
+        "alias": "kursyi-dpo",
+        "pagetitle": "Курсы ДПО",
+        "menutitle": "Курсы ДПО",
+        "uri": "kursyi-dpo\/",
+        "children": [
+            {
+                "id": 4959,
+                "alias": "administration",
+                "pagetitle": "Административно-управленческая и офисная деятельность",
+                "menutitle": "Административно-управленческая и офисная деятельность",
+                "uri": "kursyi-dpo\/administration\/"
+            },
+            {
+                "id": 4861,
+                "alias": "architecture",
+                "pagetitle": "Архитектура, проектирование, геодезия, топография и дизайн",
+                "menutitle": "Архитектура, проектирование, геодезия, топография и дизайн",
+                "uri": "kursyi-dpo\/architecture\/"
+            },
+            {
+                "id": 4961,
+                "alias": "atomnaya-promyishlennost",
+                "pagetitle": "Атомная промышленность",
+                "menutitle": "Атомная промышленность",
+                "uri": "kursyi-dpo\/atomnaya-promyishlennost\/"
+            },
+            {
+                "id": 4965,
+                "alias": "neft-i-gaz",
+                "pagetitle": "Добыча, переработка, транспортировка нефти и газа",
+                "menutitle": "Добыча, переработка, транспортировка нефти и газа",
+                "uri": "kursyi-dpo\/neft-i-gaz\/"
+            },
+            {
+                "id": 4963,
+                "alias": "minerals",
+                "pagetitle": "Добыча, переработка угля, руд и других полезных ископаемых",
+                "menutitle": "Добыча, переработка угля, руд и других полезных ископаемых",
+                "uri": "kursyi-dpo\/minerals\/"
+            },
+            {
+                "id": 4967,
+                "alias": "healthcare",
+                "pagetitle": "Здравоохранение - курсы дополнительного профессионального образования",
+                "menutitle": "Здравоохранение",
+                "uri": "kursyi-dpo\/healthcare\/"
+            },
+            {
+                "id": 4969,
+                "alias": "art",
+                "pagetitle": "Культура, искусство - курсы дополнительного профессионального образования",
+                "menutitle": "Культура, искусство",
+                "uri": "kursyi-dpo\/art\/"
+            },
+            {
+                "id": 4971,
+                "alias": "bezopasnost",
+                "pagetitle": "Обеспечение безопасности - курсы дополнительного профессионального образования",
+                "menutitle": "Обеспечение безопасности",
+                "uri": "kursyi-dpo\/bezopasnost\/"
+            },
+            {
+                "id": 4973,
+                "alias": "obrazovaniye",
+                "pagetitle": "Образование и наука - курсы дополнительного профессионального образования",
+                "menutitle": "Образование и наука",
+                "uri": "kursyi-dpo\/obrazovaniye\/"
+            },
+            {
+                "id": 4975,
+                "alias": "food-industry",
+                "pagetitle": "Пищевая промышленность, включая производство напитков и табака",
+                "menutitle": "Пищевая промышленность",
+                "uri": "kursyi-dpo\/food-industry\/"
+            },
+            {
+                "id": 4977,
+                "alias": "connection",
+                "pagetitle": "Связь, информационные и коммуникационные технологии - курсы дополнительного профессионального образования",
+                "menutitle": "Связь, информационные и коммуникационные технологии",
+                "uri": "kursyi-dpo\/connection\/"
+            },
+            {
+                "id": 4979,
+                "alias": "agriculture",
+                "pagetitle": "Сельское хозяйство - курсы дополнительного профессионального образования",
+                "menutitle": "Сельское хозяйство",
+                "uri": "kursyi-dpo\/agriculture\/"
+            },
+            {
+                "id": 4981,
+                "alias": "industry",
+                "pagetitle": "Сквозные виды профессиональной деятельности в промышленности - курсы дополнительного профессионального образования",
+                "menutitle": "Сквозные виды профессиональной деятельности в промышленности",
+                "uri": "kursyi-dpo\/industry\/"
+            },
+            {
+                "id": 4983,
+                "alias": "service",
+                "pagetitle": "Сервис, оказание услуг населению - курсы дополнительного профессионального образования",
+                "menutitle": "Сервис, оказание услуг населению",
+                "uri": "kursyi-dpo\/service\/"
+            },
+            {
+                "id": 4985,
+                "alias": "social-service",
+                "pagetitle": "Социальное обслуживание - курсы дополнительного профессионального образования",
+                "menutitle": "Социальное обслуживание",
+                "uri": "kursyi-dpo\/social-service\/"
+            },
+            {
+                "id": 4987,
+                "alias": "construction",
+                "pagetitle": "Строительство и жилищно-коммунальное хозяйство - курсы дополнительного профессионального образования",
+                "menutitle": "Строительство и жилищно-коммунальное хозяйство",
+                "uri": "kursyi-dpo\/construction\/"
+            },
+            {
+                "id": 4989,
+                "alias": "transport",
+                "pagetitle": "Транспорт - курсы дополнительного профессионального образования",
+                "menutitle": "Транспорт",
+                "uri": "kursyi-dpo\/transport\/"
+            },
+            {
+                "id": 4991,
+                "alias": "sport",
+                "pagetitle": "Физическая культура и спорт - курсы дополнительного профессионального образования",
+                "menutitle": "Физическая культура и спорт",
+                "uri": "kursyi-dpo\/sport\/"
+            },
+            {
+                "id": 4993,
+                "alias": "economics",
+                "pagetitle": "Финансы и экономика - курсы дополнительного профессионального образования",
+                "menutitle": "Финансы и экономика",
+                "uri": "kursyi-dpo\/economics\/"
+            },
+            {
+                "id": 4995,
+                "alias": "chemical-engineering",
+                "pagetitle": "Химическое, химико-технологическое производство - курсы дополнительного профессионального образования",
+                "menutitle": "Химическое, химико-технологическое производство",
+                "uri": "kursyi-dpo\/chemical-engineering\/"
+            },
+            {
+                "id": 4997,
+                "alias": "power-industry",
+                "pagetitle": "Электроэнергетика - курсы дополнительного профессионального образования",
+                "menutitle": "Электроэнергетика",
+                "uri": "kursyi-dpo\/power-industry\/"
+            },
+            {
+                "id": 4999,
+                "alias": "jurisprudence",
+                "pagetitle": "Юриспруденция - курсы дополнительного профессионального образования",
+                "menutitle": "Юриспруденция",
+                "uri": "kursyi-dpo\/jurisprudence\/"
+            }
+        ]
+    },
+    {
+        "id": 295,
+        "alias": "sout",
+        "pagetitle": "Проведение СОУТ",
+        "menutitle": "Проведение СОУТ",
+        "uri": "sout\/",
+        "children": []
+    },
+    {
+        "id": 63,
+        "alias": "rabochie-spetsialnosti",
+        "pagetitle": "Обучение рабочим профессиям и подготовка рабочих кадров",
+        "menutitle": "Рабочие специальности",
+        "uri": "rabochie-spetsialnosti\/",
+        "children": []
+    },
+    {
+        "id": 44,
+        "alias": "attestaciya",
+        "pagetitle": "Обучение и аттестация работников организаций",
+        "menutitle": "Аттестация",
+        "uri": "attestaciya\/",
+        "children": [
+            {
+                "id": 45,
+                "alias": "attestacziya-po-oxrane-truda",
+                "pagetitle": "Аттестация по охране труда",
+                "menutitle": "Охрана труда",
+                "uri": "attestaciya\/attestacziya-po-oxrane-truda\/"
+            },
+            {
+                "id": 48,
+                "alias": "attestacziya-po-elektrobezopasnosti",
+                "pagetitle": "Аттестация по электробезопасности на все группы допуска в Ростехнадзор",
+                "menutitle": "Электробезопасность",
+                "uri": "attestaciya\/attestacziya-po-elektrobezopasnosti\/"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "alias": "povyshenie-kvalifikacii",
+        "pagetitle": "Курсы повышения квалификации с удостоверением дистанционно",
+        "menutitle": "Повышение квалификации",
+        "uri": "povyshenie-kvalifikacii\/",
+        "children": [
+            {
+                "id": 47,
+                "alias": "prombez",
+                "pagetitle": "Обучение по промышленной безопасности. Курсы промбезопасности для руководителей и специалистов",
+                "menutitle": "Промышленная безопасность",
+                "uri": "povyshenie-kvalifikacii\/prombez\/"
+            },
+            {
+                "id": 49,
+                "alias": "okhrana-truda",
+                "pagetitle": "Обучение по охране труда. Курсы повышения квалификации с выдачей удостоверения",
+                "menutitle": "Охрана труда",
+                "uri": "povyshenie-kvalifikacii\/okhrana-truda\/"
+            },
+            {
+                "id": 58,
+                "alias": "obuchenie-po-elektrobezopasnosti",
+                "pagetitle": "Обучение по электробезопасности на группу допуска в Ростехнадзор с выдачей удостоверения",
+                "menutitle": "Электробезопасность",
+                "uri": "povyshenie-kvalifikacii\/obuchenie-po-elektrobezopasnosti\/"
+            },
+            {
+                "id": 59,
+                "alias": "stroitelstvo",
+                "pagetitle": "Повышение квалификации в строительстве. Курсы повышения квалификации с выдачей удостоверения",
+                "menutitle": "Строительство",
+                "uri": "povyshenie-kvalifikacii\/stroitelstvo\/"
+            },
+            {
+                "id": 57,
+                "alias": "pervaya-pomoshch",
+                "pagetitle": "Обучение по оказанию первой медицинской помощи. Курсы повышения квалификации с выдачей удостоверения",
+                "menutitle": "Первая помощь",
+                "uri": "povyshenie-kvalifikacii\/pervaya-pomoshch\/"
+            },
+            {
+                "id": 50,
+                "alias": "gostinichnoe-delo-turizm",
+                "pagetitle": "Обучение по гостиничному делу и туризму. Курсы повышения квалификации с выдачей удостоверения",
+                "menutitle": "Гостиничное дело и туризм",
+                "uri": "povyshenie-kvalifikacii\/gostinichnoe-delo-turizm\/"
+            },
+            {
+                "id": 51,
+                "alias": "transportnaya-bezopasnost",
+                "pagetitle": "Обучение по транспортной безопасности. Курсы повышения квалификации с выдачей удостоверения",
+                "menutitle": "Транспортная безопасность",
+                "uri": "povyshenie-kvalifikacii\/transportnaya-bezopasnost\/"
+            },
+            {
+                "id": 52,
+                "alias": "ekologiya",
+                "pagetitle": "Обучение по экологии. Курсы повышения квалификации с выдачей удостоверения",
+                "menutitle": "Экология",
+                "uri": "povyshenie-kvalifikacii\/ekologiya\/"
+            },
+            {
+                "id": 53,
+                "alias": "radiatsionnaya-bezopasnost",
+                "pagetitle": "Обучение по радиационной безопасности и радиационному контролю. Курсы повышения квалификации с выдачей удостоверения",
+                "menutitle": "Радиационная безопасность",
+                "uri": "povyshenie-kvalifikacii\/radiatsionnaya-bezopasnost\/"
+            },
+            {
+                "id": 54,
+                "alias": "teploenergetika-teplotekhnika",
+                "pagetitle": "Обучение по теплоэнергетике и теплотехнике. Курсы повышения квалификации с выдачей удостоверения",
+                "menutitle": "Теплоэнергетика",
+                "uri": "povyshenie-kvalifikacii\/teploenergetika-teplotekhnika\/"
+            },
+            {
+                "id": 55,
+                "alias": "pozharnaya-bezopasnost",
+                "pagetitle": "Обучение по пожарной безопасности. Курсы повышения квалификации с выдачей удостоверения",
+                "menutitle": "Пожарная безопасность",
+                "uri": "povyshenie-kvalifikacii\/pozharnaya-bezopasnost\/"
+            },
+            {
+                "id": 56,
+                "alias": "go-chs",
+                "pagetitle": "Обучение по ГО и ЧС. Курсы повышения квалификации с выдачей удостоверения",
+                "menutitle": "Гражданская оборона",
+                "uri": "povyshenie-kvalifikacii\/go-chs\/"
+            }
+        ]
+    }
+]

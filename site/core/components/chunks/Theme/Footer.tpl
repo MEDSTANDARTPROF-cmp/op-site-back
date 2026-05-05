@@ -57,7 +57,7 @@
                             <span>пн - вс 08:00 - 21:00</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="align-items-center d-flex flex-fill nav-link px-0 py-1 text-light text-opacity-50" href="tel:+78005502462">
+                        <a onclick="ym(75081295,'reachGoal','TL')" class="align-items-center d-flex flex-fill nav-link px-0 py-1 text-light text-opacity-50" href="tel:+78005502462">
                             <img src="assets/icon/phone.svg" class="me-2 opacity-50" width="24">
                              <span> 8 800 550-24-62 </span>&nbsp;&nbsp;-&nbsp;&nbsp;24/7</a>
                     </li>
@@ -109,7 +109,10 @@
   <em>* Компания Meta Platforms Inc. признана экстремистской организацией, и ее деятельность запрещена на территории РФ. Обращаясь через WhatsApp вы соглашаетесь с обработкой персональных данных. </em>
 </p>
 </footer>
-<!-- Глобальная форма -->
+<!-- Новая глобальная форма (ObrForm) -->
+[[$ObrFormModal]]
+
+<!-- Глобальная форма (старая, B24) -->
 <div class="modal fade" id="MdGl" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">

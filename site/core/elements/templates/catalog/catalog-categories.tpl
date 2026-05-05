@@ -40,6 +40,8 @@
                     &templates=`3,5,14`
                 ]]
                 
+                [[$ObrFormFindCourse]]
+
                 [[$catalogFooter?]]
                 [[$boxFaqTemp?]]
                 [[$Footer]]

@@ -12,7 +12,7 @@
                                         <img src="assets/icon/Phone.png" width="40" height="40" style="width:2.5rem;height:2.5rem;" alt="телефон">
                                         <div class="d-grid ps-3">
                                             <b>Телефон</b>
-                                            <a href="tel:+78005502462" class="link-body-emphasis">8 800 550-24-62</a>
+                                            <a onclick="ym(75081295,'reachGoal','TL')" href="tel:+78005502462" class="link-body-emphasis">8 800 550-24-62</a>
                                         </div>
                                     </li>
                                     <li class="align-items-center d-flex lh-sm mb-3">

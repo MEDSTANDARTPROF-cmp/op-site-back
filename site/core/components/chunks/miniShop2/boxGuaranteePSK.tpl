@@ -24,7 +24,7 @@
         <div class="col-12 col-md-4 text-center text-md-end">
             <a onclick="ym(75081295,'reachGoal','zayavka')" href="#" class="btn btn-light btn-lg px-4 fw-6 b24-form-marker" data-bs-toggle="modal" data-marker="Гарантии CTA" data-bs-target="#MdGl"><span class="bi bi-chat-dots-fill me-2"></span>Записаться на курс</a>
             <div class="mt-3">
-                <a href="tel:+78005502462" class="text-white text-decoration-none opacity-75"><span class="bi bi-telephone me-1"></span>8 800 550-24-62</a>
+                <a onclick="ym(75081295,'reachGoal','TL')" href="tel:+78005502462" class="text-white text-decoration-none opacity-75"><span class="bi bi-telephone me-1"></span>8 800 550-24-62</a>
             </div>
         </div>
     </div>
