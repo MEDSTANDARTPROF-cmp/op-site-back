@@ -27,14 +27,18 @@
 
 ### Постдеплой-фиксы (выявлены сразу после деплоя)
 
-- **Относительные пути в `modalForm.tpl`** → абсолютные (`assets/...` → `/assets/...`)
+- **Относительные пути в `modalForm.tpl`** → абсолютные (`assets/...` → `/assets/...`) — коммит `0562d350`
   - 8 правок: form.css, form.js + 6 иконок каналов
   - Без фикса CSS не загружался на URL с многоуровневым путём типа `/povyshenie-kvalifikacii/pozharnaya-bezopasnost/`
-- **Селекторы CSS не совпадали с разметкой SEO-статей**
-  - В CSS было `.obr-seo-article` / `.obr-seo-table`, а в HTML SEO-статей `<div class="seo-article">` и обычные `<table>`
-  - Заменил на `.obr-seo .seo-article` и `.obr-seo .seo-article table` (23 правила)
-  - Залит обновлённый `form.css` на прод, кеш очищен
+- **CSS должен поддерживать ДВА формата SEO-статей** — коммит `7aa78019`
+  - Партии 1-3 (17 файлов): `<div class="obr-seo-article">` + `<table class="obr-seo-table">` + `<p class="obr-seo-article__lead">`
+  - Партии 4-5 (6 файлов): `<div class="seo-article">` + обычный `<table>`, без lead
+  - Первая попытка фикса (0562d350) переписала селекторы только под `.seo-article` и сломала 17 страниц со старой разметкой
+  - Финальный CSS таргетит ОБА класса: `.obr-seo .seo-article, .obr-seo .obr-seo-article` для типографики, и три варианта селекторов для таблиц (`.obr-seo .seo-article table`, `.obr-seo .obr-seo-article table`, `.obr-seo-table`)
+  - Также убран `max-width: 980px` — текст больше не уже соседних блоков
+- **TV `priceData` менял текст «апреля» → «мая»** на ресурсах 55, 63, 3727 (баннеры скидок). На локали — через MODX API, на проде — через `UPDATE modx_site_tmplvar_contentvalues SET value = REPLACE(value, 'апреля', 'мая') WHERE value LIKE '%апрел%'`
 - **Курс с alias `sertifikatsiya` на самом деле имеет alias `sertifikacziya`** на проде/локали — учесть в будущих ссылках
+- **404 на `/kontaktyi.html` и `/akkumulyatorshchik-2-go-razryada.html`** — это не сломанные страницы, а мои опечатки в smoke-тестах. Реальные URL: `/contact.html` и `/akkumulyatorshchik-3-razryad.html`
 
 ### Откат прод (если что-то сломается)
 
