@@ -1,5 +1,76 @@
 # Changelog работ по oбрprofi.ru
 
+## 2026-05-05 — DEPLOY на прод
+
+### Деплой обновлений на прод (obrprofi.ru)
+
+- **Бэкап прода:** `~/backup_prod_20260505_150655.sql` (341 МБ на сервере) — на случай отката
+- **Дамп локальной БД (9 таблиц, 167 МБ):** `temp_back/full_deploy_20260505_150733.sql`
+  - `modx_site_content` (включая `published=0` на id=7643)
+  - `modx_ms2_products`
+  - `modx_site_tmplvar_contentvalues` (46 значений FAQ/SEO)
+  - `modx_msie_preset`
+  - `modx_site_tmplvars` (новые TV faq_data, seo_article)
+  - `modx_site_templates` (8 шаблонов с FaqBlock + SeoArticleBlock)
+  - `modx_site_htmlsnippets` (5 чанков ObrForm + правки Footer/Navbar/etc.)
+  - `modx_site_snippets` (renderFaq, sendLeadToB24)
+  - `modx_categories` (категория ObrForm)
+- **Залиты файлы на прод (обр-форма, FAQ, SEO):**
+  - `core/components/chunks/ObrForm/*.tpl` (5 файлов)
+  - `core/elements/snippets/{renderFaq,sendLeadToB24}.php`
+  - `assets/components/obr-form/{form.css,form.js,icons/*}` (8 SVG)
+  - `core/config/b24.config.php` создан с `test_hosts=[]` (без префикса [ТЕСТ])
+- **Smoke-тесты:**
+  - 8 страниц вернули HTTP 200 с FAQ + SEO
+  - POST `/ajax-lead` → лид 609192 в B24 без префикса [ТЕСТ]
+  - id=7643 → 404 (отключен)
+
+### Постдеплой-фиксы (выявлены сразу после деплоя)
+
+- **Относительные пути в `modalForm.tpl`** → абсолютные (`assets/...` → `/assets/...`)
+  - 8 правок: form.css, form.js + 6 иконок каналов
+  - Без фикса CSS не загружался на URL с многоуровневым путём типа `/povyshenie-kvalifikacii/pozharnaya-bezopasnost/`
+- **Селекторы CSS не совпадали с разметкой SEO-статей**
+  - В CSS было `.obr-seo-article` / `.obr-seo-table`, а в HTML SEO-статей `<div class="seo-article">` и обычные `<table>`
+  - Заменил на `.obr-seo .seo-article` и `.obr-seo .seo-article table` (23 правила)
+  - Залит обновлённый `form.css` на прод, кеш очищен
+- **Курс с alias `sertifikatsiya` на самом деле имеет alias `sertifikacziya`** на проде/локали — учесть в будущих ссылках
+
+### Откат прод (если что-то сломается)
+
+```bash
+ssh severmarin_arkadiy@severmarin.beget.tech
+mysql -usevermarin_prof -p'C0uB9nh&TkRL' severmarin_prof < ~/backup_prod_20260505_150655.sql
+rm -rf ~/obrprofi.ru/public_html/core/cache/[a-z]*
+```
+
+После отката также удалить файлы (если хочется убрать совсем):
+```bash
+rm -rf ~/obrprofi.ru/public_html/core/components/chunks/ObrForm
+rm -rf ~/obrprofi.ru/public_html/core/elements/snippets
+rm -rf ~/obrprofi.ru/public_html/assets/components/obr-form
+rm ~/obrprofi.ru/public_html/core/config/b24.config.php
+```
+
+### Доступы и пути для разработчика
+
+- **Git remote:** github.com/MEDSTANDARTPROF-cmp/op-site-back, ветка master
+- **Последний коммит до фиксов:** `5bc2bfaa` (после фиксов будет ещё коммит)
+- **SSH прод:** `severmarin_arkadiy@severmarin.beget.tech` (ключ ed25519)
+- **Прод-БД:** `severmarin_prof / C0uB9nh&TkRL` (см. `scripts/deploy-courses-to-prod.sh`)
+- **Прод-путь:** `~/obrprofi.ru/public_html/`
+- **MODX_CORE_PATH прод:** `/home/s/severmarin/obrprofi.ru/public_html/core/`
+- **Локальный путь:** `H:/666/TEST/SITE/ObrProfi_FULL/site/`
+- **Локальная БД:** `obrprofi / obrprofi` через Laragon (PHP 8.3.30, MySQL 8.4.3)
+
+### Изменено в этом деплое
+
+- 23 категории каталога курсов получили уникальный FAQ (14-15 вопросов) + SEO-статью (1500-2500 слов)
+- Партии 1-5 закрыты (B2C-блок 100%)
+- Курс id=7643 (organizaciya-obshchevojskovogo-tylovogo) отключён по просьбе клиента
+
+---
+
 ## 2026-05-04
 
 ### Добавлено

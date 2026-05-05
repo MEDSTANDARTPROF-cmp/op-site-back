@@ -415,49 +415,39 @@
 
 /* === SEO-статья === */
 .obr-seo { background: #fafbfc; }
-.obr-seo .obr-seo-article { margin: 0 auto; }
-.obr-seo-article__lead {
-  font-size: 17px;
-  line-height: 1.5;
-  color: #4a5460;
-  padding: 18px 22px;
-  background: #f0f7ff;
-  border-left: 4px solid #06ae1f;
-  border-radius: 6px;
-  margin: 0 0 32px;
-}
-.obr-seo-article h2 {
+.obr-seo .seo-article { margin: 0 auto; max-width: 980px; }
+.obr-seo .seo-article h2 {
   font-size: 24px;
   font-weight: 700;
   color: #1a1a2e;
   margin: 36px 0 16px;
   line-height: 1.25;
 }
-.obr-seo-article h3 {
+.obr-seo .seo-article h3 {
   font-size: 19px;
   font-weight: 600;
   color: #1a1a2e;
   margin: 24px 0 10px;
 }
-.obr-seo-article p {
+.obr-seo .seo-article p {
   color: #2a323a;
   font-size: 16px;
   line-height: 1.7;
   margin: 0 0 14px;
 }
-.obr-seo-article ul,
-.obr-seo-article ol {
+.obr-seo .seo-article ul,
+.obr-seo .seo-article ol {
   padding-left: 24px;
   margin: 0 0 18px;
 }
-.obr-seo-article ul li,
-.obr-seo-article ol li {
+.obr-seo .seo-article ul li,
+.obr-seo .seo-article ol li {
   color: #2a323a;
   margin-bottom: 8px;
   line-height: 1.6;
 }
-.obr-seo-article strong { color: #1a1a2e; font-weight: 600; }
-.obr-seo-table {
+.obr-seo .seo-article strong { color: #1a1a2e; font-weight: 600; }
+.obr-seo .seo-article table {
   width: 100%;
   border-collapse: collapse;
   margin: 18px 0 24px;
@@ -467,26 +457,31 @@
   overflow: hidden;
   box-shadow: 0 1px 3px rgba(0, 0, 0, .06);
 }
-.obr-seo-table th {
+.obr-seo .seo-article table th {
   background: #1a3a6e;
   color: #fff;
   padding: 12px 14px;
   text-align: left;
   font-weight: 600;
 }
-.obr-seo-table td {
+.obr-seo .seo-article table td {
   padding: 12px 14px;
   border-bottom: 1px solid #e9ecef;
   color: #2a323a;
+  vertical-align: top;
 }
-.obr-seo-table tr:last-child td { border-bottom: none; }
-.obr-seo-table tr:nth-child(even) { background: #f7f8fa; }
+.obr-seo .seo-article table tr:last-child td { border-bottom: none; }
+.obr-seo .seo-article table tbody tr:nth-child(even) { background: #f7f8fa; }
 @media (max-width: 720px) {
-  .obr-seo-article h2 { font-size: 20px; }
-  .obr-seo-article h3 { font-size: 17px; }
-  .obr-seo-article p, .obr-seo-article ul li, .obr-seo-article ol li { font-size: 15px; }
-  .obr-seo-table { font-size: 13px; }
-  .obr-seo-table th, .obr-seo-table td { padding: 10px; }
+  .obr-seo .seo-article h2 { font-size: 20px; }
+  .obr-seo .seo-article h3 { font-size: 17px; }
+  .obr-seo .seo-article p,
+  .obr-seo .seo-article ul li,
+  .obr-seo .seo-article ol li { font-size: 15px; }
+  .obr-seo .seo-article table { font-size: 13px; }
+  .obr-seo .seo-article table th,
+  .obr-seo .seo-article table td { padding: 10px; }
+  .obr-seo .seo-article table { display: block; overflow-x: auto; }
 }
 
 /* === Блок "Не нашли курс?" под списком курсов === */

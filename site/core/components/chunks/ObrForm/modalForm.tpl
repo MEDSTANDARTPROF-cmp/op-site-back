@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="assets/components/obr-form/form.css">
+<link rel="stylesheet" href="/assets/components/obr-form/form.css">
 
 <div class="modal fade obr-form-modal" id="MdGlNew" tabindex="-1" aria-labelledby="MdGlNewTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -41,7 +41,7 @@
               <input type="radio" name="channel" value="phone" checked>
               <span class="obr-form__channel-btn">
                 <span class="obr-form__channel-ic" style="background:#3b82f6">
-                  <img src="assets/components/obr-form/icons/phone.svg" width="13" height="13" alt="">
+                  <img src="/assets/components/obr-form/icons/phone.svg" width="13" height="13" alt="">
                 </span>
                 <span>Позвоните мне</span>
               </span>
@@ -50,7 +50,7 @@
               <input type="radio" name="channel" value="email">
               <span class="obr-form__channel-btn">
                 <span class="obr-form__channel-ic" style="background:#ec4899">
-                  <img src="assets/components/obr-form/icons/email.svg" width="13" height="13" alt="">
+                  <img src="/assets/components/obr-form/icons/email.svg" width="13" height="13" alt="">
                 </span>
                 <span>По почте</span>
               </span>
@@ -59,7 +59,7 @@
               <input type="radio" name="channel" value="wa">
               <span class="obr-form__channel-btn">
                 <span class="obr-form__channel-ic" style="background:#25d366">
-                  <img src="assets/components/obr-form/icons/whatsapp.svg" width="14" height="14" alt="">
+                  <img src="/assets/components/obr-form/icons/whatsapp.svg" width="14" height="14" alt="">
                 </span>
                 <span>WhatsApp<sup class="obr-form__meta-mark" title="См. дисклеймер в футере">*</sup></span>
               </span>
@@ -68,7 +68,7 @@
               <input type="radio" name="channel" value="tg">
               <span class="obr-form__channel-btn">
                 <span class="obr-form__channel-ic" style="background:#229ED9">
-                  <img src="assets/components/obr-form/icons/telegram.svg" width="14" height="14" alt="">
+                  <img src="/assets/components/obr-form/icons/telegram.svg" width="14" height="14" alt="">
                 </span>
                 <span>Telegram</span>
               </span>
@@ -77,7 +77,7 @@
               <input type="radio" name="channel" value="viber">
               <span class="obr-form__channel-btn">
                 <span class="obr-form__channel-ic" style="background:#7360F2">
-                  <img src="assets/components/obr-form/icons/viber.svg" width="14" height="14" alt="">
+                  <img src="/assets/components/obr-form/icons/viber.svg" width="14" height="14" alt="">
                 </span>
                 <span>Viber</span>
               </span>
@@ -86,7 +86,7 @@
               <input type="radio" name="channel" value="max">
               <span class="obr-form__channel-btn">
                 <span class="obr-form__channel-ic obr-form__channel-ic--max">
-                  <img src="assets/components/obr-form/icons/max-original.svg" alt="">
+                  <img src="/assets/components/obr-form/icons/max-original.svg" alt="">
                 </span>
                 <span>MAX</span>
               </span>
@@ -190,4 +190,4 @@
   </div>
 </div>
 
-<script src="assets/components/obr-form/form.js" defer></script>
+<script src="/assets/components/obr-form/form.js" defer></script>
