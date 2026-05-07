@@ -1,0 +1,22 @@
+<div class="container my-5">
+    <div class="bg-success text-white p-4 p-md-5 rounded-4 shadow position-relative overflow-hidden">
+        <div class="row align-items-center g-4">
+            <div class="col-md-7">
+                <div class="fw-light h4 mb-3 text-uppercase">
+                    Запросить коммерческое<br><b>предложение для организации</b>
+                </div>
+                <p class="mb-4 opacity-90">Скидки от 5 человек, корпоративный методист, единые отчётные документы. Подбор программ под специфику предприятия.</p>
+                <a href="#" class="btn btn-light btn-lg fw-6 px-4"
+                   data-bs-toggle="modal" data-bs-target="#MdGlNew"
+                   data-form-source="Коммерческое предложение: [[*pagetitle]]"
+                   data-form-title="Коммерческое предложение"
+                   data-form-subtitle="Расскажите сколько сотрудников и какие направления — пришлём расчёт за 1 день.">
+                    Получить расчёт →
+                </a>
+            </div>
+            <div class="col-md-5 d-none d-md-block text-end">
+                <img class="mw-100 h-auto rounded-3" src="[[!phpthumbon? &input=`assets/images/temp/com.png` &options=`&w=420&h=240&f=webp`]]" width="420" height="240" alt="Коммерческое предложение">
+            </div>
+        </div>
+    </div>
+</div>

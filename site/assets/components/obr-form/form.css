@@ -380,15 +380,15 @@
   display: flex;
   align-items: flex-start;
   gap: 8px;
-  font-size: 12px;
-  color: #5a6573;
+  font-size: 11px;
+  color: #8a93a0;
   cursor: pointer;
-  line-height: 1.4;
+  line-height: 1.35;
   margin-top: 10px;
   user-select: none;
 }
-.obr-mini-form__consent input { margin-top: 3px; flex-shrink: 0; }
-.obr-mini-form__consent a { color: #1a1a2e; text-decoration: underline; }
+.obr-mini-form__consent input { margin-top: 2px; flex-shrink: 0; }
+.obr-mini-form__consent a { color: #6b7280; text-decoration: underline; }
 .obr-mini-form__error {
   color: #dc2626;
   font-size: 13px;
