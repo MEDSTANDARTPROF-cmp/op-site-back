@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/assets/components/obr-form/form.css?v=20260507c">
+<link rel="stylesheet" href="/assets/components/obr-form/form.css?v=20260507d">
 
 <div class="modal fade obr-form-modal" id="MdGlNew" tabindex="-1" aria-labelledby="MdGlNewTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -76,7 +76,7 @@
               </li>
               <li class="obr-form__cdrop-item" data-value="max" role="option">
                 <span class="obr-form__cdrop-ic obr-form__cdrop-ic--max">
-                  <img src="/assets/components/obr-form/icons/max-original.svg" width="20" height="20" alt="">
+                  <img src="/assets/components/obr-form/icons/max-original.svg" width="24" height="24" alt="">
                 </span>
                 <span>MAX</span>
               </li>
@@ -180,4 +180,4 @@
   </div>
 </div>
 
-<script src="/assets/components/obr-form/form.js?v=20260507c" defer></script>
+<script src="/assets/components/obr-form/form.js?v=20260507d" defer></script>
