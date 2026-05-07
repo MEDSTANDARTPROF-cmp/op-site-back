@@ -5,6 +5,14 @@
 .obr-form-modal .modal-content {
   max-height: calc(100vh - 40px);
 }
+
+/* На мобилке: скрыть фиксированное нижнее меню .mob-nav когда открыта наша модалка,
+   чтобы оно не перекрывало кнопку «Отправить» */
+@media (max-width: 767.98px) {
+  body.modal-open .mob-nav { display: none !important; }
+  /* Доп. отступ снизу у формы — на случай если меню от другого темплейта */
+  .obr-form-modal .obr-form { padding-bottom: 24px; }
+}
 .obr-form {
   border-radius: 16px;
   border: none;
