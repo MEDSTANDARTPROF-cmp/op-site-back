@@ -17,25 +17,68 @@
   .obr-form-modal .obr-form { padding-bottom: 100px !important; }
 }
 
-/* Select с каналом связи (компактная версия вместо 6 радио-кнопок) */
-.obr-form__channel-select {
+/* Кастомный dropdown канала связи (с иконками + предсказуемое закрытие) */
+.obr-form__cdrop { position: relative; }
+.obr-form__cdrop-toggle {
   width: 100%;
   height: 48px;
-  padding: 0 38px 0 14px;
+  padding: 0 14px;
   border: 1px solid #e0e0e8;
   border-radius: 10px;
+  background: #fff;
   font-size: 15px;
-  background: #fff url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%236b7280' d='M6 8L0 0h12z'/%3E%3C/svg%3E") no-repeat right 14px center;
-  appearance: none;
-  -webkit-appearance: none;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
   color: #1a1a2e;
 }
-.obr-form__channel-select:focus {
+.obr-form__cdrop-toggle:focus {
   outline: none;
   border-color: #06ae1f;
   box-shadow: 0 0 0 3px rgba(6, 174, 31, .15);
 }
+.obr-form__cdrop-cur { display: flex; align-items: center; gap: 10px; }
+.obr-form__cdrop-cur img { display: block; flex-shrink: 0; }
+.obr-form__cdrop-arrow {
+  width: 12px;
+  height: 8px;
+  flex-shrink: 0;
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%236b7280' d='M6 8L0 0h12z'/%3E%3C/svg%3E") no-repeat center;
+  transition: transform .15s;
+}
+.obr-form__cdrop[data-open="true"] .obr-form__cdrop-arrow { transform: rotate(180deg); }
+.obr-form__cdrop-list {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 6px 0;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #e0e0e8;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .12);
+  z-index: 10;
+  max-height: 280px;
+  overflow-y: auto;
+}
+.obr-form__cdrop[data-open="false"] .obr-form__cdrop-list,
+.obr-form__cdrop:not([data-open]) .obr-form__cdrop-list { display: none; }
+.obr-form__cdrop-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #1a1a2e;
+}
+.obr-form__cdrop-item:hover,
+.obr-form__cdrop-item:focus { background: #f5f7fa; }
+.obr-form__cdrop-item img { display: block; flex-shrink: 0; }
 .obr-form {
   border-radius: 16px;
   border: none;

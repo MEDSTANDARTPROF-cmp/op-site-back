@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/assets/components/obr-form/form.css?v=20260507a">
+<link rel="stylesheet" href="/assets/components/obr-form/form.css?v=20260507b">
 
 <div class="modal fade obr-form-modal" id="MdGlNew" tabindex="-1" aria-labelledby="MdGlNewTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -31,15 +31,43 @@
         </div>
 
         <div class="obr-form__channels">
-          <label for="ObrFormChannel" class="obr-form__channels-label">Как удобнее связаться?</label>
-          <select name="channel" id="ObrFormChannel" class="obr-form__channel-select">
-            <option value="phone" selected>📞 Позвоните мне</option>
-            <option value="email">✉️ По почте</option>
-            <option value="wa">WhatsApp*</option>
-            <option value="tg">Telegram</option>
-            <option value="viber">Viber</option>
-            <option value="max">MAX</option>
-          </select>
+          <span class="obr-form__channels-label">Как удобнее связаться?</span>
+          <div class="obr-form__cdrop" id="ObrFormChannelDrop" data-open="false">
+            <input type="hidden" name="channel" id="ObrFormChannel" value="phone">
+            <button type="button" class="obr-form__cdrop-toggle" aria-haspopup="listbox" aria-expanded="false">
+              <span class="obr-form__cdrop-cur">
+                <img src="/assets/components/obr-form/icons/phone.svg" width="16" height="16" alt="">
+                <span>Позвоните мне</span>
+              </span>
+              <span class="obr-form__cdrop-arrow" aria-hidden="true"></span>
+            </button>
+            <ul class="obr-form__cdrop-list" role="listbox">
+              <li class="obr-form__cdrop-item" data-value="phone" role="option">
+                <img src="/assets/components/obr-form/icons/phone.svg" width="16" height="16" alt="">
+                <span>Позвоните мне</span>
+              </li>
+              <li class="obr-form__cdrop-item" data-value="email" role="option">
+                <img src="/assets/components/obr-form/icons/email.svg" width="16" height="16" alt="">
+                <span>По почте</span>
+              </li>
+              <li class="obr-form__cdrop-item" data-value="wa" role="option">
+                <img src="/assets/components/obr-form/icons/whatsapp.svg" width="16" height="16" alt="">
+                <span>WhatsApp*</span>
+              </li>
+              <li class="obr-form__cdrop-item" data-value="tg" role="option">
+                <img src="/assets/components/obr-form/icons/telegram.svg" width="16" height="16" alt="">
+                <span>Telegram</span>
+              </li>
+              <li class="obr-form__cdrop-item" data-value="viber" role="option">
+                <img src="/assets/components/obr-form/icons/viber.svg" width="16" height="16" alt="">
+                <span>Viber</span>
+              </li>
+              <li class="obr-form__cdrop-item" data-value="max" role="option">
+                <img src="/assets/components/obr-form/icons/max-original.svg" width="16" height="16" alt="">
+                <span>MAX</span>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div class="obr-form__consent">
@@ -138,4 +166,4 @@
   </div>
 </div>
 
-<script src="/assets/components/obr-form/form.js?v=20260507a" defer></script>
+<script src="/assets/components/obr-form/form.js?v=20260507b" defer></script>

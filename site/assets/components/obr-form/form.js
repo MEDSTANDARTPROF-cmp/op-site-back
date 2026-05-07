@@ -125,7 +125,48 @@
     }
   });
 
-  // Поддержка и радио, и select
+  // Кастомный dropdown канала связи (с иконками, корректное закрытие)
+  var cdrop = document.getElementById('ObrFormChannelDrop');
+  if (cdrop) {
+    var cdropToggle = cdrop.querySelector('.obr-form__cdrop-toggle');
+    var cdropCur    = cdrop.querySelector('.obr-form__cdrop-cur');
+    var cdropHidden = cdrop.querySelector('input[name="channel"]');
+
+    cdropToggle.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var open = cdrop.dataset.open === 'true';
+      cdrop.dataset.open = open ? 'false' : 'true';
+      cdropToggle.setAttribute('aria-expanded', String(!open));
+    });
+
+    cdrop.querySelectorAll('.obr-form__cdrop-item').forEach(function (item) {
+      item.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var v = item.dataset.value;
+        cdropCur.innerHTML = item.innerHTML;
+        cdropHidden.value = v;
+        cdrop.dataset.open = 'false';
+        cdropToggle.setAttribute('aria-expanded', 'false');
+        cdropHidden.dispatchEvent(new Event('change', { bubbles: true }));
+      });
+    });
+
+    document.addEventListener('click', function (e) {
+      if (cdrop.dataset.open === 'true' && !cdrop.contains(e.target)) {
+        cdrop.dataset.open = 'false';
+        cdropToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && cdrop.dataset.open === 'true') {
+        cdrop.dataset.open = 'false';
+        cdropToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
+  // Слушатель — поддержка и hidden input, и select, и radio
   var channelInputs = form.querySelectorAll('[name="channel"]');
   channelInputs.forEach(function (input) {
     input.addEventListener('change', function () {
@@ -134,16 +175,16 @@
   });
 
   function updateChannelUI(channel) {
+    // Телефон всегда обязательный, плейсхолдер всегда «Телефон»
+    phoneEl.required = true;
+    phoneField.querySelector('input').placeholder = 'Телефон';
+    // Email-поле появляется только при выборе канала email и тогда тоже обязательно
     if (channel === 'email') {
       emailField.classList.add('obr-form__field--shown');
       emailEl.required = true;
-      phoneEl.required = false;
-      phoneField.querySelector('input').placeholder = 'Телефон (необязательно)';
     } else {
       emailField.classList.remove('obr-form__field--shown');
       emailEl.required = false;
-      phoneEl.required = true;
-      phoneField.querySelector('input').placeholder = 'Телефон';
     }
   }
 
@@ -160,18 +201,19 @@
 
     var channel = form.elements.channel.value || 'phone';
 
+    // Телефон обязателен ВСЕГДА (вне зависимости от канала)
+    var phoneDigits = (phoneEl.value || '').replace(/\D+/g, '');
+    if (phoneDigits.length < 10) {
+      showError('Укажите корректный телефон (минимум 10 цифр)');
+      phoneField.classList.add('obr-form__field--error');
+      return;
+    }
+    // Дополнительно email — только если выбран канал email
     if (channel === 'email') {
       var email = (emailEl.value || '').trim();
       if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
         showError('Укажите корректный email');
         emailField.classList.add('obr-form__field--error');
-        return;
-      }
-    } else {
-      var phoneDigits = (phoneEl.value || '').replace(/\D+/g, '');
-      if (phoneDigits.length < 10) {
-        showError('Укажите корректный телефон (минимум 10 цифр)');
-        phoneField.classList.add('obr-form__field--error');
         return;
       }
     }
