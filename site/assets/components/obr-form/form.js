@@ -86,6 +86,14 @@
 
   modal.addEventListener('show.bs.modal', function (event) {
     resetForm();
+
+    // На мобилке скрыть фиксированное нижнее меню .mob-nav, чтобы не перекрывало
+    // кнопку «Отправить». Возврат — на hidden.bs.modal.
+    document.querySelectorAll('.mob-nav').forEach(function (el) {
+      el.dataset._prevDisplay = el.style.display || '';
+      el.style.display = 'none';
+    });
+
     var trigger = event.relatedTarget;
     if (!trigger) return;
 
@@ -100,6 +108,13 @@
     pageUrlEl.value        = window.location.href;
 
     ym('form_open');
+  });
+
+  modal.addEventListener('hidden.bs.modal', function () {
+    document.querySelectorAll('.mob-nav').forEach(function (el) {
+      el.style.display = el.dataset._prevDisplay || '';
+      delete el.dataset._prevDisplay;
+    });
   });
 
   var firstFocusFired = false;

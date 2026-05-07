@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/assets/components/obr-form/form.css">
+<link rel="stylesheet" href="/assets/components/obr-form/form.css?v=20260507a">
 
 <div class="modal fade obr-form-modal" id="MdGlNew" tabindex="-1" aria-labelledby="MdGlNewTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -28,10 +28,6 @@
 
         <div class="obr-form__field obr-form__field--hidden" id="ObrFormEmailField">
           <input type="email" name="email" id="ObrFormEmail" placeholder="Email" autocomplete="email">
-        </div>
-
-        <div class="obr-form__field">
-          <textarea name="message" id="ObrFormMessage" placeholder="Сообщение (необязательно)" rows="2"></textarea>
         </div>
 
         <div class="obr-form__channels">
@@ -142,4 +138,4 @@
   </div>
 </div>
 
-<script src="/assets/components/obr-form/form.js" defer></script>
+<script src="/assets/components/obr-form/form.js?v=20260507a" defer></script>
