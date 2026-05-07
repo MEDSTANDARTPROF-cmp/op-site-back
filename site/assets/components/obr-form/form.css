@@ -41,6 +41,18 @@
 }
 .obr-form__cdrop-cur { display: flex; align-items: center; gap: 10px; }
 .obr-form__cdrop-cur img { display: block; flex-shrink: 0; }
+/* Цветной кружок-подложка под белой иконкой канала */
+.obr-form__cdrop-ic {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.obr-form__cdrop-ic img { display: block; }
+.obr-form__cdrop-ic--max { background: transparent; }
 .obr-form__cdrop-arrow {
   width: 12px;
   height: 8px;

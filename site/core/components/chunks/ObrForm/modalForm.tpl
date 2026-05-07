@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/assets/components/obr-form/form.css?v=20260507b">
+<link rel="stylesheet" href="/assets/components/obr-form/form.css?v=20260507c">
 
 <div class="modal fade obr-form-modal" id="MdGlNew" tabindex="-1" aria-labelledby="MdGlNewTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -36,34 +36,48 @@
             <input type="hidden" name="channel" id="ObrFormChannel" value="phone">
             <button type="button" class="obr-form__cdrop-toggle" aria-haspopup="listbox" aria-expanded="false">
               <span class="obr-form__cdrop-cur">
-                <img src="/assets/components/obr-form/icons/phone.svg" width="16" height="16" alt="">
+                <span class="obr-form__cdrop-ic" style="background:#3b82f6">
+                  <img src="/assets/components/obr-form/icons/phone.svg" width="13" height="13" alt="">
+                </span>
                 <span>Позвоните мне</span>
               </span>
               <span class="obr-form__cdrop-arrow" aria-hidden="true"></span>
             </button>
             <ul class="obr-form__cdrop-list" role="listbox">
               <li class="obr-form__cdrop-item" data-value="phone" role="option">
-                <img src="/assets/components/obr-form/icons/phone.svg" width="16" height="16" alt="">
+                <span class="obr-form__cdrop-ic" style="background:#3b82f6">
+                  <img src="/assets/components/obr-form/icons/phone.svg" width="13" height="13" alt="">
+                </span>
                 <span>Позвоните мне</span>
               </li>
               <li class="obr-form__cdrop-item" data-value="email" role="option">
-                <img src="/assets/components/obr-form/icons/email.svg" width="16" height="16" alt="">
+                <span class="obr-form__cdrop-ic" style="background:#ec4899">
+                  <img src="/assets/components/obr-form/icons/email.svg" width="13" height="13" alt="">
+                </span>
                 <span>По почте</span>
               </li>
               <li class="obr-form__cdrop-item" data-value="wa" role="option">
-                <img src="/assets/components/obr-form/icons/whatsapp.svg" width="16" height="16" alt="">
+                <span class="obr-form__cdrop-ic" style="background:#25d366">
+                  <img src="/assets/components/obr-form/icons/whatsapp.svg" width="14" height="14" alt="">
+                </span>
                 <span>WhatsApp*</span>
               </li>
               <li class="obr-form__cdrop-item" data-value="tg" role="option">
-                <img src="/assets/components/obr-form/icons/telegram.svg" width="16" height="16" alt="">
+                <span class="obr-form__cdrop-ic" style="background:#229ED9">
+                  <img src="/assets/components/obr-form/icons/telegram.svg" width="14" height="14" alt="">
+                </span>
                 <span>Telegram</span>
               </li>
               <li class="obr-form__cdrop-item" data-value="viber" role="option">
-                <img src="/assets/components/obr-form/icons/viber.svg" width="16" height="16" alt="">
+                <span class="obr-form__cdrop-ic" style="background:#7360F2">
+                  <img src="/assets/components/obr-form/icons/viber.svg" width="14" height="14" alt="">
+                </span>
                 <span>Viber</span>
               </li>
               <li class="obr-form__cdrop-item" data-value="max" role="option">
-                <img src="/assets/components/obr-form/icons/max-original.svg" width="16" height="16" alt="">
+                <span class="obr-form__cdrop-ic obr-form__cdrop-ic--max">
+                  <img src="/assets/components/obr-form/icons/max-original.svg" width="20" height="20" alt="">
+                </span>
                 <span>MAX</span>
               </li>
             </ul>
@@ -166,4 +180,4 @@
   </div>
 </div>
 
-<script src="/assets/components/obr-form/form.js?v=20260507b" defer></script>
+<script src="/assets/components/obr-form/form.js?v=20260507c" defer></script>
