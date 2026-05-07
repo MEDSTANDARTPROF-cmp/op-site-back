@@ -35,63 +35,15 @@
         </div>
 
         <div class="obr-form__channels">
-          <div class="obr-form__channels-label">Как удобнее связаться?</div>
-          <div class="obr-form__channels-grid">
-            <label class="obr-form__channel">
-              <input type="radio" name="channel" value="phone" checked>
-              <span class="obr-form__channel-btn">
-                <span class="obr-form__channel-ic" style="background:#3b82f6">
-                  <img src="/assets/components/obr-form/icons/phone.svg" width="13" height="13" alt="">
-                </span>
-                <span>Позвоните мне</span>
-              </span>
-            </label>
-            <label class="obr-form__channel">
-              <input type="radio" name="channel" value="email">
-              <span class="obr-form__channel-btn">
-                <span class="obr-form__channel-ic" style="background:#ec4899">
-                  <img src="/assets/components/obr-form/icons/email.svg" width="13" height="13" alt="">
-                </span>
-                <span>По почте</span>
-              </span>
-            </label>
-            <label class="obr-form__channel">
-              <input type="radio" name="channel" value="wa">
-              <span class="obr-form__channel-btn">
-                <span class="obr-form__channel-ic" style="background:#25d366">
-                  <img src="/assets/components/obr-form/icons/whatsapp.svg" width="14" height="14" alt="">
-                </span>
-                <span>WhatsApp<sup class="obr-form__meta-mark" title="См. дисклеймер в футере">*</sup></span>
-              </span>
-            </label>
-            <label class="obr-form__channel">
-              <input type="radio" name="channel" value="tg">
-              <span class="obr-form__channel-btn">
-                <span class="obr-form__channel-ic" style="background:#229ED9">
-                  <img src="/assets/components/obr-form/icons/telegram.svg" width="14" height="14" alt="">
-                </span>
-                <span>Telegram</span>
-              </span>
-            </label>
-            <label class="obr-form__channel">
-              <input type="radio" name="channel" value="viber">
-              <span class="obr-form__channel-btn">
-                <span class="obr-form__channel-ic" style="background:#7360F2">
-                  <img src="/assets/components/obr-form/icons/viber.svg" width="14" height="14" alt="">
-                </span>
-                <span>Viber</span>
-              </span>
-            </label>
-            <label class="obr-form__channel">
-              <input type="radio" name="channel" value="max">
-              <span class="obr-form__channel-btn">
-                <span class="obr-form__channel-ic obr-form__channel-ic--max">
-                  <img src="/assets/components/obr-form/icons/max-original.svg" alt="">
-                </span>
-                <span>MAX</span>
-              </span>
-            </label>
-          </div>
+          <label for="ObrFormChannel" class="obr-form__channels-label">Как удобнее связаться?</label>
+          <select name="channel" id="ObrFormChannel" class="obr-form__channel-select">
+            <option value="phone" selected>📞 Позвоните мне</option>
+            <option value="email">✉️ По почте</option>
+            <option value="wa">WhatsApp*</option>
+            <option value="tg">Telegram</option>
+            <option value="viber">Viber</option>
+            <option value="max">MAX</option>
+          </select>
         </div>
 
         <div class="obr-form__consent">

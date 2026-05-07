@@ -110,10 +110,11 @@
     }
   });
 
-  var channelInputs = form.querySelectorAll('input[name="channel"]');
+  // Поддержка и радио, и select
+  var channelInputs = form.querySelectorAll('[name="channel"]');
   channelInputs.forEach(function (input) {
     input.addEventListener('change', function () {
-      updateChannelUI(this.value);
+      updateChannelUI(form.elements.channel.value);
     });
   });
 
@@ -142,7 +143,7 @@
       return;
     }
 
-    var channel = (form.querySelector('input[name="channel"]:checked') || {}).value || 'phone';
+    var channel = form.elements.channel.value || 'phone';
 
     if (channel === 'email') {
       var email = (emailEl.value || '').trim();
