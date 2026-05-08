@@ -9,18 +9,65 @@
  */
 
 $uri = $modx->resource ? $modx->resource->get('uri') : '';
+$pagetitle = $modx->resource ? mb_strtolower((string)$modx->resource->get('pagetitle')) : '';
 
 // Маппинг направления → category id (родитель курсов)
+// Один блок объединяет URI-паттерны (короткие корни → ловят разные транслитерации) и текст-сигналы из pagetitle.
 $map = [
-    'promyshlennaia-bezopasnost' => ['cat' => 47, 'name' => 'Промышленная безопасность', 'short' => 'промбезопасности'],
-    'elektrobezopasnost'         => ['cat' => 58, 'name' => 'Электробезопасность', 'short' => 'электробезопасности'],
-    'energeticheskaia-bezopasnost'=> ['cat' => 54, 'name' => 'Теплоэнергетика', 'short' => 'теплоэнергетике'],
-    'okhrana-truda'              => ['cat' => 49, 'name' => 'Охрана труда', 'short' => 'охране труда'],
+    [
+        'cat' => 49, 'name' => 'Охрана труда', 'short' => 'охране труда',
+        'uri' => ['okhrana-truda','oxrana-truda','oxrane-truda','po-oxrane','okhrane-truda','/ot-'],
+        'title' => ['охран','охраны труда','спецоценк','соут'],
+    ],
+    [
+        'cat' => 47, 'name' => 'Промышленная безопасность', 'short' => 'промбезопасности',
+        'uri' => ['promyshlenn','prombez'],
+        'title' => ['промышленн','промбез','опо','ростехнадзор'],
+    ],
+    [
+        'cat' => 58, 'name' => 'Электробезопасность', 'short' => 'электробезопасности',
+        'uri' => ['elektrobez','elektro-bez'],
+        'title' => ['электробез','группу допуска','группа допуска','электроустановк'],
+    ],
+    [
+        'cat' => 55, 'name' => 'Пожарная безопасность', 'short' => 'пожарной безопасности',
+        'uri' => ['pozharn','-pb-','/pb-'],
+        'title' => ['пожарн','пб ','мчс'],
+    ],
+    [
+        'cat' => 56, 'name' => 'ГО и ЧС', 'short' => 'ГО и ЧС',
+        'uri' => ['go-chs','grazhdansk'],
+        'title' => ['го и чс','чрезвычайн','гражданск'],
+    ],
+    [
+        'cat' => 52, 'name' => 'Экология', 'short' => 'экологии',
+        'uri' => ['ekologiy','ekologi-'],
+        'title' => ['эколог','отход'],
+    ],
+    [
+        'cat' => 54, 'name' => 'Теплоэнергетика', 'short' => 'теплоэнергетике',
+        'uri' => ['teploenerget','energetichesk'],
+        'title' => ['теплоэнерг','энергетик','котел','теплов'],
+    ],
+    [
+        'cat' => 50, 'name' => 'Гостиничное дело и туризм', 'short' => 'гостиничному делу',
+        'uri' => ['gostinichn','-otel-','/otel'],
+        'title' => ['отел','гостиниц','туризм','администратор гостиниц'],
+    ],
 ];
 
 $direction = null;
-foreach ($map as $key => $cfg) {
-    if (strpos($uri, $key) !== false) { $direction = $cfg; break; }
+foreach ($map as $cfg) {
+    foreach (($cfg['uri'] ?? []) as $key) {
+        if ($key !== '' && stripos($uri, $key) !== false) { $direction = $cfg; break 2; }
+    }
+}
+if (!$direction) {
+    foreach ($map as $cfg) {
+        foreach (($cfg['title'] ?? []) as $key) {
+            if ($key !== '' && mb_stripos($pagetitle, $key) !== false) { $direction = $cfg; break 2; }
+        }
+    }
 }
 
 if (!$direction) return '';
