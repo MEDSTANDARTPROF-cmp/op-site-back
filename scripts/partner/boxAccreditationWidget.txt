@@ -1,0 +1,196 @@
+<style>
+.acc-widget {
+    background: linear-gradient(135deg, #fff 0%, #e8f5e9 100%);
+    border: 1.5px solid #06ae1f;
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(6,174,31,0.10);
+}
+.acc-widget__head {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+.acc-widget__icon {
+    flex-shrink: 0;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #06ae1f;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.acc-widget__title { font-weight: 700; font-size: 15px; line-height: 1.3; color: #0a3d62; margin-bottom: 2px; }
+.acc-widget__sub { font-size: 12px; color: #555; line-height: 1.4; }
+.acc-widget__radios { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
+.acc-widget__radios label {
+    display: flex; align-items: center; gap: 8px;
+    font-size: 13px; cursor: pointer; padding: 6px 8px;
+    border-radius: 6px; transition: background .15s;
+}
+.acc-widget__radios label:hover { background: rgba(6,174,31,0.08); }
+.acc-widget__radios input[type=radio] { accent-color: #06ae1f; flex-shrink: 0; }
+.acc-widget__phone, .acc-widget__email {
+    width: 100%; padding: 9px 12px; font-size: 13px;
+    border: 1px solid #d4dbe4; border-radius: 6px;
+    margin-bottom: 8px; box-sizing: border-box;
+    transition: border-color .15s;
+}
+.acc-widget__phone:focus, .acc-widget__email:focus {
+    outline: none; border-color: #06ae1f;
+    box-shadow: 0 0 0 3px rgba(6,174,31,0.15);
+}
+.acc-widget__submit {
+    width: 100%; padding: 11px 14px;
+    background: #06ae1f; color: #fff; border: none;
+    border-radius: 6px; font-weight: 600; font-size: 14px;
+    cursor: pointer; transition: background .15s;
+}
+.acc-widget__submit:hover:not(:disabled) { background: #058518; }
+.acc-widget__submit:disabled { opacity: 0.6; cursor: wait; }
+.acc-widget__consent {
+    display: flex; align-items: flex-start; gap: 6px;
+    font-size: 11px; color: #8a93a0; line-height: 1.35;
+    margin-top: 10px; cursor: pointer;
+}
+.acc-widget__consent input { margin-top: 2px; flex-shrink: 0; accent-color: #06ae1f; }
+.acc-widget__consent a { color: #6b7280; text-decoration: underline; }
+.acc-widget__honeypot { position: absolute; left: -9999px; opacity: 0; }
+.acc-widget__error { color: #dc2626; font-size: 12px; margin-top: 8px; }
+.acc-widget__success { text-align: center; padding: 8px 0; }
+.acc-widget__success-ic {
+    width: 48px; height: 48px; border-radius: 50%;
+    background: #d4edda; color: #06ae1f;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 24px; margin-bottom: 10px; font-weight: 700;
+}
+.acc-widget__success-title { font-weight: 700; font-size: 16px; color: #0a3d62; margin-bottom: 4px; }
+.acc-widget__success-text { font-size: 13px; color: #555; line-height: 1.4; }
+</style>
+
+<div class="acc-widget" id="AccWidget">
+    <div class="acc-widget__form-wrap">
+        <div class="acc-widget__head">
+            <div class="acc-widget__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polyline points="12 7 12 12 16 14"/>
+                </svg>
+            </div>
+            <div>
+                <div class="acc-widget__title">Когда у вас следующая аккредитация?</div>
+                <div class="acc-widget__sub">Подберём программу к вашей дате и пришлём напоминание за 2 месяца</div>
+            </div>
+        </div>
+
+        <form id="AccWidgetForm" novalidate>
+            <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" class="acc-widget__honeypot">
+            <input type="hidden" name="form_source" value="Виджет аккредитации: [[*pagetitle]]">
+            <input type="hidden" name="page_title" value="[[*pagetitle]]">
+            <input type="hidden" name="page_url" value="[[++site_url]][[~[[*id]]]]">
+            <input type="hidden" name="channel" value="phone">
+            <input type="hidden" name="form_open_at" id="AccWidgetOpenAt" value="">
+
+            <div class="acc-widget__radios">
+                <label><input type="radio" name="acc_when" value="до 3 мес" checked> В течение 3 месяцев</label>
+                <label><input type="radio" name="acc_when" value="6-12 мес"> Через 6-12 месяцев</label>
+                <label><input type="radio" name="acc_when" value="1-3 года"> Через 1-3 года</label>
+                <label><input type="radio" name="acc_when" value="не помню"> Не помню точную дату</label>
+            </div>
+
+            <input type="tel" name="phone" id="AccWidgetPhone" placeholder="+7 (___) ___-__-__" autocomplete="tel" required class="acc-widget__phone" maxlength="20">
+            <input type="email" name="email" placeholder="Email (необязательно)" autocomplete="email" class="acc-widget__email">
+
+            <button type="submit" class="acc-widget__submit" id="AccWidgetSubmit">Подобрать программу</button>
+
+            <label class="acc-widget__consent">
+                <input type="checkbox" name="consent" checked required>
+                <span>Отправляя форму, вы даёте согласие на обработку ваших персональных данных ООО «УЦ ОбрПрофи» в соответствии с Федеральным законом № 152-ФЗ «О персональных данных» и <a href="#" data-bs-toggle="modal" data-bs-target="#ObrFormConsentModal">Политикой в отношении обработки персональных данных</a>.</span>
+            </label>
+
+            <div class="acc-widget__error" id="AccWidgetError" role="alert" hidden></div>
+        </form>
+    </div>
+
+    <div class="acc-widget__success" id="AccWidgetSuccess" hidden>
+        <div class="acc-widget__success-ic">✓</div>
+        <div class="acc-widget__success-title">Спасибо!</div>
+        <div class="acc-widget__success-text">Менеджер свяжется в течение 15 минут и подберёт программу к вашему сроку.</div>
+    </div>
+</div>
+
+<script>
+(function(){
+    var form = document.getElementById('AccWidgetForm');
+    if (!form) return;
+
+    document.getElementById('AccWidgetOpenAt').value = String(Date.now());
+
+    var phone = document.getElementById('AccWidgetPhone');
+    phone.addEventListener('input', function(e){
+        var v = e.target.value.replace(/\D/g, '');
+        if (v.startsWith('8')) v = '7' + v.slice(1);
+        if (v && !v.startsWith('7')) v = '7' + v;
+        v = v.slice(0, 11);
+        var f = '+7';
+        if (v.length > 1) f += ' (' + v.slice(1, 4);
+        if (v.length >= 4) f += ') ' + v.slice(4, 7);
+        if (v.length >= 7) f += '-' + v.slice(7, 9);
+        if (v.length >= 9) f += '-' + v.slice(9, 11);
+        e.target.value = f;
+    });
+
+    form.addEventListener('submit', function(e){
+        e.preventDefault();
+        if (form.website.value) return; // honeypot
+        if (phone.value.replace(/\D/g, '').length < 11) {
+            showError('Укажите телефон полностью');
+            return;
+        }
+        if (!form.consent.checked) {
+            showError('Подтвердите согласие на обработку персональных данных');
+            return;
+        }
+
+        var btn = document.getElementById('AccWidgetSubmit');
+        btn.disabled = true;
+        btn.textContent = 'Отправка...';
+
+        var fd = new FormData(form);
+        var accWhen = fd.get('acc_when') || 'не указан';
+        fd.set('form_source', fd.get('form_source') + ' | срок: ' + accWhen);
+        // дублируем срок в message чтобы менеджер видел в B24
+        fd.set('message', 'Срок следующей аккредитации: ' + accWhen);
+
+        fetch('/ajax-lead/', { method: 'POST', body: fd })
+            .then(function(r){ return r.json(); })
+            .then(function(j){
+                if (j.ok) {
+                    document.querySelector('.acc-widget__form-wrap').hidden = true;
+                    document.getElementById('AccWidgetSuccess').hidden = false;
+                    if (typeof ym === 'function') ym(75081295, 'reachGoal', 'acc_widget_submit');
+                } else {
+                    showError('Ошибка отправки. Попробуйте ещё раз.');
+                    btn.disabled = false;
+                    btn.textContent = 'Подобрать программу';
+                }
+            })
+            .catch(function(){
+                showError('Ошибка соединения');
+                btn.disabled = false;
+                btn.textContent = 'Подобрать программу';
+            });
+    });
+
+    function showError(msg){
+        var el = document.getElementById('AccWidgetError');
+        el.textContent = msg;
+        el.hidden = false;
+    }
+})();
+</script>
