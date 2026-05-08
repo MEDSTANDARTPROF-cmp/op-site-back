@@ -1,0 +1,250 @@
+<style>
+.b2b-block {
+    background: linear-gradient(135deg, #0a3d62 0%, #1a5a8e 100%);
+    border-radius: 16px;
+    padding: 28px 32px;
+    margin: 32px auto;
+    color: #fff;
+    box-shadow: 0 6px 24px rgba(10,61,98,0.25);
+    position: relative;
+    overflow: hidden;
+}
+.b2b-block::before {
+    content: ""; position: absolute; right: -40px; top: -40px;
+    width: 200px; height: 200px; border-radius: 50%;
+    background: rgba(255,255,255,0.05);
+}
+.b2b-block__head { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 18px; position: relative; z-index: 1; }
+.b2b-block__icon {
+    flex-shrink: 0; width: 48px; height: 48px; border-radius: 12px;
+    background: rgba(255,255,255,0.15); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+}
+.b2b-block__eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 1.5px; color: #ffd166; text-transform: uppercase; margin-bottom: 4px; }
+.b2b-block__title { font-size: 22px; font-weight: 700; line-height: 1.2; margin-bottom: 6px; }
+.b2b-block__sub { font-size: 14px; opacity: 0.85; line-height: 1.4; }
+.b2b-block__form { position: relative; z-index: 1; }
+.b2b-block__row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+@media (max-width: 768px) { .b2b-block__row { grid-template-columns: 1fr; } }
+.b2b-block__field { display: flex; flex-direction: column; gap: 4px; }
+.b2b-block__label { font-size: 12px; opacity: 0.85; font-weight: 500; }
+.b2b-block__input, .b2b-block__select {
+    width: 100%; padding: 11px 14px; font-size: 14px;
+    border: 1.5px solid rgba(255,255,255,0.25); border-radius: 8px;
+    background: rgba(255,255,255,0.08); color: #fff;
+    transition: border-color .15s, background .15s;
+    box-sizing: border-box;
+}
+.b2b-block__input::placeholder { color: rgba(255,255,255,0.5); }
+.b2b-block__input:focus, .b2b-block__select:focus {
+    outline: none; border-color: #ffd166; background: rgba(255,255,255,0.15);
+}
+.b2b-block__select option { background: #0a3d62; color: #fff; }
+.b2b-block__submit {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    padding: 13px 24px; background: #ffd166; color: #0a3d62;
+    border: none; border-radius: 8px; font-size: 15px; font-weight: 700;
+    cursor: pointer; transition: background .15s, transform .1s;
+    width: 100%;
+}
+.b2b-block__submit:hover:not(:disabled) { background: #ffc94a; }
+.b2b-block__submit:active { transform: scale(0.98); }
+.b2b-block__submit:disabled { opacity: 0.5; cursor: wait; }
+.b2b-block__consent {
+    display: flex; align-items: flex-start; gap: 8px;
+    font-size: 11px; opacity: 0.7; line-height: 1.4;
+    margin-top: 10px; cursor: pointer;
+}
+.b2b-block__consent input { margin-top: 2px; flex-shrink: 0; accent-color: #ffd166; }
+.b2b-block__consent a { color: #ffd166; text-decoration: underline; }
+.b2b-block__trust {
+    display: flex; flex-wrap: wrap; gap: 14px;
+    margin-top: 18px; padding-top: 18px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    font-size: 13px; opacity: 0.85; position: relative; z-index: 1;
+}
+.b2b-block__trust span { display: inline-flex; align-items: center; gap: 6px; }
+.b2b-block__trust span::before { content: "✓"; color: #ffd166; font-weight: 700; }
+.b2b-block__honeypot { position: absolute; left: -9999px; opacity: 0; }
+.b2b-block__error { color: #ff8b8b; font-size: 13px; margin-top: 10px; }
+.b2b-block__success { text-align: center; padding: 24px 0; position: relative; z-index: 1; }
+.b2b-block__success-ic {
+    width: 64px; height: 64px; border-radius: 50%;
+    background: rgba(255,209,102,0.2); color: #ffd166;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 32px; margin-bottom: 14px; font-weight: 700;
+}
+.b2b-block__success-title { font-size: 22px; font-weight: 700; margin-bottom: 8px; }
+.b2b-block__success-text { font-size: 14px; opacity: 0.9; line-height: 1.5; max-width: 480px; margin: 0 auto; }
+</style>
+
+<div class="b2b-block container my-5" id="B2BBlock">
+    <div class="b2b-block__form-wrap">
+        <div class="b2b-block__head">
+            <div class="b2b-block__icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21V11h6v10"/>
+                </svg>
+            </div>
+            <div>
+                <div class="b2b-block__eyebrow">Для предприятий</div>
+                <div class="b2b-block__title">Корпоративное обучение со скидкой 20-40%</div>
+                <div class="b2b-block__sub">Договор, закрывающие документы, корпоративный методист, единый отчёт по всем сотрудникам</div>
+            </div>
+        </div>
+
+        <form id="B2BBlockForm" class="b2b-block__form" novalidate>
+            <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" class="b2b-block__honeypot">
+            <input type="hidden" name="form_open_at" id="B2BBlockOpenAt" value="">
+            <input type="hidden" name="form_source" value="B2B-форма категории: [[*pagetitle]]">
+            <input type="hidden" name="page_title" value="[[*pagetitle]]">
+            <input type="hidden" name="page_url" value="[[++site_url]][[~[[*id]]]]">
+            <input type="hidden" name="channel" value="phone">
+            <input type="hidden" name="b2b" value="1">
+
+            <div class="b2b-block__row">
+                <div class="b2b-block__field">
+                    <label class="b2b-block__label">ИНН компании</label>
+                    <input type="text" name="inn" id="B2BInn" inputmode="numeric"
+                           class="b2b-block__input" placeholder="10 или 12 цифр" maxlength="12" required>
+                </div>
+                <div class="b2b-block__field">
+                    <label class="b2b-block__label">Сотрудников на обучение</label>
+                    <select name="employees" class="b2b-block__select" required>
+                        <option value="">— выберите —</option>
+                        <option value="1-5">1-5 человек</option>
+                        <option value="6-20">6-20 человек</option>
+                        <option value="21-50">21-50 человек</option>
+                        <option value="51-200">51-200 человек</option>
+                        <option value="200+">200+ человек</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="b2b-block__row">
+                <div class="b2b-block__field">
+                    <label class="b2b-block__label">Телефон для связи</label>
+                    <input type="tel" name="phone" id="B2BPhone" autocomplete="tel"
+                           class="b2b-block__input" placeholder="+7 (___) ___-__-__" maxlength="20" required>
+                </div>
+                <div class="b2b-block__field">
+                    <label class="b2b-block__label">Email (необязательно)</label>
+                    <input type="email" name="email" autocomplete="email"
+                           class="b2b-block__input" placeholder="ivanov@company.ru">
+                </div>
+            </div>
+
+            <button type="submit" class="b2b-block__submit" id="B2BSubmit">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/>
+                </svg>
+                <span>Получить расчёт за 1 день</span>
+            </button>
+
+            <label class="b2b-block__consent">
+                <input type="checkbox" name="consent" checked required>
+                <span>Отправляя форму, вы даёте согласие на обработку ваших персональных данных ООО «УЦ ОбрПрофи» в соответствии с Федеральным законом № 152-ФЗ «О персональных данных» и <a href="#" data-bs-toggle="modal" data-bs-target="#ObrFormConsentModal">Политикой в отношении обработки персональных данных</a>.</span>
+            </label>
+
+            <div class="b2b-block__error" id="B2BError" role="alert" hidden></div>
+        </form>
+
+        <div class="b2b-block__trust">
+            <span>Договор и закрывающие</span>
+            <span>Скидка от 3 человек</span>
+            <span>Корпоративный методист</span>
+            <span>Единый отчёт по сотрудникам</span>
+        </div>
+    </div>
+
+    <div class="b2b-block__success" id="B2BSuccess" hidden>
+        <div class="b2b-block__success-ic">✓</div>
+        <div class="b2b-block__success-title">Заявка принята!</div>
+        <div class="b2b-block__success-text">Менеджер свяжется в течение 1 рабочего дня, обсудит требования и пришлёт коммерческое предложение с расчётом стоимости и сроков.</div>
+    </div>
+</div>
+
+<script>
+(function(){
+    var form = document.getElementById('B2BBlockForm');
+    if (!form) return;
+
+    document.getElementById('B2BBlockOpenAt').value = String(Date.now());
+
+    // Phone mask
+    var phone = document.getElementById('B2BPhone');
+    phone.addEventListener('input', function(e){
+        var v = e.target.value.replace(/\D/g, '');
+        if (v.startsWith('8')) v = '7' + v.slice(1);
+        if (v && !v.startsWith('7')) v = '7' + v;
+        v = v.slice(0, 11);
+        var f = '+7';
+        if (v.length > 1) f += ' (' + v.slice(1, 4);
+        if (v.length >= 4) f += ') ' + v.slice(4, 7);
+        if (v.length >= 7) f += '-' + v.slice(7, 9);
+        if (v.length >= 9) f += '-' + v.slice(9, 11);
+        e.target.value = f;
+    });
+
+    // INN: only digits
+    var inn = document.getElementById('B2BInn');
+    inn.addEventListener('input', function(e){
+        e.target.value = e.target.value.replace(/\D/g, '').slice(0, 12);
+    });
+
+    function showError(msg){
+        var el = document.getElementById('B2BError');
+        el.textContent = msg;
+        el.hidden = false;
+    }
+
+    form.addEventListener('submit', function(e){
+        e.preventDefault();
+        if (form.website.value) return; // honeypot
+
+        var innVal = inn.value.trim();
+        if (innVal.length !== 10 && innVal.length !== 12) {
+            showError('ИНН должен содержать 10 или 12 цифр');
+            return;
+        }
+        if (!form.employees.value) {
+            showError('Укажите количество сотрудников');
+            return;
+        }
+        if (phone.value.replace(/\D/g, '').length < 11) {
+            showError('Укажите телефон полностью');
+            return;
+        }
+        if (!form.consent.checked) {
+            showError('Подтвердите согласие на обработку персональных данных');
+            return;
+        }
+
+        var btn = document.getElementById('B2BSubmit');
+        btn.disabled = true;
+        var btnText = btn.querySelector('span');
+        var oldTxt = btnText.textContent;
+        btnText.textContent = 'Отправка...';
+
+        var fd = new FormData(form);
+        fetch('/ajax-lead', { method: 'POST', body: fd })
+            .then(function(r){ return r.json(); })
+            .then(function(j){
+                if (j.ok) {
+                    document.querySelector('.b2b-block__form-wrap').hidden = true;
+                    document.getElementById('B2BSuccess').hidden = false;
+                    if (typeof ym === 'function') ym(75081295, 'reachGoal', 'b2b_form_submit');
+                } else {
+                    showError('Ошибка отправки: ' + (j.error || 'попробуйте позже'));
+                    btn.disabled = false;
+                    btnText.textContent = oldTxt;
+                }
+            })
+            .catch(function(){
+                showError('Ошибка соединения');
+                btn.disabled = false;
+                btnText.textContent = oldTxt;
+            });
+    });
+})();
+</script>
