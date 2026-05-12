@@ -220,18 +220,18 @@
   display: block;
 }
 
-.obr-form__consent { margin: 8px 0; }
+.obr-form__consent { margin: 4px 0 0; }
 .obr-form__consent-label {
   display: flex;
   align-items: flex-start;
-  gap: 8px;
-  font-size: 13px;
-  color: #666;
+  gap: 7px;
+  font-size: 11px;
+  color: #8a93a0;
   cursor: pointer;
-  line-height: 1.4;
+  line-height: 1.35;
 }
-.obr-form__consent-label input { margin-top: 3px; flex-shrink: 0; }
-.obr-form__consent-label a { color: #06ae1f; text-decoration: underline; }
+.obr-form__consent-label input { margin-top: 2px; flex-shrink: 0; transform: scale(0.92); }
+.obr-form__consent-label a { color: #6b7280; text-decoration: underline; }
 .obr-form__consent-text { margin-top: 8px; padding: 10px 12px; background: #f7f7fa; border-radius: 8px; font-size: 11px; color: #666; }
 
 .obr-form__submit {
