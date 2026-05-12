@@ -303,8 +303,9 @@
 }
 .obr-mini-form__row { box-sizing: border-box; }
 @media (max-width: 576px) {
-  /* На мобиле — разделить в два независимых блока: поле + кнопка под ним */
-  .obr-mini-form__row {
+  /* На мобиле — разделить в два независимых блока: поле + кнопка под ним. */
+  /* Двойная специфичность .obr-mini-form .obr-mini-form__* чтобы перебить base-rules определённые ниже в этом же файле. */
+  .obr-mini-form .obr-mini-form__row {
     flex-direction: column;
     gap: 8px;
     background: transparent;
@@ -313,20 +314,20 @@
     border-radius: 0;
     overflow: visible;
   }
-  .obr-mini-form__phone-wrap {
+  .obr-mini-form .obr-mini-form__phone-wrap {
     width: 100%;
     border: 2px solid #06ae1f;
     border-radius: 10px;
     background: #fff;
     box-shadow: 0 2px 6px rgba(6,174,31,.10);
   }
-  .obr-mini-form__phone {
+  .obr-mini-form .obr-mini-form__phone {
     padding: 14px 14px 14px 44px;
     font-size: 15px;
     font-weight: 500;
   }
-  .obr-mini-form__phone-ic { left: 14px; }
-  .obr-mini-form__submit {
+  .obr-mini-form .obr-mini-form__phone-ic { left: 14px; }
+  .obr-mini-form .obr-mini-form__submit {
     width: 100%;
     border-radius: 10px;
     padding: 15px 14px;
@@ -457,11 +458,7 @@
   color: #5a6573;
   margin: 0;
 }
-@media (max-width: 580px) {
-  .obr-mini-form__row { flex-direction: column; gap: 8px; box-shadow: none; background: transparent; }
-  .obr-mini-form__phone-wrap { background: #fff; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
-  .obr-mini-form__submit { border-radius: 10px; padding: 14px 20px; }
-}
+/* старая media query (580px) удалена — заменена на специфичную @media (576px) выше */
 
 /* === FAQ-аккордеон === */
 .obr-faq { background: #fff; }
