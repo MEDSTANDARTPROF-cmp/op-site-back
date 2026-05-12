@@ -244,3 +244,81 @@ rm ~/obrprofi.ru/public_html/core/config/b24.config.php
 - **609490** — smoke-test B2B локально
 - **609498** — smoke-test B2B на проде (без префикса `[ТЕСТ-LOCAL]` потому что `test_hosts` пуст на проде). **Удалить вручную в B24** — title `B2B-заявка ОБРПРОФИ — ИНН 1234567890 (6-20 чел.)`
 - **Договорённость:** агент больше не дёргает прод-эндпоинт. Тестирование форм на проде — только пользователь делает руками
+
+---
+
+## 2026-05-12 — WIP (на ЛОКАЛИ): Полное удаление B24-форм
+
+### Что и зачем
+
+На сайте параллельно работали 2 формы заявки:
+1. **Наша ObrForm** (модалка `#MdGlNew` + микроформа `ObrFormMini` в hero) — с 5 мая 2026
+2. **Inline B24-форма** (3 разных loader: 330/312/332) — старая, дублировала нашу
+
+Решение — полностью убрать B24, оставить только ObrForm. Причины:
+- B24-loader тянул ~200-300 КБ JS на каждую страницу
+- Лиды попадали в разные категории в B24 (разный SOURCE_ID)
+- Менеджер видел разные карточки в B24 — путаница
+- Аналитика дублировала клики
+
+### Что заменено
+
+**Шаблоны (7):** 3, 5, 8, 14, 15, 21, 27 — удалён inline `<script data-b24-form>` блок с loader_NNN
+
+**Чанки (19):**
+- `Navbar` — кнопки в шапке и мобильном меню (`data-bs-target="#MdGl"` → `#MdGlNew`)
+- `Footer` — удалён inline B24-script (пустой modal `#MdGl` контейнер остался, безвреден)
+- `contAdres` — кнопка «Консультация с менеджером» в реквизитах
+- `msProduct.content.prod` — старая B24-секция между prod-price-card и «О курсе» удалена + замена пустого wrapper'а на `[[$ObrFormFindCourse]]`
+- `boxManager`, `boxComerch`, `catalogFooter`, `SaleCard.tpl`, `boxFormNews`, `tpl.msProducts.row.Obr.Modal`, `catalogCard.tpl.modal`, `catalogHeaderDPO`, `catalogFooterDPO`, `ContentBannerSout` — точечная замена `#MdGl` → `#MdGlNew`
+- `msProduct.content.PSK`, `boxCTABanner`, `boxGuaranteePSK`, `msProduct.content.PSK_partner` — то же + удаление B24-script
+- **`ContentBanner` (id=94)** — был чистый B24-loader_332 на 301 блог-статье, переписан на компактный CTA: tagline + зелёная кнопка «Получить программу» с `data-form-source="Контент-баннер блога: {pagetitle}"`. Без card-эффекта чтобы вписаться в любую обёртку статьи
+
+**Ресурсы (122):**
+- 113 блог-статей с кнопкой «Заполнить анкету на обучение» — замена `data-bs-target="#MdGl"` → `#MdGlNew` + `data-marker="..."` → `data-form-source="..."` (старый маркер сохранён для атрибуции в B24)
+- 5 спецстраниц (partneram, sertifikacziya, и т.д.)
+- 4 ресурса с inline-B24 в самом content (главная и т.п.)
+
+**Точечные правки после визуального ревью:**
+- Кнопка «Оставить отзыв» удалена с template 8 (страница /otzyivyi.html), modal `#Otz` тоже удалён. Пользователь планирует сделать ссылку на Яндекс.Карты позже
+- Тимур-баннер на /partneram.html (resource id=29) — кнопка `wa.me` заменена на `#MdGlNew` с `form_source="Партнёрам: сотрудничество"`
+- /blog/udalit.html (resource id=4714) — помечен `deleted=1` (тестовая страница, не нужна)
+- Template 8 (Отзывы) — добавлены отступы `px-md-3` для h1 + breadcrumbs
+
+**НЕ ТРОГАЛИ:**
+- `boxPrepod.Tpl` (Тимур на B2C-курсах внизу страницы) — пользователь хотел оставить как есть. Изменили по ошибке, откатили
+- Чанки `tpl.msProducts.row.Obr`, `tpl.msProducts.row.Obr.DPO`, `tpl.msProducts.row.PSK`, `SaleModal`, `boxPrepod.Tpl` — там WhatsApp-ссылки, не B24-форма, оставлены
+
+### Бэкап и откат
+
+Папка `scripts/_b24_cleanup_backup/`:
+```
+├── full_db_before_b24_cleanup.sql      (240 МБ — полный DB-дамп ДО изменений)
+├── _export.php                         (скрипт снятия гранулярного бэкапа)
+├── _rollback.php                       (скрипт обратного восстановления через MODX API)
+├── _backup_log.txt                     (что забэкаплено)
+├── ROLLBACK.md                         (инструкция отката, 3 уровня)
+├── resources_with_b24.csv              (индекс 122 ресурсов)
+├── templates/                          (7 оригинальных templates)
+├── chunks/                             (19 оригинальных chunks)
+└── resources_content/                  (122 оригинальных content)
+```
+
+**3 уровня отката (см. ROLLBACK.md):**
+1. 🟢 `php scripts/_b24_cleanup_backup/_rollback.php` — восстановление через MODX API
+2. 🟡 SQL REPLACE назад (`#MdGlNew` → `#MdGl`)
+3. 🔴 `mysql obrprofi < full_db_before_b24_cleanup.sql` — полный откат БД
+
+### Артефакты
+
+- `scripts/_b24_cleanup.php` — основной скрипт массовой замены (`--dry` или `--apply`)
+- `scripts/_b24_cleanup_fixes.php` — точечные post-cleanup фиксы (msProduct.content.prod, partneram, template 8, /blog/udalit.html)
+
+### Чек-лист перед деплоем на прод
+
+- [ ] Прокликать все кнопки заявок на 10+ страницах (категории, B2C-курсы, блог, контакты, партнёрка, мобильное меню)
+- [ ] Отправить тестовую заявку с каждой страницы — проверить что приходит в B24 c корректным `form_source`
+- [ ] Проверить мобильный режим (DevTools toggle device)
+- [ ] PageSpeed — измерить до/после (должно стать быстрее на ~200 КБ JS)
+- [ ] Подтвердить что нет JS-ошибок в Console на DevTools
+- [ ] **Бэкап прода перед деплоем!**

@@ -58,3 +58,11 @@ scripts/obrprofi_goals_raw.json
 
 # Локальный preview (не для прода)
 site/blog-preview.html
+scripts/_testi_descriptions_backup.csv
+scripts/_testi_audit.php
+scripts/_deploy_v2/
+scripts/_backup_msProduct_*
+scripts/_deploy_blog/
+scripts/_b24_deploy/
+scripts/_b24_deploy*.tar.gz
+scripts/_b24_cleanup_backup/
