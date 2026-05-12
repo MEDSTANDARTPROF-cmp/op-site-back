@@ -288,6 +288,7 @@
 
 /* === Микроформа на hero (NCPO-style) === */
 .obr-mini-form {
+  width: 100%;
   max-width: 520px;
   margin-top: 24px;
 }
