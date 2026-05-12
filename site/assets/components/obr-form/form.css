@@ -21,18 +21,18 @@
 .obr-form__cdrop { position: relative; }
 .obr-form__cdrop-toggle {
   width: 100%;
-  height: 48px;
-  padding: 0 14px;
-  border: 1px solid #e0e0e8;
-  border-radius: 10px;
-  background: #fff;
-  font-size: 15px;
+  height: 38px;
+  padding: 0 12px;
+  border: 1px solid #e9ebee;
+  border-radius: 8px;
+  background: #fafbfc;
+  font-size: 13px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
   text-align: left;
-  color: #1a1a2e;
+  color: #5a6573;
 }
 .obr-form__cdrop-toggle:focus {
   outline: none;
@@ -43,14 +43,15 @@
 .obr-form__cdrop-cur img { display: block; flex-shrink: 0; }
 /* Цветной кружок-подложка под белой иконкой канала */
 .obr-form__cdrop-ic {
-  width: 24px;
-  height: 24px;
-  border-radius: 6px;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
 }
+.obr-form__cdrop-ic img { width: 11px !important; height: 11px !important; }
 .obr-form__cdrop-ic img { display: block; }
 .obr-form__cdrop-ic--max { background: transparent; }
 .obr-form__cdrop-arrow {
@@ -131,14 +132,21 @@
 .obr-form__field input,
 .obr-form__field textarea {
   width: 100%;
-  padding: 14px 16px;
-  border: 1px solid #e5e5ec;
-  background: #f7f7fa;
-  border-radius: 10px;
-  font-size: 15px;
+  padding: 18px 18px;
+  border: 2px solid #06ae1f;
+  background: #fff;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
   font-family: inherit;
   color: #1a1a2e;
-  transition: border-color .15s, background .15s;
+  box-shadow: 0 2px 8px rgba(6, 174, 31, .10);
+  transition: border-color .15s, background .15s, box-shadow .15s;
+}
+.obr-form__field input::placeholder,
+.obr-form__field textarea::placeholder {
+  font-weight: 400;
+  color: #adb5bd;
 }
 .obr-form__field textarea { resize: vertical; min-height: 60px; }
 .obr-form__field input:focus,
@@ -152,12 +160,12 @@
 .obr-form__field--error input,
 .obr-form__field--error textarea { border-color: #dc2626; background: #fef2f2; }
 
-.obr-form__channels { margin: 4px 0; }
+.obr-form__channels { margin: -2px 0 0; }
 .obr-form__channels-label {
-  font-size: 14px;
-  font-weight: 600;
-  color: #1a1a2e;
-  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #8a93a0;
+  margin-bottom: 4px;
 }
 .obr-form__channels-grid {
   display: grid;

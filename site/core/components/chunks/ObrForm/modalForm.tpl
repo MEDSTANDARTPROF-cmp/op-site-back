@@ -18,10 +18,6 @@
         <input type="hidden" name="page_title" id="ObrFormPageTitle" value="">
         <input type="hidden" name="page_url" id="ObrFormPageUrl" value="">
 
-        <div class="obr-form__field">
-          <input type="text" name="name" id="ObrFormName" placeholder="Ваше имя" autocomplete="name">
-        </div>
-
         <div class="obr-form__field" id="ObrFormPhoneField">
           <input type="tel" name="phone" id="ObrFormPhone" placeholder="Телефон" autocomplete="tel" required>
         </div>
@@ -56,23 +52,11 @@
                 </span>
                 <span>По почте</span>
               </li>
-              <li class="obr-form__cdrop-item" data-value="wa" role="option">
-                <span class="obr-form__cdrop-ic" style="background:#25d366">
-                  <img src="/assets/components/obr-form/icons/whatsapp.svg" width="14" height="14" alt="">
-                </span>
-                <span>WhatsApp*</span>
-              </li>
               <li class="obr-form__cdrop-item" data-value="tg" role="option">
                 <span class="obr-form__cdrop-ic" style="background:#229ED9">
                   <img src="/assets/components/obr-form/icons/telegram.svg" width="14" height="14" alt="">
                 </span>
                 <span>Telegram</span>
-              </li>
-              <li class="obr-form__cdrop-item" data-value="viber" role="option">
-                <span class="obr-form__cdrop-ic" style="background:#7360F2">
-                  <img src="/assets/components/obr-form/icons/viber.svg" width="14" height="14" alt="">
-                </span>
-                <span>Viber</span>
               </li>
               <li class="obr-form__cdrop-item" data-value="max" role="option">
                 <span class="obr-form__cdrop-ic obr-form__cdrop-ic--max">
